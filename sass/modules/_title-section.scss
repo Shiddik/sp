@@ -1,0 +1,69 @@
+.section-title {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  z-index: 2;
+  position: relative;
+
+  &.mb-70,
+  &.mb-75 {
+    @include rmaxwd(767) {
+      margin-bottom: 50px;
+    }
+  }
+  .short-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: $heading-font;
+    color: $orange-color;
+
+    @include sm {
+      font-size: 20px;
+    }
+  }
+  .title {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: $heading-font;
+    color: $secondary-color;
+    margin-bottom: 0;
+
+    @include nesthub {
+      font-size: 47px;
+    }
+    @include md {
+      font-size: 38px;
+      line-height: 48px;
+    }
+    @include sm {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 439px){
+      br {
+        display: none;
+      }
+    }
+    span {
+      color: $sky-color;
+    }
+  }
+  .desc {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: $body-font;
+    color: $text-color;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .text {
+    margin-bottom: 0;
+  }
+  .divider {
+    width: 72px;
+    height: 6px;
+    background-color: $primary-color;
+    margin-top: 16px;
+  }
+}

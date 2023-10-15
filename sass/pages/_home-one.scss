@@ -1,0 +1,328 @@
+// About Us Area
+.about-us-area {
+    &.style-1 {
+      padding-top: 140px;
+      padding-bottom: 165px;
+
+      @include nesthubmax() {
+        padding-bottom: 144px !important;
+      }
+      @include nesthub() {
+        padding-bottom: 144px !important;
+      }
+      @include md() {
+        padding: 100px 0;
+      }
+      @include sm() {
+        padding-top: 42px;
+        padding-bottom: 70px;
+      }
+      .about-info-card {
+        .about-info-content {
+          padding-left: 110px;
+
+          @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+            padding-left: 70px;
+          }
+
+          @include rmaxwd(1199) {
+            padding-left: 0;
+            padding-top: 160px;
+          }
+          @include rmaxwd(767) {
+            padding-top: 150px;
+          }
+          @include rmaxwd(650) {
+            padding-top: 100px;
+          }
+        }
+      }
+    }
+}
+// Video Popup Area
+.video-popup-area {
+  margin-bottom: -228px;
+
+  @include rmaxwd(991) {
+    margin-bottom: -180px;
+  }
+  @include rmaxwd(767) {
+    margin-bottom: -80px;
+  }
+}
+
+// Counter Up Area
+.counter-up-area {
+  &.style-1 {
+    padding-top: 363px;
+    padding-bottom: 138px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $primary-color;
+    z-index: -1;
+
+    @include rmaxwd(991) {
+      padding-top: 280px;
+      padding-bottom: 100px;
+    }
+    @include rmaxwd(767) {
+      padding-top: 150px;
+      padding-bottom: 70px;
+    }
+  }
+}
+.squre-shape-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+  margin-top: -170px;
+}
+.counter-squre-shape {
+  width: 245px;
+  height: 245px;
+  border-radius: 18px;
+  background: linear-gradient( -45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
+  transform: translateY(-50%) rotate(-124deg);
+  right: -135px;
+  top: 50%;
+  position: absolute;
+
+  @include rmaxwd(991) {
+    width: 100px;
+    height: 100px;
+    right: -50px;
+    bottom: -50px;
+  }
+}
+// Why Choose Us Area
+.feature-area {
+  &.style-1 {
+    margin-top: -74px;
+
+    @include rmaxwd(1199) {
+      margin-top: 0;
+      padding-top: 100px;
+    }
+
+    @include sm {
+      padding-top: 70px !important;
+    }
+
+    .feature-area-wrapper {
+      background-color: $white;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0px 5px 90px 0px rgba(2, 24, 93, 0.08);
+      padding: 0 27px;
+
+      @include rmaxwd(991) {
+        padding: 0;
+      }
+      @include sm {
+        box-shadow: none;
+      }
+      @include md {
+        box-shadow: none;
+      }
+
+      .row {
+        div {
+          &:last-child {
+            .info-card {
+              .divider {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Service Area
+.service-area {
+  &.style-1 {
+    padding-top: 138px;
+    padding-bottom: 120px;
+
+    &.empty-area-title {
+      padding-top: 144px;
+    }
+    @include md {
+      padding-top: 100px !important;
+      padding-bottom: 76px;
+    }
+    @include rmaxwd(767) {
+      padding-top: 70px !important;
+      padding-bottom: 46px;
+    }
+    .section-title {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+// Process Step Area
+.process-step-area {
+  background-color: $black-200;
+  padding-top: 138px;
+
+  @include rmaxwd(991) {
+    padding-top: 100px;
+    padding-bottom: 76px;
+  }
+  @include rmaxwd(767) {
+    padding-top: 70px;
+    padding-bottom: 42px;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    padding-bottom: 67px;
+  }
+
+  .section-title {
+    margin-bottom: 95px;
+
+    @include rmaxwd(767) {
+      margin-bottom: 50px;
+    }
+  }
+}
+.process-image {
+  margin-bottom: -70px;
+  position: relative;
+  text-align: center;
+  z-index: 99;
+  animation: MoveLeftRight 2s linear infinite alternate;
+}
+
+// Appoitment Area
+.appointment-area {
+  &.style-1 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 144px 0;
+    position: relative;
+    z-index: 2;
+
+    @include nesthub {
+      padding-bottom: 127px;
+    }
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
+    .accordion-wrapper {
+      padding-left: 120px;
+
+      @include rmaxwd(1399) {
+        padding-left: 0;
+        margin-top: 80px;
+      }
+    }
+  }
+}
+.appointment-squre-shape {
+  width: 200px;
+  height: 200px;
+  border-radius: 18px;
+  @include gradient-color-red;
+  transform: translateY(-50%) rotate(27deg);
+  left: -36px;
+  top: 50%;
+  position: absolute;
+  z-index: 9;
+
+  @include rmaxwd(991) {
+    width: 100px;
+    height: 100px;
+    left: -50px;
+  }
+}
+.blue-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 56, 105, 0.8);
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+// Client Logo Area
+.brand-slider-area {
+  &.style-1 {
+    padding-top: 93px;
+    padding-bottom: 93px;
+
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
+  }
+}
+// News Area
+.latest-posts-area {
+  &.style-1 {
+    padding-top: 138px;
+    padding-bottom: 110px;
+
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding-top: 70px;
+      padding-bottom: 36px;
+    }
+
+    .section-title {
+      margin-bottom: 70px;
+      @include rmaxwd(767) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+// Testimonial Area
+.testimonial-slider-area {
+  &.style-1 {
+    padding-top: 138px;
+    padding-bottom: 124px;
+
+
+    @include rmaxwd(991) {
+      padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      .title {
+        br {
+          @media only screen and (min-width: 992px) and (max-width: 1399px){
+            display: none;
+          }
+        }
+
+      }
+    }
+    .testimonial-slider-wrapper {
+      padding-left: 94px;
+      margin-top: -40px;
+      margin-bottom: -40px;
+
+      @include md {
+        padding-left: 0;
+      }
+      @include sm {
+        padding-left: 0;
+      }
+    }
+  }
+}
