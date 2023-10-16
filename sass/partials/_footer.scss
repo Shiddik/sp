@@ -436,7 +436,7 @@
   .mc4wp-form-fields {
     display: flex;
     background-color: $white;
-    border-radius: 12px;
+    border-radius: 6px;
     overflow: hidden;
   }
 
@@ -448,7 +448,7 @@
       height: 72px;
       padding: 0 30px;
       font-size: 18px;
-      border-radius: 50px;
+      border-radius: 6px;
       width: 100%;
     }
     *::-webkit-input-placeholder {
@@ -474,10 +474,7 @@
   }
   .submit-btn {
     background-color: $white;
-    color: $orange-color;
-    background: -webkit-linear-gradient(#e30008, #faae00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: $black;
     cursor: pointer;
     padding: 0 35px;
     display: flex;

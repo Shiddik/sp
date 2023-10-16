@@ -10145,7 +10145,7 @@ ul.children {
   .subscribe-form-widget .mc4wp-form-fields {
     display: flex;
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 6px;
     overflow: hidden; }
   .subscribe-form-widget .single-field {
     flex-grow: 1; }
@@ -10154,7 +10154,7 @@ ul.children {
       height: 72px;
       padding: 0 30px;
       font-size: 18px;
-      border-radius: 50px;
+      border-radius: 6px;
       width: 100%; }
     .subscribe-form-widget .single-field *::-webkit-input-placeholder {
       color: #778196; }
@@ -10172,10 +10172,7 @@ ul.children {
       color: #778196; }
   .subscribe-form-widget .submit-btn {
     background-color: #ffffff;
-    color: #2ec961;
-    background: -webkit-linear-gradient(#e30008, #faae00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #020a27;
     cursor: pointer;
     padding: 0 35px;
     display: flex;
