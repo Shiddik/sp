@@ -210,7 +210,7 @@ input:focus {
   background-color: #f3f7fc; }
 
 .page-bg {
-  background-color: #020a27; }
+  background-color: #1c2325; }
 
 .page-area {
   padding-top: 136px;
@@ -6602,7 +6602,7 @@ button.testimonial-arrow-btn {
     line-height: 72px;
     font-weight: 500;
     font-family: "Barlow", sans-serif;
-    color: #020a27;
+    color: #1c2325;
     margin-bottom: 0; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .section-title .title {
@@ -6633,7 +6633,7 @@ button.testimonial-arrow-btn {
     flex-shrink: 0; }
     .section-title .sec-desc .theme-btn {
       background-color: transparent;
-      color: #020a27;
+      color: #1c2325;
       flex-shrink: 0; }
       .section-title .sec-desc .theme-btn:hover {
         background-color: #004eec;
@@ -7834,7 +7834,7 @@ button.testimonial-arrow-btn {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  background-color: #020a27; }
+  background-color: #1c2325; }
   .widget_promotion .wp-block-heading {
     width: 100%;
     text-align: center;
@@ -7920,7 +7920,7 @@ button.testimonial-arrow-btn {
 .widget_service_promotion {
   padding: 44px 40px;
   text-align: center;
-  background-color: #020a27;
+  background-color: #1c2325;
   position: relative;
   overflow: hidden; }
   .widget_service_promotion .overlay {
@@ -8536,7 +8536,7 @@ ul.children {
     .portfolio-style-two:hover .image .content-wrapper .content .content-inner {
       margin-bottom: 0;
       transition: all 0.5s ease-out; }
-    .portfolio-style-two:hover .image .content-wrapper .content .btn {
+    .portfolio-style-two:hover .image .content-wrapper .content .btn-wrapper {
       right: 0;
       transition: all 0.5s ease-out; }
   .portfolio-style-two:hover .image img {
@@ -8558,7 +8558,8 @@ ul.children {
     top: 0;
     visibility: hidden;
     opacity: 0;
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out;
+    background-color: rgba(0, 78, 236, 0.722); }
     .portfolio-style-two .content-wrapper .content {
       display: flex;
       flex-direction: row;
@@ -8568,36 +8569,35 @@ ul.children {
       justify-content: space-between;
       position: relative; }
       .portfolio-style-two .content-wrapper .content .content-inner {
-        width: 100%;
-        background-color: #005bac;
-        opacity: 0.9;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        padding: 18px 10px;
         margin-bottom: -100%;
         transition: all 0.5s ease-out; }
       .portfolio-style-two .content-wrapper .content .sub-title {
-        color: #2ec961;
-        font-size: 16px;
-        line-height: 36px;
-        font-weight: 700; }
+        color: #ffffff;
+        background-color: #00c6ff;
+        border-radius: 8px 8px 0 0;
+        padding: 13px 18px 16px 18px;
+        font-size: 18px;
+        line-height: initial;
+        font-weight: 700;
+        font-family: "Roboto", sans-serif;
+        display: inline-block; }
       .portfolio-style-two .content-wrapper .content .title {
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
         margin-bottom: 0;
-        color: #ffffff; }
-      .portfolio-style-two .content-wrapper .content .btn {
+        color: #1c2325;
+        background-color: #ffffff;
+        padding: 18px;
+        border-radius: 0 8px 8px 8px; }
+      .portfolio-style-two .content-wrapper .content .btn-wrapper {
         position: absolute;
         top: 0;
         right: -100%;
         flex-shrink: 0;
         padding: 0;
         transition: all 0.5s ease-out; }
-        .portfolio-style-two .content-wrapper .content .btn a {
+        .portfolio-style-two .content-wrapper .content .btn-wrapper a {
           display: inline-flex;
           width: 60px;
           height: 60px;
@@ -8607,7 +8607,7 @@ ul.children {
           align-items: center;
           justify-content: center;
           transition: all 0.5s ease-out; }
-          .portfolio-style-two .content-wrapper .content .btn a:hover {
+          .portfolio-style-two .content-wrapper .content .btn-wrapper a:hover {
             transition: all 0.5s ease-out;
             background-color: #004eec;
             color: #ffffff; }
@@ -10172,7 +10172,7 @@ ul.children {
       color: #778196; }
   .subscribe-form-widget .submit-btn {
     background-color: #ffffff;
-    color: #020a27;
+    color: #1c2325;
     cursor: pointer;
     padding: 0 35px;
     display: flex;
