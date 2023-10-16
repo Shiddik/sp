@@ -8,6 +8,7 @@
     border-radius: 10px;
     background: $white;
     margin-bottom: 79px;
+    text-align: center;
     @media only screen and (min-width: 1199px) and (max-width: 1399px){
         padding: 30px;
     }
@@ -28,11 +29,11 @@
         justify-content: center;
         position: absolute;
         top: 0;
-        left: 0;
+        left: 50%;
         transform: translate(-50%, -50%);
         background: $sky-color;
-        width: 72px;
-        height: 72px;
+        width: 67px;
+        height: 67px;
         border-radius: 50px;
         color: $white;
 

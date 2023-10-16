@@ -4770,7 +4770,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 41px 56px;
   border-radius: 10px;
   background: #ffffff;
-  margin-bottom: 79px; }
+  margin-bottom: 79px;
+  text-align: center; }
   @media only screen and (min-width: 1199px) and (max-width: 1399px) {
     .process-step {
       padding: 30px; } }
@@ -4786,11 +4787,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     justify-content: center;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     transform: translate(-50%, -50%);
     background: #00c6ff;
-    width: 72px;
-    height: 72px;
+    width: 67px;
+    height: 67px;
     border-radius: 50px;
     color: #ffffff; }
     .process-step .count span {
@@ -6283,79 +6284,60 @@ button.testimonial-arrow-btn {
   border-radius: 50px; }
 
 .price-card {
-  padding: 30px 18px 48px 18px;
   background: white;
   z-index: 2;
   position: relative;
-  border-radius: 14px; }
-  .price-card:hover .price:before {
-    height: 250%;
-    transition: all 700ms linear;
-    background-color: transparent; }
+  border: 1px solid #ced9da;
+  border-radius: 12px;
+  overflow: hidden; }
+  .price-card .price-header {
+    background-color: #e1edee;
+    padding: 40px 48px; }
+  .price-card .price-body {
+    padding: 60px 48px; }
   .price-card .card-title {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
     flex-direction: column; }
     .price-card .card-title .sub-title {
-      font-family: "Barlow", sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 36px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: initial;
       text-transform: capitalize;
-      color: #2ec961;
+      color: #6d768a;
       margin: 0; }
     .price-card .card-title .title {
       font-weight: 700;
-      font-size: 30px;
-      line-height: 30px;
+      font-size: 24px;
+      line-height: initial;
       color: #393d48;
       font-family: "Barlow", sans-serif;
-      margin-bottom: 0; }
+      margin-bottom: 20px; }
   .price-card .price {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(-135deg, #1eae98 0%, #005bac 100%);
-    border-radius: 7px;
-    padding-top: 36px;
-    padding-bottom: 28px;
+    align-items: flex-end;
     gap: 8px;
     position: relative;
     overflow: hidden;
-    z-index: 2; }
-    .price-card .price:before {
-      position: absolute;
-      width: 200%;
-      height: 0%;
-      left: 50%;
-      top: 50%;
-      background: linear-gradient(135deg, #1eae98 0%, #005bac 100%);
-      transform: translate(-50%, -50%) rotate(-45deg);
-      content: "";
-      z-index: -1;
-      transition: all 0.5s ease-out; }
+    z-index: 2;
+    margin-top: 26px; }
     .price-card .price .price-heading {
       font-family: "Barlow", sans-serif;
-      font-style: normal;
       font-weight: 600;
       font-size: 48px;
       line-height: 42px;
-      color: #ffffff;
+      color: #00c6ff;
       display: flex;
       align-items: center;
       gap: 2px;
       margin-bottom: 0; }
       .price-card .price .price-heading .currency {
         font-family: "Barlow", sans-serif;
-        font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 28px;
-        color: #ffffff;
+        color: #00c6ff;
         text-align: start;
         align-self: flex-start; }
       .price-card .price .price-heading .under-dot {
@@ -6371,16 +6353,12 @@ button.testimonial-arrow-btn {
       font-family: "Roboto", sans-serif;
       font-weight: 400;
       font-size: 16px;
-      line-height: 30px;
+      line-height: initial;
       text-transform: capitalize;
-      color: #ffffff;
+      color: #1c2325;
       margin-bottom: 0; }
-  .price-card .list-wrapper {
-    display: flex;
-    justify-content: center; }
   .price-card .list {
     margin-top: 0;
-    padding: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6401,7 +6379,7 @@ button.testimonial-arrow-btn {
         color: #5e6f92;
         margin: 0; }
   .price-card .theme-btn {
-    padding: 5px 6px 5px 26px;
+    margin-top: 50px;
     gap: 30px;
     font-size: 16px; }
 
