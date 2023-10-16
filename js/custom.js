@@ -214,7 +214,7 @@
        Testimonial Slider
        ============================*/
         $("#testimonial_two").slick({
-            slidesToShow: 2,
+            slidesToShow: 3,
             infinite: true,
             autoplay: true,
             draggable: true,

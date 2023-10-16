@@ -57,7 +57,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  color: #5e6f92;
+  color: #6d768a;
   vertical-align: baseline;
   line-height: 30px;
   font-smoothing: antialiased;
@@ -121,7 +121,7 @@ h6 {
   font-weight: 700; }
 
 label {
-  color: #5e6f92;
+  color: #6d768a;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400; }
@@ -1938,7 +1938,7 @@ nav.wp-calendar-nav {
   justify-content: space-between;
   display: flex; }
   nav.wp-calendar-nav a {
-    color: #5e6f92; }
+    color: #6d768a; }
     nav.wp-calendar-nav a:hover {
       color: #004eec; }
 
@@ -3331,7 +3331,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       line-height: 28px;
       font-weight: 400;
       margin: 0;
-      color: #5e6f92; }
+      color: #6d768a; }
     .info-card .content .read-more {
       display: flex;
       justify-content: start; }
@@ -3954,10 +3954,10 @@ body.admin-bar .header-menu-area.sticky_menu {
       font-size: 18px;
       line-height: 30px;
       font-weight: 400;
-      color: #5e6f92;
+      color: #6d768a;
       margin-bottom: 0; }
       .icon-card .content .desc a {
-        color: #5e6f92; }
+        color: #6d768a; }
 
 .icon-card.style-two {
   background: transparent;
@@ -4813,7 +4813,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       font-size: 18px;
       line-height: 30px;
       font-weight: 400;
-      color: #5e6f92; }
+      color: #6d768a; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .process-step {
       padding: 25px 30px; }
@@ -4947,10 +4947,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   justify-content: space-between;
   flex-direction: column;
   gap: 30px;
-  border-radius: 12px; }
+  border-radius: 12px;
+  position: relative; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .testimonial-card {
       padding: 35px; } }
+  .testimonial-card:before {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: #ffffff;
+    content: "";
+    z-index: -1;
+    border-radius: 12px;
+    bottom: -24px;
+    box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12); }
   .testimonial-card .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -4959,10 +4970,21 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin: 0;
     font-size: 21px;
     line-height: 32px;
-    font-weight: 400; }
+    font-weight: 400;
+    font-style: italic; }
     @media only screen and (min-width: 1200px) and (max-width: 1399px) {
       .testimonial-card .content .text {
         font-size: 16px; } }
+  .testimonial-card .rating-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+    .testimonial-card .rating-wrapper .rating {
+      display: flex;
+      align-items: center; }
+      .testimonial-card .rating-wrapper .rating i {
+        color: #ffc000; }
   .testimonial-card .meta-user {
     width: 100%;
     display: flex;
@@ -5048,7 +5070,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .testimonial-slider-wrapper {
   position: relative; }
   .testimonial-slider-wrapper .slick-list {
-    padding: 40px 30px;
     padding-bottom: 60px;
     margin: 0 -12px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5063,11 +5084,11 @@ body.admin-bar .header-menu-area.sticky_menu {
       transition: all 0.5s ease-out; }
       .testimonial-slider-wrapper .slick-list .slick-slide.slick-active {
         transition: all 0.5s ease-out;
-        box-shadow: 0px 10px 44px 0px rgba(4, 43, 77, 0.08);
+        box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
         background-color: #ffffff; }
         @media (max-width: 991px) {
           .testimonial-slider-wrapper .slick-list .slick-slide.slick-active {
-            box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03); } }
+            box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12); } }
   .testimonial-slider-wrapper .slick-dots {
     display: flex;
     gap: 20px;
@@ -5295,7 +5316,7 @@ button.testimonial-arrow-btn {
     height: 24px;
     flex-shrink: 0; }
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item .accordion-item-body {
-  color: #5e6f92; }
+  color: #6d768a; }
 .accordion-wrapper.style-two.accordion-style-three .accordion-list-item:last-child {
   border-bottom: 1px solid #dfe2e9; }
 
@@ -5516,7 +5537,7 @@ button.testimonial-arrow-btn {
       font-size: 16px;
       font-weight: 600;
       text-transform: capitalize;
-      color: #5e6f92;
+      color: #6d768a;
       margin-top: 20px;
       font-style: normal;
       transition: all 0.5s ease-out; }
@@ -5598,7 +5619,7 @@ button.testimonial-arrow-btn {
       gap: 10px;
       align-items: center; }
       .single-post-item .blog-post-tag .post-tag-list a {
-        color: #5e6f92;
+        color: #6d768a;
         display: inline-block;
         font-size: 16px;
         line-height: 1;
@@ -5692,7 +5713,7 @@ button.testimonial-arrow-btn {
     .single-post-item .post-meta span {
       font-size: 18px;
       font-weight: 400;
-      color: #5e6f92;
+      color: #6d768a;
       text-transform: capitalize;
       display: flex;
       align-items: center;
@@ -5704,7 +5725,7 @@ button.testimonial-arrow-btn {
         display: flex;
         align-items: center;
         gap: 10px;
-        color: #5e6f92;
+        color: #6d768a;
         transition: all 0.5s ease-out; }
         .single-post-item .post-meta span a:hover {
           color: #004eec;
@@ -5970,7 +5991,7 @@ button.testimonial-arrow-btn {
       gap: 17px;
       align-items: center; }
       .post-card .content .post-meta span {
-        color: #5e6f92;
+        color: #6d768a;
         font-size: 16px;
         line-height: 28px;
         font-weight: 700;
@@ -6272,7 +6293,7 @@ button.testimonial-arrow-btn {
   font-weight: 400;
   text-transform: none;
   font-family: "Roboto", sans-serif;
-  color: #5e6f92; }
+  color: #6d768a; }
 .skill-progressbar .progress-content-outter {
   height: 6px;
   background-color: #e7eaec;
@@ -6574,7 +6595,7 @@ button.testimonial-arrow-btn {
     font-size: 18px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
-    color: #5e6f92;
+    color: #6d768a;
     margin-bottom: 0;
     flex-shrink: 0; }
     .section-title .sec-desc .theme-btn {
@@ -6718,7 +6739,7 @@ button.testimonial-arrow-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #5e6f92;
+    color: #6d768a;
     background-color: #ffffff;
     border-radius: 6px;
     height: 53px;
@@ -6803,7 +6824,7 @@ button.testimonial-arrow-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #5e6f92;
+    color: #6d768a;
     background-color: #ffffff;
     border-radius: 6px;
     height: 53px;
@@ -6958,7 +6979,7 @@ button.testimonial-arrow-btn {
           font-size: 18px;
           line-height: 30px;
           font-weight: 400;
-          color: #5e6f92; }
+          color: #6d768a; }
         @media only screen and (min-width: 0px) and (max-width: 767px) {
           .time-card-wrapper .time-card-item .time-card-desc .desc {
             padding: 20px; } }
@@ -7162,7 +7183,7 @@ button.testimonial-arrow-btn {
       font-size: 18px;
       line-height: 24px;
       font-weight: 400;
-      color: #5e6f92; }
+      color: #6d768a; }
 
 .list-item {
   display: flex;
@@ -7198,7 +7219,7 @@ button.testimonial-arrow-btn {
     font-size: 18px;
     line-height: 28px;
     font-weight: 700;
-    color: #5e6f92;
+    color: #6d768a;
     margin: 0; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .list-item {
@@ -7341,7 +7362,7 @@ button.testimonial-arrow-btn {
         padding-right: 8px; }
   .widget .wp-block-latest-comments li a,
   .widget .wp-block-latest-posts li a {
-    color: #5e6f92; }
+    color: #6d768a; }
     .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-author, .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-link,
     .widget .wp-block-latest-posts li a.wp-block-latest-comments__comment-author,
     .widget .wp-block-latest-posts li a.wp-block-latest-comments__comment-link {
@@ -7394,7 +7415,7 @@ button.testimonial-arrow-btn {
     border: 1px solid transparent;
     padding: 0 10px;
     border-radius: 5px;
-    color: #5e6f92;
+    color: #6d768a;
     margin-bottom: 0; }
   .widget .has-login-form .login-username label,
   .widget .has-login-form .login-password label {
@@ -7407,7 +7428,7 @@ button.testimonial-arrow-btn {
     border: 1px solid #31373f;
     padding: 0 10px;
     border-radius: 5px;
-    color: #5e6f92; }
+    color: #6d768a; }
   .widget .has-login-form .login-remember label {
     display: flex;
     align-items: center;
@@ -7464,7 +7485,7 @@ button.testimonial-arrow-btn {
       padding: 0 25px;
       height: 60px;
       width: 100%;
-      color: #5e6f92;
+      color: #6d768a;
       font-size: 15px;
       border-radius: 6px 0 0 6px; }
     .widget .wp-block-search button,
@@ -7488,7 +7509,7 @@ button.testimonial-arrow-btn {
     align-items: center; }
     .widget .tagcloud a,
     .widget .wp-block-tag-cloud a {
-      color: #5e6f92;
+      color: #6d768a;
       display: inline-block;
       font-size: 16px;
       line-height: 1;
@@ -7532,7 +7553,7 @@ button.testimonial-arrow-btn {
           display: none; }
       .widget ul li a,
       .widget ol li a {
-        color: #5e6f92;
+        color: #6d768a;
         position: relative;
         display: inline-block;
         text-transform: capitalize;
@@ -8084,7 +8105,7 @@ button.testimonial-arrow-btn {
       font-size: 16px;
       line-height: 30px;
       margin-bottom: 20px;
-      color: #5e6f92; }
+      color: #6d768a; }
     .latest-comments li .comments-box .comments-text .avatar-name {
       margin-bottom: 10px;
       position: relative; }
@@ -8836,7 +8857,6 @@ ul.children {
     .testimonial-slider-area.style-1 .section-title .title br {
       display: none; } }
   .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
-    padding-left: 94px;
     margin-top: -40px;
     margin-bottom: -40px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
