@@ -1,204 +1,240 @@
-.post-card {
-  &.style-one {
-    min-height: 218px;
-
-    @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-      gap: 10px;
-      padding: 30px;
-    }
-    &:hover {
-      .image {
-        img {
-          @include transition;
-          transform: scale(1.1);
-          visibility: visible;
-        }
-        &:before {
-          visibility: hidden;
-          opacity: 0;
-          @include transition;
-        }
-      }
-      .date-bottom {
-        color: $white;
-        @include transition;
-      }
-      .content {
-        .title {
-          color: $white;
-          @include transition;
-
-        }
-        .post-meta {
-          span {
-            &:first-child {
-              color: $white;
-              @include transition;
-
-              a {
-                color: $white;
-                @include transition;
-              }
-            }
-          }
-        }
-      }
-    }
-    .content {
-      .title {
-        height: 56px;
-        overflow: hidden;
-
-        @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-          height: 84px;
-        }
-      }
-    }
-    .image {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-
-      img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        object-fit: cover;
-        visibility: hidden;
-      }
-      &:before {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background-color: $white;
-        content: "";
-        @include transition;
-        z-index: 2;
-        visibility: visible;
-        opacity: 1;
-      }
-      &:after {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.3);
-        content: "";
-        @include transition;
-        z-index: 1;
-      }
-    }
-  }
+.post-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
 }
 .post-card {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 37px;
-  border: 1px solid rgb(223, 226, 233);
-  border-radius: 13px;
-  gap: 40px;
-  margin-bottom: 34px;
-  position: relative;
-  overflow: hidden;
 
-  .image {
-    overflow: hidden;
-    border-radius: 6px;
-
-    img {
-      @include transition;
-      transform: scale(1);
+  &:hover {
+    .image {
+      img {
+        transform: scale(1.1);
+        @include transition;
+      }
+      &:before {
+        visibility: visible;
+        opacity: 1;
+        @include transition;
+      }
+      .btn-link {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        visibility: visible;
+        opacity: 1;
+        @include transition;
+      }
     }
   }
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background: $secondary-color;
-    opacity: 24%;
+  .image {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      transform: scale(1);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      @include transition;
+    }
+    &:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(36, 36, 55, 0.6);
+      opacity: 0;
+      visibility: hidden;
+      @include transition;
+      z-index: 1;
+    }
+    .btn-link {
+      width: 72px;
+      height: 72px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $primary-color;
+      color: $white;
+      font-size: 24px;
+      text-decoration: none;
+      position: absolute;
+      top: 70%;
+      left: 20%;
+      transform: translate(-50%, -50%) scale(0.3);
+      opacity: 0;
+      visibility: hidden;
+      @include transition;
+      z-index: 2;
+
+      @include md {
+        width: 60px;
+        height: 60px;
+        font-size: 22px;
+      }
+      @include sm {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+      }
+      i {
+        transform: rotate(-45deg);
+        @include transition;
+      }
+
+      &:hover {
+        background-color: $blue-color;
+        @include transition;
+
+        i {
+          transform: rotate(0deg);
+          @include transition
+        }
+      }
+    }
+    .post-cat {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      z-index: 2;
+
+      a {
+        text-transform: uppercase;
+        color: $white;
+        font-size: 12px;
+        background-color: $blue-color;
+        border-radius: 6px;
+        padding: 6px 12px;
+        @include transition;
+
+        &:hover {
+          background-color: $primary-color;
+          @include transition;
+        }
+      }
+    }
   }
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    position: relative;
-    z-index: 3;
+    padding: 50px 50px 50px 0;
 
-    .post-meta {
-      display: inline-flex;
-      gap: 17px;
-      align-items: center;
+    .title {
+      height: 86px;
+      overflow: hidden;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33px;
+      margin-bottom: 0;
 
-      span {
-        color: $text-color;
-        font-size: 16px;
-        line-height: 28px;
-        font-weight: 700;
-        margin: 0;
+      @include sm {
+        font-size: 24px;
+        line-height: 34px;
+        height: unset;
+        overflow: visible;
+      }
 
-        &:before {
-          background-color: #b8bfcc;
-          width: 1px;
-          display: inline-flex;
-          height: 12px;
-          content: "";
-          margin-right: 17px;
-        }
-
-        &:first-child {
-          color: $orange-color;
-          a {
-            color: $orange-color;
-            &:hover {
-              color: $orange-color !important;
-            }
-          }
-          &:before {
-            display: none;
-          }
+      a {
+        &:hover {
+          color: $primary-color;
+          @include transition;
         }
       }
     }
-    .title {
-      font-size: 21px;
-      line-height: 28px;
-      font-weight: 700;
-      font-family: $heading-font;
-      margin: 0;
-      color: $secondary-color;
-      @include transition;
-    }
+
   }
-  .date {
-    margin-bottom: 0;
-  }
-  .date-bottom {
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #778196;
-    position: relative;
-    z-index: 3;
-  }
-  @include lg {
-    padding: 20px 25px;
-    gap: 55px;
-    .content {
-      .post-meta {
+  .post-cat {
+    a {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $blue-color;
+      font-weight: 500;
+
+      @include md {
         font-size: 14px;
       }
-      .title {
-        font-size: 16px;
-        line-height: 26px;
+      @include sm {
+        font-size: 14px;
+      }
+    }
+  }
+  .post-meta {
+    display: inline-flex;
+    gap: 5px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .single-post-meta {
+      color: #8f939b;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 400;
+      font-family: $body-font;
+      margin: 0;
+      display: flex;
+      gap: 7px;
+      align-items: center;
+      flex-shrink: 0;
+
+      i {
+        color: $primary-color;
+        @include transition;
+
+      }
+
+      a {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        flex-shrink: 0;
+        color: #8f939b;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+
+  &.style-1 {
+    gap: 48px;
+    border: 1px solid rgb(206, 217, 218);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 24px;
+
+    @include sm {
+      flex-direction: column;
+    }
+    @include lg {
+      gap: 20px;
+    }
+    .post-meta {
+      @include sm {
+        margin-top: 10px;
+      }
+    }
+    .image {
+      width: 290px;
+      //height: 375px;
+      flex-shrink: 0;
+      border-radius: 0;
+
+      @include sm {
+        width: 100%;
+        //height: 300px;
+      }
+      @include lg {
+        width: 200px;
+      }
+      @include xl {
+        width: 290px;
       }
     }
   }
