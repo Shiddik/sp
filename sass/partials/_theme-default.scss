@@ -310,3 +310,33 @@ input.theme-btn {
   width: inherit !important;
   border: 0 !important;
 }
+
+// Slider Button
+.slider-arrow-btn-wrapper {
+  display: flex;
+  gap: 11px;
+
+  a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: $white;
+    box-shadow: 0px 12px 24px 0px rgba(2, 24, 93, 0.06);
+    font-size: 24px;
+    color: $black;
+    @include transition;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    @include sm {
+      width: 60px;
+      height: 60px;
+    }
+    &:hover {
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}

@@ -127,10 +127,6 @@
             speed: 1500,
             fade: true,
             rtl: false,
-            prevArrow:
-                "<button type='button' class='slider-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
-            nextArrow:
-                "<button type='button' class='slider-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
                     breakpoint: 767,
@@ -140,7 +136,14 @@
                 },
             ],
         });
-
+        $('.slider-nav-prev-btn').on('click', function (e) {
+            e.preventDefault();
+            $('.slick-prev').trigger('click');
+        });
+        $('.slider-nav-next-btn').on('click', function (e) {
+            e.preventDefault();
+            $('.slick-next').trigger('click');
+        });
         /*
        Info Card Slider
        ============================*/

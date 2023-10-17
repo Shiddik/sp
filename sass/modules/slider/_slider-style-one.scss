@@ -13,6 +13,25 @@
       bottom: 0;
       left: 0;
     }
+
+
+    .slider-control-btn-wrapper {
+      position: absolute;
+      height: 100%;
+      top: 0;
+      width: 100%;
+      left: 0;
+
+      .slider-arrow-btn-wrapper {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        height: 100%;
+      }
+    }
+  }
+  .slick-arrow {
+    display: none !important;
   }
   .slider-wrapper {
     mask-image: url("../images/slider/shape-bg.png");
@@ -119,67 +138,6 @@
       }
     }
   }
-
-
-  // Slick Nav Arrow Button
-  button.slider-arrow-btn {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    transition: 0.3s;
-    z-index: 99;
-    background-color: transparent;
-    border: 1px solid $gray-300;
-    cursor: pointer;
-    top: 50%;
-    transform: translateY(-50%);
-
-    &:before {
-      position: absolute;
-      width: 0;
-      height: 100%;
-      left: 0;
-      top: 0;
-      background: linear-gradient(-45deg, rgb(227,0,8) 0%, rgb(250,174,0) 100%);
-      content: "";
-      @include transition;
-      z-index: -1;
-    }
-    @include rmaxwd(767) {
-      width: 40px;
-      height: 40px;
-    }
-    &.prev-btn {
-      left: 30px;
-    }
-    &.next-btn {
-      right: 30px;
-    }
-    i{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: $orange-color;
-      font-size: 21px;
-      @include transition;
-    }
-    &:hover{
-      @include transition;
-      border-color: $orange-color;
-
-      &:before {
-        width: 100%;
-        @include transition;
-      }
-
-      i{
-        color: $white;
-        @include transition;
-      }
-    }
-  }
   .single-slider {
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,8 +156,8 @@
     }
 
       .slider-overlay {
-        background: linear-gradient( -135deg, rgb(30,174,152) 0%, rgb(0,91,172) 100%);
-        opacity: 0.831;
+        background-color: #085294;
+        opacity: 0.61;
         position: absolute;
         left: 0;
         top: 0;
