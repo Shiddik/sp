@@ -52,25 +52,28 @@
             $(".menu-sidebar-area").removeClass("active");
             $(".body-overlay").removeClass("active");
         });
+
         /*
         Stikey Js
         ============================*/
-
         const body = document.body;
         const html = document.documentElement;
         const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
 
+        if (100 < $(window).scrollTop()) {
+            $(".header-menu-area.sticky-header").addClass("sticky_menu");
+        }
         if( height  > 1400 ) {
             const nav = $(".header-menu-area.sticky-header");
             let scrolled = false;
             $(window).scroll(function () {
-                if (160 < $(window).scrollTop() && !scrolled) {
+                if (100 < $(window).scrollTop() && !scrolled) {
                     nav
                         .addClass("sticky_menu animated fadeIn")
                         .animate({"margin-top": "0px"});
                     scrolled = true;
                 }
-                if (160 > $(window).scrollTop() && scrolled) {
+                if (100 > $(window).scrollTop() && scrolled) {
                     nav.removeClass("sticky_menu animated fadeIn").css("margin-top", "0px");
                     scrolled = false;
                 }
@@ -122,6 +125,7 @@
             loop: true,
             dots: true,
             speed: 1500,
+            fade: true,
             rtl: false,
             prevArrow:
                 "<button type='button' class='slider-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
