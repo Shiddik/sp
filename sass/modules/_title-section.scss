@@ -37,10 +37,10 @@
     }
   }
   .short-title {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 700;
     font-family: $heading-font;
-    color: $blue-color;
+    color: $sky-color;
 
     @include sm {
       font-size: 20px;
@@ -49,7 +49,7 @@
   .title {
     font-size: 60px;
     line-height: 72px;
-    font-weight: 500;
+    font-weight: 700;
     font-family: $heading-font;
     color: $black;
     margin-bottom: 0;
@@ -86,6 +86,7 @@
     color: $text-color;
     margin-bottom: 0;
     flex-shrink: 0;
+
     .theme-btn {
       background-color: transparent;
       color: $black;

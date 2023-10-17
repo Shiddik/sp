@@ -5,9 +5,17 @@
     gap: 28px;
 
     .section-title {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 0;
+
       .title {
         margin-bottom: 0;
       }
+    }
+    .video-wrapper {
+      display: flex;
+      gap: 30px;
     }
     .sub-title,
     .text,
@@ -18,6 +26,41 @@
     }
     .sub-title {
       font-weight: 700;
+    }
+    .list-item-wrapper {
+      ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        li {
+          font-family: $heading-font;
+          color: $black;
+          font-weight: 700;
+          font-size: 18px;
+          list-style: none;
+          position: relative;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          &:before {
+            content: "\f00c";
+            font-family: $font-awesome;
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            background-color: $sky-color;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $white;
+          }
+        }
+      }
     }
     .quote-text {
         padding-left: 40px;
@@ -50,7 +93,47 @@
       }
     }
     .btn-wrapper {
-      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .phone-number {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        justify-content: center;
+
+        .icon {
+          width: 66px;
+          height: 66px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          color: $orange-color;
+          border: 2px solid $sky-color;
+        }
+        .content {
+          display: inline-flex;
+          flex-direction: column;
+
+          span {
+            display: inline-block;
+            width: 100%;
+          }
+          .text {
+            font-family: $heading-font;
+            font-size: 21px;
+            font-weight: 700;
+            color: $secondary-color;
+
+            a {
+              color: $secondary-color;
+            }
+          }
+        }
+      }
     }
   }
 }
