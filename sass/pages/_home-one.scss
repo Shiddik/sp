@@ -116,15 +116,10 @@
       margin-bottom: 70px;
     }
     .feature-area-wrapper {
-      .row {
-        div {
-          &:last-child {
-            .info-card {
-              .divider {
-                display: none;
-              }
-            }
-          }
+      .feature-service-card {
+
+        &:nth-child(even) {
+          margin-top: 60px;
         }
       }
     }

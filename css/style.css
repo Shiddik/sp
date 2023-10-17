@@ -3644,7 +3644,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .info-card {
   background: #ffffff;
-  padding: 36px 40px 36px 55px;
+  padding: 36px 40px 36px 40px;
   border-radius: 10px;
   position: relative;
   -webkit-box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.08);
@@ -3741,7 +3741,7 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: -ms-flexbox;
     display: flex;
     gap: 35px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     border-bottom: none;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
@@ -10431,8 +10431,8 @@ ul.children {
   position: relative; }
   .feature-area.style-1 .section-title {
     margin-bottom: 70px; }
-  .feature-area.style-1 .feature-area-wrapper .row div:last-child .info-card .divider {
-    display: none; }
+  .feature-area.style-1 .feature-area-wrapper .feature-service-card:nth-child(even) {
+    margin-top: 60px; }
 
 .service-area.style-1 {
   padding-top: 138px;
