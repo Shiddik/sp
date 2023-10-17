@@ -2335,6 +2335,27 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-top: -3px;
     display: block; }
 
+.header-area.style-1 .header-menu-area {
+  position: fixed;
+  background-color: transparent; }
+  .header-area.style-1 .header-menu-area .main-menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00c6ff;
+    border-top: 3px solid #004eec;
+    border-radius: 0 0 6px 6px; }
+    .header-area.style-1 .header-menu-area .main-menu-wrapper .search-btn {
+      display: flex;
+      align-self: stretch;
+      align-items: center;
+      background-color: #2ec961;
+      color: #ffffff;
+      font-size: 18px;
+      width: 60px;
+      justify-content: center;
+      border-radius: 0 0 6px 0; }
+
 .header-top {
   background-color: #004eec; }
   @media (max-width: 991px) {
@@ -2546,16 +2567,14 @@ body.admin-bar .header-menu-area.sticky_menu {
     position: relative; }
     .main-menu ul li.active {
       position: relative; }
-      .main-menu ul li.active > a {
-        color: #2ec961; }
-        .main-menu ul li.active > a:after {
-          position: absolute;
-          content: "";
-          height: 3px;
-          width: 18px;
-          background-color: #2ec961;
-          bottom: 40px;
-          left: 20px; }
+      .main-menu ul li.active > a:after {
+        position: absolute;
+        content: "";
+        height: 3px;
+        width: 100%;
+        background-color: #2ec961;
+        top: -3px;
+        left: 0; }
     .main-menu ul li ul.submenu li.active > a {
       position: relative;
       z-index: 2;
@@ -2569,15 +2588,16 @@ body.admin-bar .header-menu-area.sticky_menu {
         z-index: -1; }
     .main-menu ul li a {
       display: block;
-      padding: 44px 17px;
+      padding: 14px 48px;
       text-decoration: none;
       text-transform: capitalize;
       transition: all 0.5s ease-out;
       position: relative;
-      color: #393d48;
+      color: #ffffff;
       font-family: "Barlow", sans-serif;
       font-size: 18px;
-      font-weight: 700; }
+      font-weight: 700;
+      border-right: 1px solid rgba(255, 255, 255, 0.361); }
       .main-menu ul li a:hover {
         color: #2ec961; }
     .main-menu ul li:hover > ul {
