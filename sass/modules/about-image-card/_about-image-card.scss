@@ -1,28 +1,22 @@
 .about-image-card {
   .main-img-wrapper {
-    text-align: right;
-
-    @include lg {
-      text-align: center;
-    }
-    @include md {
-      text-align: center;
-    }
+    text-align: left;
 
     .main-img-inner {
       position: relative;
       display: inline-block;
-      @media only screen  and (max-width: 650px){
-        padding: 50px;
-        padding-top: 0;
-        width: 100%;
-      }
+      width: 100%;
+
       > img {
         border-radius: 12px;
-        margin-left: 7px;
-        margin-top: 4px;
-        @include rmaxwd(650) {
-          width: 100%;
+      }
+      .main-image {
+        position: relative;
+
+        .image-main {
+          border-radius: 12px;
+          overflow: hidden;
+          display: inline-block;
         }
       }
     }
@@ -34,6 +28,7 @@
     justify-content: center;
     z-index: 1;
     flex-direction: column;
+
     img {
       border-radius: 12px;
     }
@@ -42,9 +37,6 @@
       font-size: 18px;
       color: $white;
       font-weight: 700;
-      text-align: center;
-      display: inline-block;
-      width: 100%;
       margin-bottom: 0;
     }
     .year {
@@ -93,36 +85,35 @@
       }
     }
     &.image-three {
-      top: 50%;
-      transform: translateY(-50%);
-      left: -140px;
-      border-radius: 10px;
-      width: 180px;
-      height: 180px;
+      bottom: -80px;
+      left: -80px;
+      border-radius: 12px;
+      width: 184px;
+      height: 184px;
       z-index: 2;
-      background: rgb(0, 91, 172);
-      background: linear-gradient(135deg, rgba(0, 91, 172, 1) 0%, rgba(30, 174, 152, 1) 100%);
+      background-color: $primary-color;
       animation: MoveUpDown 2s linear infinite alternate;
-
-      @include nesthubmax {
-        left: -50px;
-      }
-      @include rmaxwd(991) {
-        left: -85px;
-      }
-      @include rmaxwd(650) {
-        left: 0;
-        width: 130px;
-        height: 130px;
-      }
     }
     &.image-four {
       bottom: -100px;
-      left: -220px;
-      border-radius: 10px;
-      width: 335px;
-      height: 330px;
+      right: 0;
+      border-radius: 12px;
+      width: 370px;
+      height: 540px;
       overflow: hidden;
+      position: relative;
+      margin-left: auto;
+      top: -300px;
+      z-index: -1;
+
+      img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+      }
 
       @include nesthub {
         left: -250px;
