@@ -216,7 +216,7 @@ input.theme-btn {
   padding: 11px 10px 11px 36px;
   text-align: center;
   font-weight: 700;
-  font-family: $heading-font;
+  font-family: $poppins;
   text-transform: capitalize;
   position: relative;
   z-index: 1;
@@ -271,8 +271,7 @@ input.theme-btn {
   }
 
   &.simple-btn {
-    padding-left: 36px;
-    padding-right: 36px;
+    padding: 15px 36px;
   }
 }
 

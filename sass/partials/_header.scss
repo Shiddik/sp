@@ -132,6 +132,7 @@
   .contact-info-wrapper {
     display: flex;
     align-items: center;
+    gap: 30px;
 
     .contact-info-item {
       display: flex;
@@ -167,8 +168,17 @@
             color: $black;
             font-family: $heading-font;
             font-weight: 700;
+
+            a {
+              color: $black;
+            }
           }
         }
+      }
+    }
+    .btn-wrapper {
+      a {
+
       }
     }
   }

@@ -252,7 +252,7 @@ input.theme-btn {
   padding: 11px 10px 11px 36px;
   text-align: center;
   font-weight: 700;
-  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   position: relative;
   z-index: 1;
@@ -311,8 +311,7 @@ input.theme-btn {
   .theme-btn.simple-btn,
   .wp-block-loginout a.simple-btn,
   input.theme-btn.simple-btn {
-    padding-left: 36px;
-    padding-right: 36px; }
+    padding: 15px 36px; }
 
 .wp-block-loginout a {
   position: relative; }
@@ -2438,7 +2437,8 @@ body.admin-bar .header-menu-area.sticky_menu {
     gap: 40px; }
   .header-top-bottom-area .contact-info-wrapper {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    gap: 30px; }
     .header-top-bottom-area .contact-info-wrapper .contact-info-item {
       display: flex;
       align-items: center;
@@ -2468,6 +2468,8 @@ body.admin-bar .header-menu-area.sticky_menu {
             color: #1c2325;
             font-family: "Barlow", sans-serif;
             font-weight: 700; }
+            .header-top-bottom-area .contact-info-wrapper .contact-info-item .single-contact .content .sub-title a {
+              color: #1c2325; }
 
 .header-menu-area {
   width: 100%;
