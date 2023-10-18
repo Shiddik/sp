@@ -95,14 +95,13 @@
       animation: MoveUpDown 2s linear infinite alternate;
     }
     &.image-four {
-      bottom: -100px;
       right: 0;
       border-radius: 12px;
       width: 370px;
       height: 540px;
       position: relative;
       margin-left: auto;
-      top: -300px;
+      margin-top: -300px;
       z-index: -1;
 
       img {
