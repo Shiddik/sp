@@ -308,9 +308,11 @@
 // Testimonial Area
 .testimonial-slider-area {
   &.style-1 {
-    padding-top: 138px;
-    padding-bottom: 124px;
-
+    padding-top: 240px;
+    background-color: $primary-color;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     @include rmaxwd(991) {
       padding: 100px 0;
@@ -319,26 +321,9 @@
       padding: 70px 0;
     }
 
-    .section-title {
-      .title {
-        br {
-          @media only screen and (min-width: 992px) and (max-width: 1399px){
-            display: none;
-          }
-        }
-
-      }
-    }
     .testimonial-slider-wrapper {
-      margin-top: -40px;
-      margin-bottom: -40px;
-
-      @include md {
-        padding-left: 0;
-      }
-      @include sm {
-        padding-left: 0;
-      }
+      margin-top: 0;
+      margin-bottom: -100px;
     }
   }
 }

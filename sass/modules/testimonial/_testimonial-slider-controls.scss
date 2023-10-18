@@ -4,6 +4,7 @@
   .slick-list {
     padding-bottom: 60px;
     margin: 0 -12px;
+    overflow: visible;
 
     @include md {
       padding: 40px 10px;
@@ -158,58 +159,5 @@ button.testimonial-arrow-btn {
 
   @include rmaxwd(991) {
     display: none;
-  }
-}
-
-// Testimonial Slider Control Three
-.testimonial-slider-wrapper {
-  &.style-three {
-    .slick-list {
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-bottom: 50px;
-
-      @include rmaxwd(767) {
-        padding-bottom: 30px;
-      }
-      .slick-slide {
-        border-radius: 0;
-        @include transition;
-
-        &.slick-active {
-          box-shadow: none;
-
-          @include rmaxwd(767) {
-            box-shadow: 1px 8px 44px rgba(20, 20, 43, 0.03);
-            border-radius: 12px;
-            @include transition;
-          }
-        }
-      }
-    }
-
-    // Slick Dots
-    .slick-dots {
-      margin-top: 20px;
-      position: unset;
-      padding-left: 0;
-      flex-direction: row;
-      justify-content: center;
-
-    }
-  }
-}
-
-// Testimonial Slider Control Three
-
-.testimonial-slider-wrapper {
-  &.has-backgorund-slider {
-    .slick-dots {
-      margin-bottom: 0;
-      position: unset;
-      padding-left: 0;
-      flex-direction: row;
-      justify-content: center;
-    }
   }
 }
