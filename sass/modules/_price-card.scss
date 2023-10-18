@@ -6,6 +6,25 @@
     border-radius: 12px;
     overflow: hidden;
 
+    &.active {
+        .price-header {
+            background-color: $primary-color;
+        }
+        .card-title {
+            .title {
+                color: $white;
+            }
+            .sub-title {
+                color: #abb2c1;
+            }
+        }
+        .price {
+            .price-heading,
+            .price-desc {
+                color: $white;
+            }
+        }
+    }
     .price-header {
         background-color: rgb(225, 237, 238);
         padding: 40px 48px;
@@ -22,7 +41,6 @@
             font-weight: 400;
             font-size: 18px;
             line-height: initial;
-            text-transform: capitalize;
             color: #6d768a;
             margin: 0;
         }
@@ -96,7 +114,7 @@
             align-items: center;
             gap: 12px;
             .fa-check {
-                color: $orange-color;
+                color: $sky-color;
             }
             .fa-x {
                 color: #bbc7cf;

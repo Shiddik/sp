@@ -7744,6 +7744,15 @@ button.testimonial-arrow-btn {
   border: 1px solid #ced9da;
   border-radius: 12px;
   overflow: hidden; }
+  .price-card.active .price-header {
+    background-color: #004eec; }
+  .price-card.active .card-title .title {
+    color: #ffffff; }
+  .price-card.active .card-title .sub-title {
+    color: #abb2c1; }
+  .price-card.active .price .price-heading,
+  .price-card.active .price .price-desc {
+    color: #ffffff; }
   .price-card .price-header {
     background-color: #e1edee;
     padding: 40px 48px; }
@@ -7763,7 +7772,6 @@ button.testimonial-arrow-btn {
       font-weight: 400;
       font-size: 18px;
       line-height: initial;
-      text-transform: capitalize;
       color: #6d768a;
       margin: 0; }
     .price-card .card-title .title {
@@ -7852,7 +7860,7 @@ button.testimonial-arrow-btn {
               align-items: center;
       gap: 12px; }
       .price-card .list .price-list-item .fa-check {
-        color: #2ec961; }
+        color: #00c6ff; }
       .price-card .list .price-list-item .fa-x {
         color: #bbc7cf; }
       .price-card .list .price-list-item .text {
