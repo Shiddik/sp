@@ -3,7 +3,41 @@
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.239);
   margin-bottom: 24px;
+  @include transition;
 
+  &:hover {
+    background-color: $white;
+    @include transition;
+
+    .image {
+      img {
+        @include transition;
+        transform: scale(1.1);
+      }
+    }
+    .content-wrapper {
+      .title {
+        color: $black;
+      }
+      .btn-wrapper {
+        a {
+          color: $orange-color;
+
+          i {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+  .image {
+    overflow: hidden;
+
+    img {
+      @include transition;
+      transform: scale(1);
+    }
+  }
   .content-wrapper {
     position: relative;
     padding: 50px;

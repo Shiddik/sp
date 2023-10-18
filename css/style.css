@@ -4682,7 +4682,31 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.239);
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
+  .service-card:hover {
+    background-color: #ffffff;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    .service-card:hover .image img {
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
+    .service-card:hover .content-wrapper .title {
+      color: #1c2325; }
+    .service-card:hover .content-wrapper .btn-wrapper a {
+      color: #2ec961; }
+      .service-card:hover .content-wrapper .btn-wrapper a i {
+        color: #1c2325; }
+  .service-card .image {
+    overflow: hidden; }
+    .service-card .image img {
+      -webkit-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
   .service-card .content-wrapper {
     position: relative;
     padding: 50px; }
@@ -10633,6 +10657,20 @@ ul.children {
           width: 100%; } }
       .service-area.style-1 .section-title .sec-desc p {
         margin-bottom: 25px; }
+      .service-area.style-1 .section-title .sec-desc .simple-btn {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: "Barlow", sans-serif;
+        color: #ffffff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 10px; }
+        .service-area.style-1 .section-title .sec-desc .simple-btn i {
+          color: #2ec961; }
 
 .process-step-area {
   background-color: #31373f;

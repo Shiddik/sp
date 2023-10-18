@@ -187,6 +187,19 @@
         p {
           margin-bottom: 25px;
         }
+        .simple-btn {
+          font-size: 18px;
+          font-weight: 700;
+          font-family: $heading-font;
+          color: $white;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          i {
+            color: $orange-color;
+          }
+        }
       }
     }
   }
