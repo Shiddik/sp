@@ -5710,7 +5710,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .process-step {
   position: relative;
-  padding: 41px 56px;
+  padding: 41px 30px;
   border-radius: 10px;
   background: #ffffff;
   margin-bottom: 79px;
@@ -10667,10 +10667,48 @@ ul.children {
     .process-step-area {
       padding-bottom: 67px; } }
   .process-step-area .section-title {
-    margin-bottom: 95px; }
-    @media (max-width: 767px) {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 84px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .process-step-area .section-title {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 50px;
+        margin-bottom: 50px;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .process-step-area .section-title {
+        margin-bottom: 50px;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .process-step-area .section-title {
         margin-bottom: 50px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .process-step-area .section-title .title br {
+        display: none; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .process-step-area .section-title .title br {
+        display: none; } }
+    @media (max-width: 767px) {
+      .process-step-area .section-title .sec-content {
+        width: 100%; } }
+    .process-step-area .section-title .sec-desc {
+      width: 537px;
+      font-size: 21px;
+      font-family: "Roboto", sans-serif; }
+      @media (max-width: 767px) {
+        .process-step-area .section-title .sec-desc {
+          width: 100%; } }
+      .process-step-area .section-title .sec-desc p {
+        margin-bottom: 25px; }
 
 .process-image {
   margin-bottom: -70px;
