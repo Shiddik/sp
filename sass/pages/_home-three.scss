@@ -213,36 +213,6 @@
 
 }
 
-// Accordion Area
-.faq-area {
-  &.style-2 {
-    padding-top: 216px;
-    padding-bottom: 144px;
-
-    @include rmaxwd(1199) {
-      padding: 100px 0;
-    }
-
-    @include rmaxwd(767) {
-      padding: 70px 0;
-    }
-    .accordion-wrapper {
-      @include rmaxwd(1199) {
-        padding-right: 0 !important;
-        padding-bottom: 80px;
-      }
-    }
-    .section-title {
-      .title {
-        br {
-          @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
 
 .testimonial-area{
   &.style-3 {

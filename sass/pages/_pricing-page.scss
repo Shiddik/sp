@@ -36,24 +36,6 @@
     }
 }
 
-.faq-area {
-    &.style-4 {
-        padding-top: 218px;
-        padding-bottom: 130px;
-
-        @include rmaxwd(1199) {
-            padding: 100px 0;
-        }
-        @include sm {
-            padding: 70px 0;
-        }
-
-        .accordion-wrapper.style-four .accordion-list-item {
-            margin-bottom: 0;
-        }
-    }
-
-}
 .pricing-accordion-wrapper {
     padding-left: 120px;
 

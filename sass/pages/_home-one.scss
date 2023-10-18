@@ -178,10 +178,38 @@
   }
 }
 
+// FAQ Area
+.faq-area {
+  &.style-1 {
+    margin-bottom: -120px;
+
+    .faq-wrapper {
+      background-color: rgb(13, 28, 57);
+      display: flex;
+      border-radius: 12px;
+      overflow: hidden;
+
+      .accordion-wrapper {
+        padding: 70px 50px;
+      }
+      .image {
+        width: 50%;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+    }
+  }
+}
+
 // Process Step Area
 .process-step-area {
-  background-color: $black-200;
-  padding-top: 138px;
+  background-color: rgb(233, 245, 246);
+  padding-top: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 
   @include rmaxwd(991) {
     padding-top: 100px;
@@ -241,69 +269,7 @@
     }
   }
 }
-.process-image {
-  margin-bottom: -70px;
-  position: relative;
-  text-align: center;
-  z-index: 99;
-  animation: MoveLeftRight 2s linear infinite alternate;
-}
 
-// Appoitment Area
-.appointment-area {
-  &.style-1 {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding: 144px 0;
-    position: relative;
-    z-index: 2;
-
-    @include nesthub {
-      padding-bottom: 127px;
-    }
-    @include rmaxwd(991) {
-      padding: 100px 0;
-    }
-    @include rmaxwd(767) {
-      padding: 70px 0;
-    }
-    .accordion-wrapper {
-      padding-left: 120px;
-
-      @include rmaxwd(1399) {
-        padding-left: 0;
-        margin-top: 80px;
-      }
-    }
-  }
-}
-.appointment-squre-shape {
-  width: 200px;
-  height: 200px;
-  border-radius: 18px;
-  @include gradient-color-red;
-  transform: translateY(-50%) rotate(27deg);
-  left: -36px;
-  top: 50%;
-  position: absolute;
-  z-index: 9;
-
-  @include rmaxwd(991) {
-    width: 100px;
-    height: 100px;
-    left: -50px;
-  }
-}
-.blue-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 56, 105, 0.8);
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
 
 // Client Logo Area
 .brand-slider-area {
