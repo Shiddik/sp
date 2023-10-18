@@ -1,3 +1,11 @@
+// Portfolio Area
+.portfolio-area {
+  &.style-1 {
+    .portfolio-wrapper {
+      padding-left: 100px;
+    }
+  }
+}
 // About Us Area
 .about-us-area {
     &.style-1 {
@@ -38,17 +46,6 @@
         }
       }
     }
-}
-// Video Popup Area
-.video-popup-area {
-  margin-bottom: -228px;
-
-  @include rmaxwd(991) {
-    margin-bottom: -180px;
-  }
-  @include rmaxwd(767) {
-    margin-bottom: -80px;
-  }
 }
 
 // Counter Up Area

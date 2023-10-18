@@ -80,7 +80,7 @@
     }
   }
   .sec-desc {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 400;
     font-family: $body-font;
     color: $text-color;
@@ -96,6 +96,20 @@
         background-color: $primary-color;
         color: $white;
         @include transition;
+      }
+    }
+
+    .simple-btn {
+      font-size: 18px;
+      font-weight: 700;
+      font-family: $heading-font;
+      color: $black;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      i {
+        color: $orange-color;
       }
     }
   }
