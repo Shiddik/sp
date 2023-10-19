@@ -258,10 +258,8 @@
       right: 47px;
       top: 24px;
 
-      &.moblile-slider-img {
-        @include sm {
-          left: -30px;
-        }
+      img {
+        border-radius: 12px;
       }
 
       @include sm {

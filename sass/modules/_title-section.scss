@@ -113,4 +113,54 @@
       }
     }
   }
+
+
+  &.two-column {
+    align-items: center;
+    margin-bottom: 84px;
+
+    @include sm {
+      flex-direction: column;
+      gap: 50px;
+      margin-bottom: 50px;
+      align-items: flex-start;
+    }
+    @include md {
+      margin-bottom: 50px;
+      align-items: flex-start;
+    }
+    @include lg {
+      margin-bottom: 50px;
+    }
+    .sec-content {
+      @include rmaxwd(767) {
+        width: 100%;
+      }
+    }
+    .sec-desc {
+      width: 537px;
+      font-size: 21px;
+      font-family: $body-font;
+
+      @include rmaxwd(767) {
+        width: 100%;
+      }
+      p {
+        margin-bottom: 25px;
+      }
+      .simple-btn {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: $heading-font;
+        color: $black;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        i {
+          color: $orange-color;
+        }
+      }
+    }
+  }
 }
