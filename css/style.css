@@ -192,7 +192,7 @@ input:focus {
   outline: none; }
 
 .background-black {
-  background-color: #393d48; }
+  background-color: #1b2538; }
 
 .bg-light-black {
   background-color: #31373f; }
@@ -7773,67 +7773,102 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: -110px;
   z-index: 99; }
 
-.call-to-action-card {
+.cta-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: #00c6ff;
-  padding: 68px 50px;
+  padding: 74px 320px 74px 74px;
   border-radius: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 60px; }
-  @media (max-width: 375px) {
-    .call-to-action-card {
-      padding: 40px 25px !important; } }
-  @media (max-width: 991px) {
-    .call-to-action-card {
+  position: relative; }
+  .cta-card .image {
+    position: absolute;
+    right: -75px;
+    bottom: 0; }
+  .cta-card .cta-content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 30px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  .cta-card .cta-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .cta-card .cta-content .title {
+      font-size: 48px;
+      color: #ffffff;
+      line-height: initial; }
+    .cta-card .cta-content .sub-title {
+      font-family: "Roboto", sans-serif;
+      color: #ffffff;
+      font-size: 21px;
+      margin-bottom: 0; }
+  .cta-card .cta-phone-number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+    .cta-card .cta-phone-number .icon {
+      width: 65px;
+      height: 65px;
+      background-color: #004eec;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      color: #ffffff; }
+    .cta-card .cta-phone-number .content {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column;
-      gap: 30px; } }
-  @media (max-width: 767px) {
-    .call-to-action-card {
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start; } }
-  .call-to-action-card .image {
-    -ms-flex-negative: 0;
-        flex-shrink: 0; }
-    @media (max-width: 1399px) {
-      .call-to-action-card .image {
-        width: 200px; } }
-  .call-to-action-card .content {
-    position: relative;
-    padding-left: 60px; }
-    @media (max-width: 991px) {
-      .call-to-action-card .content {
-        padding-left: 0; } }
-    .call-to-action-card .content .title {
-      font-size: 36px;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 0; }
-      @media (max-width: 1399px) {
-        .call-to-action-card .content .title {
-          font-size: 18px;
-          line-height: 32px; } }
-    .call-to-action-card .content:before {
-      position: absolute;
-      content: "";
-      height: 100%;
-      left: 0;
-      top: 0;
-      width: 1px;
-      background-color: #6fcbbd; }
-      @media (max-width: 991px) {
-        .call-to-action-card .content:before {
-          display: none; } }
-  .call-to-action-card .btn-wrapper {
-    -ms-flex-negative: 0;
-        flex-shrink: 0; }
+              flex-direction: column; }
+      .cta-card .cta-phone-number .content span {
+        display: inline-block;
+        width: 100%;
+        font-family: "Barlow", sans-serif;
+        color: #ffffff;
+        font-weight: 700; }
+      .cta-card .cta-phone-number .content .title {
+        font-size: 18px; }
+      .cta-card .cta-phone-number .content .text {
+        font-size: 36px; }
+        .cta-card .cta-phone-number .content .text a {
+          color: #ffffff; }
 
 .triangle-shape-card-one {
   width: 200px;
@@ -11459,21 +11494,19 @@ ul.children {
   position: relative;
   z-index: 2;
   overflow: hidden; }
-  @media (max-width: 1199px) {
-    .footer .mt-50.mb-50 {
-      margin: 0; } }
   .footer .footer-sec {
-    padding-top: 265px; }
-    @media (max-width: 767px) {
-      .footer .footer-sec {
-        padding-top: 210px; } }
-  .footer .footer-bg {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    z-index: -1; }
+    padding-top: 90px; }
+  .footer .widget-menu-wrapper {
+    padding: 0 100px; }
+    @media (max-width: 991px) {
+      .footer .widget-menu-wrapper {
+        padding: 0; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .footer .widget-menu-wrapper {
+        padding: 0 50px; } }
+    @media only screen and (min-width: 1200px) and (max-width: 1920px) {
+      .footer .widget-menu-wrapper {
+        padding: 0 60px; } }
 
 .footer-widget-title {
   font-family: "Barlow", sans-serif;
@@ -11674,9 +11707,10 @@ ul.children {
           -ms-flex-pack: start;
               justify-content: flex-start; } }
   .footer-bottom-menu ul li a {
-    font-size: 16px;
+    font-size: 18px;
     text-transform: capitalize;
     color: #c7cdda;
+    font-family: "Roboto", sans-serif;
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
     .footer-bottom-menu ul li a:hover {
@@ -11684,20 +11718,54 @@ ul.children {
       transition: all 0.5s ease-out;
       color: #004eec; }
 
+.footer-bottom-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px 40px;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse; }
+  .footer-bottom-wrapper .footer-widget {
+    margin-bottom: 0; }
+
+.footer-bottom-menu-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px 40px;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .footer-bottom-area {
   padding: 57px 0; }
   @media (max-width: 991px) {
     .footer-bottom-area {
       padding: 30px 0; } }
-  @media (max-width: 767px) {
-    .footer-bottom-area .copyright-text {
-      margin-bottom: 20px; } }
   .footer-bottom-area .copyright-text p {
     color: #c7cdda;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; }
     .footer-bottom-area .copyright-text p a {
-      color: #ffffff;
-      font-weight: 700; }
+      color: #c7cdda;
+      font-weight: 400;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px; }
       .footer-bottom-area .copyright-text p a:hover {
         color: #004eec; }
   .footer-bottom-area .credit-text p {
@@ -11712,9 +11780,13 @@ ul.children {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    gap: 10px; }
+    gap: 10px;
+    font-family: "Roboto", sans-serif; }
   .footer-bottom-area .credit-text a {
-    color: #004eec; }
+    color: #004eec;
+    font-family: "Roboto", sans-serif; }
+  .footer-bottom-area .social-profile {
+    gap: 25px; }
 
 .subscribe-form-area {
   position: relative;

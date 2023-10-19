@@ -3,26 +3,28 @@
   z-index: 2;
   overflow: hidden;
 
-  .mt-50.mb-50 {
-    @include rmaxwd(1199) {
-      margin: 0;
-    }
-  }
-  .footer-sec {
-    padding-top: 265px;
 
-    @include rmaxwd(767) {
-      padding-top: 210px;
+
+  .footer-sec {
+    padding-top: 90px;
+  }
+
+  .widget-menu-wrapper {
+    padding: 0 100px;
+
+
+    @include rmaxwd(991) {
+      padding: 0;
+    }
+    @include lg {
+      padding: 0 50px;
+    }
+    @include xl {
+      padding: 0 60px;
     }
   }
-  //footer Background
-  .footer-bg {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
-  }
+
+
 }
 .footer-widget-title {
   font-family: $heading-font;
@@ -250,7 +252,6 @@
     }
   }
 }
-
 // Footer Bottom Section
 .footer-bottom-menu {
   ul {
@@ -269,9 +270,10 @@
 
     li {
       a {
-        font-size: 16px;
+        font-size: 18px;
         text-transform: capitalize;
         color: $white-100;
+        font-family: $body-font;
         @include transition;
 
         &:hover {
@@ -282,7 +284,25 @@
     }
   }
 }
+.footer-bottom-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 40px;
+  flex-wrap: wrap-reverse;
 
+  .footer-widget {
+    margin-bottom: 0;
+  }
+}
+.footer-bottom-menu-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px 40px;
+  flex-wrap: wrap-reverse;
+  flex-grow: 1;
+  justify-content: space-between;
+}
 .footer-bottom-area {
   padding: 57px 0;
 
@@ -290,16 +310,16 @@
     padding: 30px 0;
   }
   .copyright-text {
-    @include rmaxwd(767) {
-      margin-bottom: 20px;
-    }
     p {
       color: $white-100;
       margin-bottom: 0;
-
+      font-family: $body-font;
+      font-size: 18px;
       a {
-        color: $white;
-        font-weight: 700;
+        color: $white-100;
+        font-weight: 400;
+        font-family: $body-font;
+        font-size: 18px;
 
         &:hover {
           color: $primary-color;
@@ -315,13 +335,17 @@
       align-items: center;
       justify-content: flex-end;
       gap: 10px;
+      font-family: $body-font;
     }
     a {
       color: $primary-color;
+      font-family: $body-font;
     }
   }
+  .social-profile {
+    gap: 25px;
+  }
 }
-
 // Footer Subscribe
 .subscribe-form-area {
   position: relative;

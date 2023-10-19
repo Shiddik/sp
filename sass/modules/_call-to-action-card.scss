@@ -3,64 +3,80 @@
   margin-bottom: -110px;
   z-index: 99;
 }
-.call-to-action-card {
+.cta-card {
   display: flex;
   background-color: $sky-color;
-  padding: 68px 50px;
+  padding: 74px 320px 74px 74px;
   border-radius: 12px;
   align-items: center;
-  gap: 60px;
-  @include rmaxwd(375) {
-    padding: 40px 25px !important;
-  }
+  position: relative;
 
-  @include rmaxwd(991) {
-    flex-direction: column;
-    gap: 30px;
-  }
-  @include rmaxwd(767) {
-    align-items: flex-start;
-  }
   .image {
-    flex-shrink: 0;
-
-    @include rmaxwd(1399) {
-      width: 200px;
-    }
+    position: absolute;
+    right: -75px;
+    bottom: 0;
   }
-  .content {
-    position: relative;
-    padding-left: 60px;
+  .cta-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-grow: 1;
+  }
+  .cta-content {
+    display: flex;
+    flex-direction: column;
 
-    @include rmaxwd(991) {
-      padding-left: 0;
-    }
     .title {
-      font-size: 36px;
-      font-weight: 700;
+      font-size: 48px;
       color: $white;
-      margin-bottom: 0;
-
-
-      @include rmaxwd(1399) {
-        font-size: 18px;
-        line-height: 32px;
-      }
+      line-height: initial;
     }
-    &:before {
-      position: absolute;
-      content: "";
-      height: 100%;
-      left: 0;
-      top: 0;
-      width: 1px;
-      background-color: #6fcbbd;
-      @include rmaxwd(991) {
-        display: none;
-      }
+    .sub-title {
+      font-family: $body-font;
+      color: $white;
+      font-size: 21px;
+      margin-bottom: 0;
     }
   }
-  .btn-wrapper {
+  .cta-phone-number {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
     flex-shrink: 0;
+
+    .icon {
+      width: 65px;
+      height: 65px;
+      background-color: $primary-color;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: $white;
+    }
+    .content {
+      display: inline-flex;
+      flex-direction: column;
+
+      span {
+        display: inline-block;
+        width: 100%;
+        font-family: $heading-font;
+        color: $white;
+        font-weight: 700;
+      }
+      .title {
+        font-size: 18px;
+      }
+      .text {
+        font-size: 36px;
+        a {
+          color: $white;
+        }
+      }
+    }
   }
 }
