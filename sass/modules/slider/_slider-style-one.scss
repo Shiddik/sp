@@ -29,15 +29,18 @@
         height: 100%;
       }
     }
+    .slider-wrapper {
+      mask-image: url("../images/slider/shape-bg.png");
+      mask-position: center center;
+      mask-size: auto;
+      mask-repeat: no-repeat;
+    }
   }
   .slick-arrow {
     display: none !important;
   }
   .slider-wrapper {
-    mask-image: url("../images/slider/shape-bg.png");
-    mask-position: center center;
-    mask-size: auto;
-    mask-repeat: no-repeat;
+
 
     // Active Slider Animate
     .slick-active .slider-short-title,
