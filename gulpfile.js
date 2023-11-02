@@ -10,17 +10,17 @@ const rename = require('gulp-rename');
 // var sourcemaps = require('gulp-sourcemaps');
 function style() {
   // 1. where is scss file
-  return gulp.src('./sass/*.scss')
-  // 2. pass that file through scss compiler
-    .pipe(sass())
-  // 3. Where I save my compiled css
+  return gulp.src('./sass/**/*.scss')
+      // 2. pass that file through scss compiler
+      .pipe(sass())
+      // 3. Where I save my compiled css
       .pipe(autoprefixer(["last 2 versions", "> 1%"]))
-    .pipe(gulp.dest('./css/'))
-    .pipe(rtlcss()) // Convert to RTL.
-    .pipe(rename({ suffix: '-rtl' }))
       .pipe(gulp.dest('./css/'))
-    // stream changes to all browser
-    .pipe(browserSync.stream());
+      .pipe(rtlcss()) // Convert to RTL.
+      .pipe(rename({ suffix: '-rtl' }))
+      .pipe(gulp.dest('./css/'))
+      // stream changes to all browser
+      .pipe(browserSync.stream());
 }
 
 // function miniCss() {
@@ -55,7 +55,7 @@ function watch() {
       baseDir: './'
     }
   });
-  gulp.watch('./sass/*.scss', style);
+  gulp.watch('./sass/**/*.scss', style);
   // gulp.watch('css/style.css', miniCss);
   // gulp.watch('css/style.css', miniJs);
   gulp.watch('./*.html').on('change', browserSync.reload);
