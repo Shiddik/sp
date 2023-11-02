@@ -18,54 +18,54 @@
             .icon {
               width: 42px;
               height: 42px;
-              margin-top: 13px;
             }
             .content {
               gap: 4px;
 
               .title {
-                font-size: 18px;
+                font-size: 24px;
               }
             }
           }
         }
-        .btn-wrapper {
-          margin-top: 25px;
-        }
-        .skill-and-video-wrapper {
+
+        .about-meta {
           display: flex;
           gap: 30px;
           align-items: center;
+          margin-top: 30px;
 
-          @include sm {
-            flex-direction: column-reverse;
-          }
+          .about-founder {
+            display: flex;
+            align-items: center;
+            gap: 25px;
 
-          .video-popup-card {
-            width: 43%;
-            box-shadow: none;
-            padding: 0;
+            .image {
+              width: 66px;
+              height: 66px;
+              border-radius: 50%;
+              overflow: hidden;
+              position: relative;
 
-            @include sm {
-              width: 100%;
+              img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                top: 0;
+                left: 0;
+              }
             }
-            &:before {
-              position: absolute;
-              width: 100%;
-              height: 100%;
-              left: 0;
-              top: 0;
-              content: "";
-              background: rgb(0,91,172);
-              background: linear-gradient(135deg, rgba(0,91,172,0.6) 0%, rgba(30,174,152,0.6) 100%);
-            }
-
-            .video-popup-btn {
-              a {
-                  width: 60px;
-                  height: 60px;
-                  background-color: $orange-color;
-                  background-image: none;
+            .content-wrapper {
+              .title {
+                font-size: 21px;
+                line-height: 36px;
+                margin-bottom: 0;
+              }
+              .sub-title {
+                font-family: $body-font;
+                color: #5e6f92;
+                font-weight: 400;
               }
             }
           }

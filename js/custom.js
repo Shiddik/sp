@@ -443,6 +443,27 @@
             maxTilt: 12,
             perspective: 1500,
         })
+        /*
+        Isotope Grid Js
+        ============================*/
+        $('.portfolio-filter').on('click', 'li', function() {
+            $("li").removeClass("active");
+            $(this).addClass("active");
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+        });
+        var $grid = $('.isotope-grid').isotope({
+            itemSelector: '.isotop-portfolio-item',
+            percentPosition: true,
+            masonry: {
+                columnWidth: '.isotop-portfolio-item'
+            }
+        })
+        $grid.imagesLoaded().progress( function() {
+            $grid.isotope('layout');
+        });
 
         /*
         Scroll To Top Js

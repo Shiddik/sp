@@ -6227,18 +6227,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .icon {
   width: 42px;
   height: 42px;
-  margin-top: 13px;
 }
 .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .content {
   gap: 4px;
 }
 .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .content .title {
-  font-size: 18px;
+  font-size: 24px;
 }
-.about-info-card.style-two .about-info-content .btn-wrapper {
-  margin-top: 25px;
-}
-.about-info-card.style-two .about-info-content .skill-and-video-wrapper {
+.about-info-card.style-two .about-info-content .about-meta {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6246,41 +6242,42 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-info-card.style-two .about-info-content .skill-and-video-wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
+.about-info-card.style-two .about-info-content .about-meta .about-founder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
 }
-.about-info-card.style-two .about-info-content .skill-and-video-wrapper .video-popup-card {
-  width: 43%;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  padding: 0;
+.about-info-card.style-two .about-info-content .about-meta .about-founder .image {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .about-info-card.style-two .about-info-content .skill-and-video-wrapper .video-popup-card {
-    width: 100%;
-  }
-}
-.about-info-card.style-two .about-info-content .skill-and-video-wrapper .video-popup-card:before {
+.about-info-card.style-two .about-info-content .about-meta .about-founder .image img {
   position: absolute;
   width: 100%;
   height: 100%;
-  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
   top: 0;
-  content: "";
-  background: rgb(0, 91, 172);
-  background: linear-gradient(135deg, rgba(0, 91, 172, 0.6) 0%, rgba(30, 174, 152, 0.6) 100%);
+  left: 0;
 }
-.about-info-card.style-two .about-info-content .skill-and-video-wrapper .video-popup-card .video-popup-btn a {
-  width: 60px;
-  height: 60px;
-  background-color: rgb(46, 201, 97);
-  background-image: none;
+.about-info-card.style-two .about-info-content .about-meta .about-founder .content-wrapper .title {
+  font-size: 21px;
+  line-height: 36px;
+  margin-bottom: 0;
+}
+.about-info-card.style-two .about-info-content .about-meta .about-founder .content-wrapper .sub-title {
+  font-family: "Roboto", sans-serif;
+  color: #5e6f92;
+  font-weight: 400;
 }
 
 .about-info-card.style-three .section-title {
@@ -12365,6 +12362,44 @@ ul.children {
   outline: 2px solid rgb(252, 133, 91);
 }
 .team-member-slider-wrapper .slick-dots li.slick-active button {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.portfolio-filter {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -8px;
+}
+@media (max-width: 991px) {
+  .portfolio-filter {
+    margin-bottom: 50px;
+  }
+}
+.portfolio-filter li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1c2325;
+  text-transform: capitalize;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.portfolio-filter li.active {
+  color: rgb(0, 78, 236);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
