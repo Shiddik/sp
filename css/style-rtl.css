@@ -317,6 +317,8 @@ input.theme-btn {
   gap: 36px;
   border-radius: 6px;
   overflow: hidden;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .theme-btn,
@@ -3265,7 +3267,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: flex-end;
 }
 .header-top .social-profile a {
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -3738,54 +3740,85 @@ body.admin-bar .header-menu-area.sticky_menu {
           flex-grow: 1;
 }
 
-.header-area.style-two.has-header-top .header-menu-area.sticky_menu .logo {
-  height: 84px;
-  margin-top: inherit;
+.header-area.style-2 {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  right: 0;
+  top: 24px;
 }
-.header-area.style-two.has-header-top .header-menu-area .logo {
-  height: 162px;
-  margin-top: -42px;
+.header-area.style-2 .header-menu-area {
+  background-color: transparent;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area.style-two.has-header-top .header-menu-area .logo {
-    height: 120px;
-    margin-top: inherit;
-  }
+.header-area.style-2 .logo {
+  width: 292px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-area.style-two.has-header-top .header-menu-area .logo {
-    height: 100px;
-    margin-top: inherit;
-  }
+.header-area.style-2 .header-area-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  border-radius: 0 0 12px 12px;
+  border-top: 5px solid rgb(0, 78, 236);
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .header-area.style-two.has-header-top .header-menu-area .logo {
-    height: 80px;
-    margin-top: inherit;
-  }
+.header-area.style-2 .header-wrapper {
+  width: 100%;
+  border-right: 1px solid #c9cfdc;
 }
-.header-area.style-two .header-top .header-top-btn a {
-  margin-bottom: inherit;
-  padding: 6px 46px;
+.header-area.style-2 .header-wrapper .header-top {
+  background-color: transparent;
+  border-bottom: 1px solid #c9cfdc;
 }
-.header-area.style-two .header-top .header-top-btn a:hover:before {
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-  background-color: #00c6ff;
+.header-area.style-2 .header-wrapper .header-top .header-contact-info i {
+  color: #00c6ff;
 }
-.header-area.style-two .header-top .header-top-btn a:before {
-  border-radius: 0;
-  -webkit-transform: skewX(20deg);
-          transform: skewX(20deg);
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+.header-area.style-2 .header-wrapper .header-top .header-contact-info span,
+.header-area.style-2 .header-wrapper .header-top .header-contact-info a {
+  color: #6d768a;
 }
-.header-area.style-two .header-menu-area .logo:before {
-  border-radius: 0;
-  -webkit-transform: skewX(20deg);
-          transform: skewX(20deg);
+.header-area.style-2 .header-wrapper .header-top .header-contact-info span:before {
+  background-color: #c9cfdc;
+  opacity: 1;
+}
+.header-area.style-2 .header-wrapper .social-profile {
+  gap: 28px;
+}
+.header-area.style-2 .header-wrapper .social-profile a {
+  color: rgb(0, 78, 236);
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 20px;
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper .header-btn {
+  margin-right: auto;
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li a {
+  color: #393d48;
+  padding: 22px 24px;
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li.active {
+  position: relative;
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li.active > a:after {
+  top: unset;
   bottom: 0;
-  height: 190px;
+  background-color: #00c6ff;
 }
 
 .header-area.style-three .header-top .header-top-btn a {

@@ -1,62 +1,89 @@
 .header-area {
-  &.style-two {
-   &.has-header-top {
-     .header-menu-area {
-       &.sticky_menu {
-         .logo {
-           height: 84px;
-           margin-top: inherit;
-         }
-       }
-       .logo {
-         height: 162px;
-         margin-top: -42px;
+  &.style-2 {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 24px;
 
-         @media only screen and (min-width: 992px) and (max-width: 1199px){
-           height: 120px;
-           margin-top: inherit;
-         }
-         @include md {
-           height: 100px;
-           margin-top: inherit;
-         }
-
-         @include sm {
-           height: 80px;
-           margin-top: inherit;
-         }
-       }
-     }
-   }
-    // Header Top Area
-    .header-top {
-      .header-top-btn {
-        a {
-          margin-bottom: inherit;
-          padding: 6px 46px;
-          &:hover {
-            &:before {
-              @include transition;
-              background-color: $sky-color;
-            }
-          }
-          &:before {
-            border-radius: 0;
-            transform: skewX(-20deg);
-            @include transition;
-          }
-        }
-      }
+    .header-menu-area {
+      background-color: transparent;
+    }
+    .logo {
+      width: 292px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
     }
 
-    // Header Menu Area
-    .header-menu-area {
-      .logo {
-        &:before {
-          border-radius: 0;
-          transform: skewX(-20deg);
-          bottom: 0;
-          height: 190px;
+    .header-area-wrapper {
+      display: flex;
+      align-items: center;
+      background-color: $white;
+      border-radius:0 0 12px 12px;
+      border-top: 5px solid $blue-color;
+    }
+    .header-wrapper {
+      width: 100%;
+      border-left: 1px solid #C9CFDCFF;
+
+      // Header Top
+      .header-top {
+        background-color: transparent;
+        border-bottom: 1px solid #C9CFDCFF;
+
+       .header-contact-info {
+         i {
+           color: $sky-color;
+         }
+          span,
+          a {
+            color: $text-color;
+          }
+       }
+        .header-contact-info span:before {
+            background-color: #C9CFDCFF;
+            opacity: 1;
+        }
+      }
+      .social-profile {
+        gap: 28px;
+
+        a {
+          color: $blue-color;
+        }
+      }
+      // Header Menu
+      .main-menu-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+
+        .header-btn {
+          margin-left: auto;
+        }
+        .menu {
+          //margin-left: auto;
+        }
+        .main-menu {
+          ul {
+            li {
+              a {
+                color: #393d48;
+                padding: 22px 24px;
+              }
+              &.active {
+                position: relative;
+                > a {
+                  &:after {
+                    top: unset;
+                    bottom: 0;
+                    background-color: $sky-color;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
