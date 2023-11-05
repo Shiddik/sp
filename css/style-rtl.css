@@ -3597,7 +3597,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 15px;
+  gap: 24px;
 }
 @media only screen and (max-width: 1399px) {
   .header-btn {
@@ -3807,6 +3807,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area.style-2 .header-wrapper .main-menu-wrapper .header-btn {
   margin-right: auto;
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper .header-btn .search-btn {
+  color: #000000;
 }
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li a {
   color: #393d48;
@@ -4395,6 +4398,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  height: 1080px;
 }
 .slider-area.style-2 .single-slider .slider-overlay {
   background-color: #071126;
@@ -4410,6 +4414,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 70px;
 }
 .slider-area.style-2 .single-slider .slider-content-wrapper:before {
   position: absolute;

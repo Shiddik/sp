@@ -8,6 +8,7 @@
       position: relative;
       z-index: 2;
       overflow: hidden;
+      height: 1080px;
 
       .slider-overlay {
         background-color: #071126;
@@ -20,6 +21,7 @@
         position: relative;
         display: flex;
         align-items: center;
+        margin-top: 70px;
 
         &:before {
           position: absolute;
