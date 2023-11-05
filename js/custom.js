@@ -125,7 +125,7 @@
             loop: true,
             dots: true,
             speed: 1500,
-            fade: true,
+            // fade: true,
             rtl: false,
             responsive: [
                 {

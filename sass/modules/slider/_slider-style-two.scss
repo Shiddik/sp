@@ -1,6 +1,15 @@
 .slider-area {
 
   &.style-2 {
+
+    .slick-dots {
+      top: unset;
+      bottom: 75px;
+      left: 50%;
+      transform: translateX(-50%);
+      flex-direction: row;
+      padding-left: 0;
+    }
     .single-slider {
       background-size: cover;
       background-repeat: no-repeat;
