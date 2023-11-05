@@ -12904,6 +12904,47 @@ ul.children {
   padding-top: 120px !important;
   padding-bottom: 240px !important;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area.style-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+.about-us-area.style-2 .about-info-card .about-info-content {
+  padding-right: 120px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .about-us-area.style-2 .about-info-card .about-info-content .text {
+    padding-left: 120px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .about-us-area.style-2 .about-info-card .about-info-content {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .about-us-area.style-2 .about-info-card .about-info-content {
+    padding-right: 0;
+    padding-top: 300px;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 767px) {
+  .about-us-area.style-2 .about-info-card .about-info-content {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 651px) {
+  .about-us-area.style-2 .about-info-card .about-info-content {
+    padding-top: 100px;
+  }
+}
 
 .feature-area.style-2 {
   margin-top: -65px;
