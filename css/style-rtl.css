@@ -5018,6 +5018,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .service-card:hover .content-wrapper .title {
   color: #1c2325;
 }
+.service-card:hover .content-wrapper .read-more {
+  background-color: rgb(46, 201, 97);
+  color: #ffffff !important;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
 .service-card:hover .content-wrapper .btn-wrapper a {
   color: rgb(46, 201, 97);
 }
@@ -5085,6 +5091,80 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .service-card .content-wrapper .btn-wrapper a i {
   color: rgb(46, 201, 97);
+}
+
+.service-card.style-2 {
+  border: 1px solid #c9cfdc;
+}
+.service-card.style-2 .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+.service-card.style-2 .content-wrapper .icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+}
+.service-card.style-2 .content-wrapper .icon {
+  position: unset;
+  -webkit-transform: unset;
+          transform: unset;
+  top: unset;
+  right: unset;
+  width: unset;
+  height: unset;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: transparent;
+}
+.service-card.style-2 .content-wrapper .read-more {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid rgb(46, 201, 97);
+  color: #1c2325;
+  font-size: 16px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.service-card.style-2 .content-wrapper .title {
+  color: #1c2325;
+}
+
+.service-slider-wrapper .slick-arrow {
+  display: none !important;
+}
+.service-slider-wrapper .slick-list {
+  margin: 0 -12px;
+}
+.service-slider-wrapper .slick-list .slick-slide {
+  margin: 0 12px;
 }
 
 .about-image-card .main-img-wrapper {
@@ -12146,6 +12226,7 @@ ul.children {
   position: relative;
   padding-top: 120px;
   padding-bottom: 620px;
+  margin-bottom: -631px;
 }
 .counter-up-area.style-2 .overlay {
   position: absolute;

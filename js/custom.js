@@ -144,6 +144,40 @@
             e.preventDefault();
             $('.slick-next').trigger('click');
         });
+
+
+        /*
+       Service Slider
+       ============================*/
+        $(".service-slider-wrapper").slick({
+            slidesToShow: 3,
+            infinite: true,
+            autoplay: true,
+            draggable: true,
+            arrows: true,
+            slidesToScroll: 1,
+            loop: true,
+            dots: false,
+            speed: 1500,
+            // fade: true,
+            rtl: false,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        autoplay: true,
+                    },
+                },
+            ],
+        });
+        $('.slider-nav-prev-btn').on('click', function (e) {
+            e.preventDefault();
+            $('.slick-prev').trigger('click');
+        });
+        $('.slider-nav-next-btn').on('click', function (e) {
+            e.preventDefault();
+            $('.slick-next').trigger('click');
+        });
         /*
        Info Card Slider
        ============================*/

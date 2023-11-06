@@ -19,6 +19,11 @@
       .title {
         color: $black;
       }
+      .read-more {
+        background-color: $orange-color;
+        color: $white !important;
+        @include transition;
+      }
       .btn-wrapper {
         a {
           color: $orange-color;
@@ -85,4 +90,5 @@
       }
     }
   }
+
 }
