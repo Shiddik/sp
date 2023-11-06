@@ -1,8 +1,15 @@
 .info-card {
   &.style-2 {
-    padding: 0;
+    padding: 30px;
     background-color: transparent;
     box-shadow: none;
+
+    .title-wrapper {
+      .icon {
+        width: unset;
+        height: unset;
+      }
+    }
   }
 }
 

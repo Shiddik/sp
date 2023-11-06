@@ -4754,10 +4754,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .info-card.style-2 {
-  padding: 0;
+  padding: 30px;
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+.info-card.style-2 .title-wrapper .icon {
+  width: unset;
+  height: unset;
 }
 
 .icon-card {
@@ -12221,6 +12225,19 @@ ul.children {
   .about-us-area.style-2 .about-info-card .about-info-content {
     padding-top: 100px;
   }
+}
+
+.feature-area.style-2 .feature-area-wrapper {
+  padding: 50px;
+}
+
+.skill-progressbar-area {
+  padding-top: 434px;
+  padding-bottom: 120px;
+  background-color: #0c2e71;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .feature-area.style-2 {

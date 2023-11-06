@@ -42,11 +42,22 @@
 }
 
 // Feature Area
-
 .feature-area {
   &.style-2 {
-
+    .feature-area-wrapper  {
+      padding: 50px;
+    }
   }
+}
+
+// Progress Bar Area
+.skill-progressbar-area {
+  padding-top: 434px;
+  padding-bottom: 120px;
+  background-color: #0c2e71;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 //// Counter Area Two
