@@ -7,30 +7,30 @@
         margin-bottom: 50px;
 
         .icon {
-            width: 72px;
-            height: 72px;
+            width: 97px;
+            height: 97px;
             display: flex;
             flex-shrink: 0;
+            border-radius: 50%;
+            background-color: $blue-color;
+            justify-content: center;
+            align-items: center;
+
             img {
-                width: 100%;
+                width: auto;
             }
         }
         .content {
             display: flex;
             gap: 30px;
             flex-direction: column;
-            .title {
-                color: $white;
-            }
-            .desc {
-                color: $white-100;
-            }
-        }
-        @include sm {
-            gap: 25px;
-            .content {
-                gap: 18px;
-            }
+
+            //.title {
+            //    font-size: 24px;
+            //}
+            //.desc {
+            //    color: $white-100;
+            //}
         }
     }
 }

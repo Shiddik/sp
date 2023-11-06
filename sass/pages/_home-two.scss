@@ -77,7 +77,7 @@
     position: relative;
     padding-top: 120px;
     padding-bottom: 620px;
-    margin-bottom: -631px;
+    margin-bottom: -493px;
     .overlay {
       position: absolute;
       width: 100%;
@@ -87,6 +87,18 @@
       background-color: rgb(13, 28, 57, 0.91);
     }
   }
+}
+
+// Why Choose Us
+.why-choose-us-area {
+  &.style-2 {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+}
+.why-choose-us-image {
+  border-radius: 12px;
+  overflow: hidden;
 }
 //// Counter Area Two
 //.counter-up-area {
