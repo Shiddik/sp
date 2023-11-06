@@ -11716,14 +11716,13 @@ ul.children {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px 50px;
+  gap: 20px 37px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 70px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: -8px;
 }
 @media (max-width: 991px) {
   .portfolio-filter {
@@ -11733,7 +11732,7 @@ ul.children {
 .portfolio-filter li {
   list-style: none;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   color: #1c2325;
   text-transform: capitalize;
   cursor: pointer;
@@ -11741,7 +11740,7 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 .portfolio-filter li.active {
-  color: rgb(0, 78, 236);
+  color: rgb(46, 201, 97);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }

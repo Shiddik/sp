@@ -2,11 +2,10 @@
   padding-left: 0;
   display: flex;
   align-items: center;
-  gap: 20px 50px;
+  gap: 20px 37px;
   justify-content: center;
   margin-bottom: 70px;
   flex-wrap: wrap;
-  margin-top: -8px;
 
   @include rmaxwd(991) {
     margin-bottom: 50px;
@@ -15,14 +14,14 @@
   li {
     list-style: none;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     color: $black;
     text-transform: capitalize;
     cursor: pointer;
     @include transition;
 
     &.active {
-      color: $blue-color;
+      color: $orange-color;
       @include transition;
     }
   }
