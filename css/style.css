@@ -12121,6 +12121,7 @@ ul.children {
 
 .feature-area.style-2 .feature-area-wrapper {
   padding: 50px;
+  border-radius: 12px;
 }
 
 .skill-progressbar-area {
@@ -12130,6 +12131,7 @@ ul.children {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  margin-top: -314px;
 }
 
 .portfolio-filter-area {
