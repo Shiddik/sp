@@ -11228,7 +11228,7 @@ ul.children {
   font-size: 48px;
 }
 .comment-respond.style-2 label {
-  color: #c7cdda;
+  color: #abb2c1;
 }
 .comment-respond.style-2 .nice-select:after {
   border-color: transparent transparent #c7cdda transparent;
@@ -11244,14 +11244,15 @@ ul.children {
 .comment-respond.style-2 .single-input-field select,
 .comment-respond.style-2 .single-input-field textarea {
   background-color: transparent;
-  color: #c7cdda;
-  border-color: #739bbf !important;
+  color: #abb2c1;
+  border-color: rgba(255, 255, 255, 0.3019607843) !important;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 .comment-respond.style-2 .single-input-field .nice-select {
-  color: #c7cdda;
-  border-color: #739bbf !important;
+  color: #abb2c1;
+  border-color: rgba(255, 255, 255, 0.3019607843) !important;
+  font-family: "Roboto", sans-serif;
 }
 .comment-respond.style-2 .single-input-field input:focus,
 .comment-respond.style-2 .single-input-field textarea:focus,
@@ -11260,31 +11261,31 @@ ul.children {
   border-color: #00c6ff !important;
 }
 .comment-respond.style-2 .single-input-field *::-webkit-input-placeholder {
-  color: #c7cdda;
+  color: #abb2c1;
 }
 .comment-respond.style-2 .single-input-field *::-moz-placeholder {
-  color: #c7cdda;
+  color: #abb2c1;
   opacity: 1;
 }
 .comment-respond.style-2 .single-input-field *:-ms-input-placeholder {
-  color: #c7cdda;
+  color: #abb2c1;
 }
 .comment-respond.style-2 .single-input-field *::-ms-input-placeholder {
-  color: #c7cdda;
+  color: #abb2c1;
 }
 .comment-respond.style-2 .single-input-field *::placeholder {
-  color: #c7cdda;
+  color: #abb2c1;
 }
 .comment-respond.style-2 .checkbox-field-wrapper .single-checkbox-field .form-check-input,
 .comment-respond.style-2 .checkbox-field-wrapper .wpcf7-list-item .form-check-input {
   background-color: transparent;
-  border-color: #739bbf !important;
+  border-color: rgba(255, 255, 255, 0.3019607843) !important;
 }
 .comment-respond.style-2 .checkbox-field-wrapper .single-checkbox-field input[type=checkbox],
 .comment-respond.style-2 .checkbox-field-wrapper .single-checkbox-field input[type=radio],
 .comment-respond.style-2 .checkbox-field-wrapper .wpcf7-list-item input[type=checkbox],
 .comment-respond.style-2 .checkbox-field-wrapper .wpcf7-list-item input[type=radio] {
-  border-color: #739bbf !important;
+  border-color: rgba(255, 255, 255, 0.3019607843) !important;
 }
 .comment-respond.style-2 .checkbox-field-wrapper .single-checkbox-field input[type=checkbox]:checked,
 .comment-respond.style-2 .checkbox-field-wrapper .single-checkbox-field input[type=radio]:checked,
@@ -11334,7 +11335,6 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 .team-member-card .content-wrapper {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11350,8 +11350,8 @@ ul.children {
           flex-direction: column;
   padding: 0 36px;
   width: 100%;
-  bottom: -88px;
   z-index: 2;
+  margin-top: -36px;
 }
 .team-member-card .content-wrapper .content {
   width: 100%;
@@ -11371,6 +11371,9 @@ ul.children {
           align-items: center;
   background: #ffffff;
   border-top: 3px solid #00c6ff;
+  -webkit-box-shadow: 0px 3px 36px 0px rgba(1, 9, 86, 0.1);
+          box-shadow: 0px 3px 36px 0px rgba(1, 9, 86, 0.1);
+  border-radius: 0 0 6px 6px;
   z-index: 1;
   gap: 5px;
 }
@@ -12072,11 +12075,16 @@ ul.children {
   background-size: cover;
 }
 
-.faq-area {
+.faq-area.style-2 {
   padding-top: 120px;
   padding-bottom: 120px;
   background: -webkit-gradient(linear, right top, left top, color-stop(50%, #0c2e71), color-stop(50%, #e9f5f6));
   background: linear-gradient(to left, #0c2e71 50%, #e9f5f6 50%);
+}
+
+.team-area {
+  padding-top: 120px;
+  padding-bottom: 96px;
 }
 
 .about-page-about-us-area {
@@ -12540,17 +12548,7 @@ ul.children {
 }
 
 .team-space {
-  margin-top: 30px;
-}
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  .team-space {
-    margin-top: 85px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team-space {
-    margin-top: 85px;
-  }
+  margin-bottom: 24px;
 }
 
 .blog-grid-area {

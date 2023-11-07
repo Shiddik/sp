@@ -38,15 +38,15 @@
     }
   }
   .content-wrapper {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0 36px;
     width: 100%;
-    bottom: -88px;
     z-index: 2;
+    margin-top: -36px;
+
     .content {
       width: 100%;
       padding: 30px 20px;
@@ -56,6 +56,8 @@
       align-items: center;
       background: $white;
       border-top: 3px solid $sky-color;
+      box-shadow: 0px 3px 36px 0px rgba(1, 9, 86, 0.1);
+      border-radius: 0 0 6px 6px;
       z-index: 1;
       gap: 5px;
 

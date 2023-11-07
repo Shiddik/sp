@@ -173,7 +173,7 @@
       }
     }
     label {
-      color: $white-100;
+      color: #abb2c1;
     }
 
     .nice-select:after {
@@ -192,13 +192,15 @@
       select,
       textarea {
         background-color: transparent;
-        color: $white-100;
-        border-color: #739bbf !important;
+        color: #abb2c1;
+        border-color: #FFFFFF4D !important;
         box-shadow: none;
       }
+
       .nice-select {
-        color: $white-100;
-        border-color: #739bbf !important;
+        color: #abb2c1;
+        border-color: #FFFFFF4D !important;
+        font-family: $body-font;
       }
       input:focus,
       textarea:focus,
@@ -207,24 +209,24 @@
         border-color: $sky-color !important;
       }
       *::-webkit-input-placeholder {
-        color: $white-100;
+        color: #abb2c1;
       }
       *:-moz-placeholder {
-        color: $white-100;
+        color: #abb2c1;
         opacity: 1;
       }
       *::-moz-placeholder {
-        color: $white-100;
+        color: #abb2c1;
         opacity: 1;
       }
       *:-ms-input-placeholder {
-        color: $white-100;
+        color: #abb2c1;
       }
       *::-ms-input-placeholder {
-        color: $white-100;
+        color: #abb2c1;
       }
       *::placeholder {
-        color: $white-100;
+        color: #abb2c1;
       }
     }
     .checkbox-field-wrapper {
@@ -232,11 +234,11 @@
       .wpcf7-list-item {
         .form-check-input {
           background-color: transparent;
-          border-color: #739bbf !important;
+          border-color: #FFFFFF4D !important;
         }
         input[type="checkbox"],
         input[type="radio"] {
-          border-color: #739bbf !important;
+          border-color: #FFFFFF4D !important;
         }
         input[type="checkbox"]:checked,
         input[type="radio"]:checked {
