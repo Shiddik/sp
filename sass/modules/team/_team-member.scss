@@ -45,7 +45,7 @@
     flex-direction: column;
     padding: 0 36px;
     width: 100%;
-    bottom: -36px;
+    bottom: -88px;
     z-index: 2;
     .content {
       width: 100%;
@@ -54,7 +54,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: $primary-color;
+      background: $white;
+      border-top: 3px solid $sky-color;
       z-index: 1;
       gap: 5px;
 
@@ -62,7 +63,7 @@
         font-size: 24px;
         line-height: 32px;
         font-weight: 700;
-        color: $white;
+        color: $black;
         font-family: $heading-font;
         margin: 0;
       }
@@ -70,8 +71,8 @@
         font-size: 16px;
         line-height: 28px;
         font-weight: 400;
-        color: $white-100;
-        font-family: $heading-font;
+        color: $text-color;
+        font-family: $body-font;
         margin: 0;
       }
     }

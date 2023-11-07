@@ -11484,7 +11484,7 @@ ul.children {
           flex-direction: column;
   padding: 0 36px;
   width: 100%;
-  bottom: -36px;
+  bottom: -88px;
   z-index: 2;
 }
 .team-member-card .content-wrapper .content {
@@ -11503,7 +11503,8 @@ ul.children {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgb(0, 78, 236);
+  background: #ffffff;
+  border-top: 3px solid #00c6ff;
   z-index: 1;
   gap: 5px;
 }
@@ -11511,7 +11512,7 @@ ul.children {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
-  color: #ffffff;
+  color: #1c2325;
   font-family: "Barlow", sans-serif;
   margin: 0;
 }
@@ -11519,8 +11520,8 @@ ul.children {
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
-  color: #c7cdda;
-  font-family: "Barlow", sans-serif;
+  color: #6d768a;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 .team-member-card .content-wrapper .social {
@@ -12657,12 +12658,10 @@ ul.children {
 }
 
 .team-space {
-  padding: 0 37px;
   margin-top: 30px;
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .team-space {
-    padding: 0 10px;
     margin-top: 85px;
   }
 }
