@@ -5488,8 +5488,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-info-card .about-info-content .quote-text {
   padding-left: 40px;
-  border-left: 6px solid rgb(0, 78, 236);
+  border-left: 6px solid #00c6ff;
   font-style: italic;
+  font-size: 21px;
+  color: #6d768a;
+  font-family: "Roboto", sans-serif;
 }
 .about-info-card .about-info-content .quote-text .quote-text-meta {
   display: -webkit-box;
@@ -5600,8 +5603,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
 }
 .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .icon {
-  width: 42px;
-  height: 42px;
+  width: 72px;
+  height: 72px;
 }
 .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .content {
   gap: 4px;
@@ -6093,6 +6096,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #c7cdda;
 }
 
+.counter-card.style-2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .counter-card.style-2 .counter-item .counter-title {
   text-align: left;
   -webkit-box-orient: vertical;
@@ -11684,7 +11692,7 @@ ul.children {
   }
 }
 .about-us-area.style-2 .about-info-card .about-info-content {
-  padding-left: 120px;
+  padding-left: 100px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .about-us-area.style-2 .about-info-card .about-info-content .text {

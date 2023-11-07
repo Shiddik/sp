@@ -64,8 +64,11 @@
     }
     .quote-text {
         padding-left: 40px;
-        border-left: 6px solid $primary-color;
+        border-left: 6px solid $sky-color;
         font-style: italic;
+        font-size: 21px;
+        color: #6d768a;
+        font-family: $body-font;
 
       .quote-text-meta {
         display: flex;
