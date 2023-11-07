@@ -167,16 +167,10 @@
 }
 
 
-// Client Logo Area
+// Brand Slider Logo Area
 .brand-slider-area {
-  &.style-1 {
-    padding-top: 93px;
-    padding-bottom: 93px;
-
-    @include rmaxwd(767) {
-      padding: 70px 0;
-    }
-  }
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 // News Area
 .latest-posts-area {
