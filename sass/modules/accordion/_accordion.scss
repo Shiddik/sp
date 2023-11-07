@@ -8,12 +8,6 @@
       padding: 12px 0;
       position: relative;
 
-      //&:before {
-      //  content: "\f068";
-      //  font-family: $font-awesome;
-      //  color: $white;
-      //  font-weight: 700;
-      //}
       &:before {
         content: "\f068";
         font-family: $font-awesome;
@@ -29,14 +23,6 @@
         flex-shrink: 0;
       }
       &.collapsed {
-        //&:before {
-        //  position: relative;
-        //  content: "\2b";
-        //  font-family: $font-awesome;
-        //  color: $white;
-        //  font-weight: 700;
-        //}
-
         &:before {
           content: "\2b";
           font-family: $font-awesome;
@@ -63,8 +49,6 @@
     }
     .accordion-item-body {
       color: $white-100;
-      padding-left: 50px;
-      padding-bottom: 3px;
       @include transition;
     }
   }

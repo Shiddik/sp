@@ -134,6 +134,23 @@
     padding-bottom: 96px;
   }
 }
+
+// Map Area
+.map-area {
+  margin-bottom: -120px;
+  position: relative;
+  z-index: 9;
+
+  .map-card {
+    iframe {
+      width: 100%;
+      height: 390px;
+      border-radius: 12px;
+    }
+  }
+}
+
+
 //// Counter Area Two
 //.counter-up-area {
 //  &.style-2 {
