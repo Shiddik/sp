@@ -246,31 +246,31 @@
         /*
        Testimonial Slider
        ============================*/
-        $("#home3_testimonial").slick({
-            slidesToShow: 2,
-            infinite: true,
-            autoplay: true,
-            draggable: true,
-            arrows: true,
-            slidesToScroll: 1,
-            loop: true,
-            dots: true,
-            speed: 1500,
-            rtl: false,
-            prevArrow:
-                "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
-            nextArrow:
-                "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
-            responsive: [
-                {
-                    breakpoint: 1023,
-                    settings: {
-                        autoplay: true,
-                        slidesToShow: 1,
-                    },
-                }
-            ],
-        });
+        // $("#home3_testimonial").slick({
+        //     slidesToShow: 2,
+        //     infinite: true,
+        //     autoplay: true,
+        //     draggable: true,
+        //     arrows: true,
+        //     slidesToScroll: 1,
+        //     loop: true,
+        //     dots: true,
+        //     speed: 1500,
+        //     rtl: false,
+        //     prevArrow:
+        //         "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
+        //     nextArrow:
+        //         "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
+        //     responsive: [
+        //         {
+        //             breakpoint: 1023,
+        //             settings: {
+        //                 autoplay: true,
+        //                 slidesToShow: 1,
+        //             },
+        //         }
+        //     ],
+        // });
 
 
         /*
@@ -309,21 +309,17 @@
             $('.testimonial-slider-wrapper .next-btn').trigger('click');
         });
 
-        $("#testimonial_three").slick({
+        $("#testimonial_slider_two").slick({
             slidesToShow: 1,
             infinite: true,
             autoplay: true,
             draggable: true,
-            arrows: true,
+            arrows: false,
             slidesToScroll: 1,
             loop: true,
             dots: true,
             speed: 1500,
             rtl: false,
-            prevArrow:
-                "<button type='button' class='testimonial-arrow-btn prev-btn'><i class='fa-solid fa-angle-left'></i></button>",
-            nextArrow:
-                "<button type='button' class='testimonial-arrow-btn next-btn'><i class='fa-solid fa-angle-right'></i></button>",
             responsive: [
                 {
                     breakpoint: 767,
