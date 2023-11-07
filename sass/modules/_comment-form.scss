@@ -10,7 +10,7 @@
     font-size: 18px;
     font-weight: 700;
     font-family: $heading-font;
-    color: $orange-color;
+    color: $sky-color;
     display: inline-block;
     width: 100%;
     margin-bottom: 15px;
@@ -155,10 +155,10 @@
 
 
 .comment-respond {
-  &.style-two {
+  &.style-2 {
     margin: 0;
     background-color: transparent;
-    padding: 82px 88px 82px 6px;
+    padding: 0;
 
     @include md {
       padding: 50px;
@@ -169,6 +169,7 @@
     .post-comments-title {
       h2 {
         color: $white;
+        font-size: 48px;
       }
     }
     label {
@@ -244,19 +245,19 @@
       }
     }
   }
-  &.style-three {
-    margin: 0;
-    input,
-    select,
-    textarea {
-      border: 1px solid rgb(223, 226, 233) !important;
-      box-shadow: none;
-    }
-    input:focus,
-    textarea:focus,
-    .form-select:focus,
-    .nice-select:focus {
-      border-color: $primary-color !important;
-    }
-  }
+  //&.style-three {
+  //  margin: 0;
+  //  input,
+  //  select,
+  //  textarea {
+  //    border: 1px solid rgb(223, 226, 233) !important;
+  //    box-shadow: none;
+  //  }
+  //  input:focus,
+  //  textarea:focus,
+  //  .form-select:focus,
+  //  .nice-select:focus {
+  //    border-color: $primary-color !important;
+  //  }
+  //}
 }

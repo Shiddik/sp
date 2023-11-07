@@ -8,19 +8,48 @@
       padding: 12px 0;
       position: relative;
 
+      //&:before {
+      //  content: "\f068";
+      //  font-family: $font-awesome;
+      //  color: $white;
+      //  font-weight: 700;
+      //}
       &:before {
         content: "\f068";
         font-family: $font-awesome;
+        background-color: $sky-color;
         color: $white;
-        font-weight: 700;
+        font-size: 12px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
       }
       &.collapsed {
+        //&:before {
+        //  position: relative;
+        //  content: "\2b";
+        //  font-family: $font-awesome;
+        //  color: $white;
+        //  font-weight: 700;
+        //}
+
         &:before {
-          position: relative;
           content: "\2b";
           font-family: $font-awesome;
-          color: $white;
-          font-weight: 700;
+          background-color: $white;
+          border-radius: 50px;
+          color: $black;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 30px;
+          height: 30px;
+          flex-shrink: 0;
         }
       }
 
