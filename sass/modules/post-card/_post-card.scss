@@ -477,14 +477,11 @@
 // Author
 .author-info {
   background-color: $gray-50;
-  padding: 90px 45px 45px 45px;
+  padding: 50px;
   display: flex;
   gap: 30px;
-  border-radius: 14px;
-  flex-direction: column;
+  border-radius: 12px;
   position: relative;
-  justify-content: center;
-  text-align: center;
   margin-top: 130px;
   margin-bottom: 70px;
 
@@ -492,18 +489,20 @@
     flex-shrink: 0;
     width: 120px;
     height: 120px;
-    border-radius: 50px;
+    border-radius: 8px;
     overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
     img {
-      border-radius: 50%;
+      border-radius: 12px;
     }
   }
   .author-text {
+    .author-meta-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
     h3 {
       font-size: 24px;
       font-weight: 700;
@@ -522,40 +521,47 @@
     }
   }
   .author-social-profiles {
-    margin-top: 20px;
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    gap: 16px;
 
     a {
-      font-size: 18px;
-      color: $white;
+      font-size: 21px;
+      color: $blue-color;
       @include transition;
-      width: 44px;
-      height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: $primary-color;
-      border-radius: 10px;
+
+      i {
+        &.fa-facebook-f {
+          color:#1877f2;
+        }
+        &.fa-twitter {
+          color: #1da1f2;
+        }
+        &.fa-linkedin-in {
+          color: #0a66c2;
+        }
+        &.fa-youtube {
+          color: #ff0000;
+        }
+      }
       &:hover {
         @include transition;
-        background-color: $white;
         color: $primary-color;
       }
     }
   }
   .author-post {
-    a {
-      font-size: 16px;
-      font-weight: 700;
-      font-family: $heading-font;
-      color: $secondary-color;
-      border-bottom: 2px solid $orange-color;
-      margin-top: 30px;
-      display: inline-block;
+    display: block;
+    margin-top: 30px;
 
-      &:hover {
+    .simple-btn {
+      font-size: 18px;
+      font-weight: 700;
+      color: $black;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+
+      i {
         color: $orange-color;
       }
     }
@@ -566,23 +572,18 @@
 .blog-post-nav {
   margin: 40px 0;
   background: #fff;
-  padding: 23px 30px;
   padding-bottom: 22px;
-  border-radius: 8px;
-  border: 1px solid rgb(223, 226, 233);
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 45px;
 
 
   @media only screen and (min-width: 992px) and (max-width: 1024px) {
     flex-direction: column;
-    padding: 30px;
     margin: 30px 0;
   }
   @include rmaxwd(767) {
     flex-direction: column;
-    padding: 30px;
     margin: 30px 0;
   }
 
@@ -627,10 +628,10 @@
       }
     }
     .post-img {
-      width: 96px;
-      height: 96px;
+      width: 120px;
+      height: 120px;
       position: relative;
-      border-radius: 6px;
+      border-radius: 50%;
       overflow: hidden;
       flex-shrink: 0;
 
@@ -656,13 +657,23 @@
         text-transform: capitalize;
         font-weight: 700;
         color: $black;
-        display: flex;
+        display: inline-flex;
+        border: 1px solid $orange-color;
+        padding: 4px 16px;
+        border-radius: 6px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+
+        &:hover {
+          background-color: $orange-color;
+          color: $white;
+        }
       }
       h4 {
         font-size: 21px;
         margin: 0;
         line-height: 30px;
-        text-transform: capitalize;
       }
     }
   }
