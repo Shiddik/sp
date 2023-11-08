@@ -34,9 +34,9 @@
     }
 
     &:hover {
-      background: $orange-color !important;
+      background: $blue-color !important;
       color: $white;
-      border-color: $orange-color;
+      border-color: $blue-color;
       @include transition;
     }
   }
@@ -52,10 +52,10 @@
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  justify-content: center;
 
   ul {
     display: inline-flex;
-    width: 100%;
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
@@ -85,12 +85,12 @@
     color: $text-color;
     background-color: $white;
     border-radius: 6px;
-    height: 53px;
-    width: 53px;
+    height: 64px;
+    width: 64px;
     @include transition;
     font-size: 18px;
-    font-weight: 500;
-    border: 1px solid $gray-300;
+    font-weight: 400;
+    border: 1px solid #C9CFDCFF;
     text-transform: capitalize;
 
     @include rmaxwd(767) {
@@ -99,16 +99,16 @@
       font-size: 16px;
     }
     &:hover {
-      background: $orange-color !important;
+      background: $blue-color !important;
       color: $white;
-      border-color: $orange-color;
+      border-color: $blue-color;
       @include transition;
     }
 
     &.current {
-      background: $orange-color !important;
+      background: $blue-color !important;
       color: $white;
-      border-color: $orange-color;
+      border-color: $blue-color;
       @include transition;
     }
 

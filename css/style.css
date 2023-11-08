@@ -8793,9 +8793,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .comment-navigation .wp-block-query-pagination-next:hover,
 .comment-navigation .nav-next a:hover,
 .comment-navigation .nav-previous a:hover {
-  background: rgb(46, 201, 97) !important;
+  background: rgb(0, 78, 236) !important;
   color: #ffffff;
-  border-color: rgb(46, 201, 97);
+  border-color: rgb(0, 78, 236);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -8814,6 +8814,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .basic-pagination ul,
 .page-links ul,
@@ -8821,7 +8824,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -8868,13 +8870,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #6d768a;
   background-color: #ffffff;
   border-radius: 6px;
-  height: 53px;
-  width: 53px;
+  height: 64px;
+  width: 64px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   font-size: 18px;
-  font-weight: 500;
-  border: 1px solid #ced9da;
+  font-weight: 400;
+  border: 1px solid #c9cfdc;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -8895,9 +8897,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .page-links .post-page-numbers:hover,
 .wp-block-query-pagination-numbers .page-numbers:hover,
 .wp-block-query-pagination-numbers .post-page-numbers:hover {
-  background: rgb(46, 201, 97) !important;
+  background: rgb(0, 78, 236) !important;
   color: #ffffff;
-  border-color: rgb(46, 201, 97);
+  border-color: rgb(0, 78, 236);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -8907,9 +8909,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .page-links .post-page-numbers.current,
 .wp-block-query-pagination-numbers .page-numbers.current,
 .wp-block-query-pagination-numbers .post-page-numbers.current {
-  background: rgb(46, 201, 97) !important;
+  background: rgb(0, 78, 236) !important;
   color: #ffffff;
-  border-color: rgb(46, 201, 97);
+  border-color: rgb(0, 78, 236);
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
