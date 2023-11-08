@@ -650,13 +650,13 @@
     .text {
       width: 100%;
 
-      span {
-        font-size: 14px;
+      .prev-next-btn {
+        font-size: 16px;
         font-family: $heading-font;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-weight: 700;
-        display: block;
-        color: #ff5b5b;
+        color: $black;
+        display: flex;
       }
       h4 {
         font-size: 21px;

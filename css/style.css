@@ -7786,13 +7786,15 @@ body.admin-bar .header-menu-area.sticky_menu {
 .blog-post-nav .post-navigation .text {
   width: 100%;
 }
-.blog-post-nav .post-navigation .text span {
-  font-size: 14px;
+.blog-post-nav .post-navigation .text .prev-next-btn {
+  font-size: 16px;
   font-family: "Barlow", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
-  display: block;
-  color: #ff5b5b;
+  color: #1c2325;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .blog-post-nav .post-navigation .text h4 {
   font-size: 21px;
@@ -10977,7 +10979,7 @@ ul.children {
 /*Comment Input Filed*/
 .post-comments-title .sub-title {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   font-family: "Barlow", sans-serif;
   color: rgb(0, 78, 236);
   display: inline-block;
@@ -10985,9 +10987,9 @@ ul.children {
   margin-bottom: 15px;
 }
 .post-comments-title h2 {
-  font-size: 36px;
+  font-size: 48px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 700;
   color: #1c2325;
   margin-bottom: 40px;
   display: -webkit-box;
@@ -11028,7 +11030,7 @@ ul.children {
 .comment-respond label {
   display: block;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   color: #778196;
   margin-bottom: 12px;
 }
