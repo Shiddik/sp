@@ -58,9 +58,14 @@
     position: relative;
 
     &:before {
-      content: "\f0da";
-      font-family: $font-awesome;
-      margin-right: 6px;
+      //content: "\f0da";
+      //font-family: $font-awesome;
+      content: "";
+      width: 5px;
+      height: 18px;
+      background-color: $sky-color;
+      border-radius: 50px;
+      margin-right: 11px;
       color: $sky-color;
       font-size: 18px;
     }

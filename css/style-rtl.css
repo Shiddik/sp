@@ -7024,7 +7024,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 48px;
-  border: 1px solid #dfe2e9;
+  border: 1px solid #ced9da;
   /* Quote Format Post */
   /* Sticky Post */
 }
@@ -7347,7 +7347,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .single-post-item .post-meta span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #6d768a;
   text-transform: capitalize;
@@ -7387,7 +7387,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .author-info {
-  background-color: #eef5f8;
+  background-color: #e9f5f6;
   padding: 90px 45px 45px 45px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8586,8 +8586,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .page-overlay {
-  background-image: linear-gradient(-135deg, rgb(30, 174, 152) 0%, rgb(0, 91, 172) 100%);
-  opacity: 0.6;
+  background-color: rgba(8, 82, 148, 0.71);
   height: 100%;
   right: 0;
   position: absolute;
@@ -8763,7 +8762,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
   font-size: 18px;
   font-weight: 500;
-  border: 1px solid #dfe2e9;
+  border: 1px solid #ced9da;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -8875,7 +8874,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
   font-size: 18px;
   font-weight: 500;
-  border: 1px solid #dfe2e9;
+  border: 1px solid #ced9da;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -9520,7 +9519,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 /* Widget */
 .widget {
-  background-color: #eef5f8;
+  background-color: #e9f5f6;
   padding: 36px;
   border-radius: 8px;
   margin-bottom: 48px;
@@ -9583,9 +9582,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .widget .wp-block-heading:before,
 .widget .widget-title:before,
 .widget .wp-block-search__label:before {
-  content: "\f0da";
-  font-family: "Font Awesome 6 Pro";
-  margin-left: 6px;
+  content: "";
+  width: 5px;
+  height: 18px;
+  background-color: #00c6ff;
+  border-radius: 50px;
+  margin-left: 11px;
   color: #00c6ff;
   font-size: 18px;
 }
@@ -9879,7 +9881,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .widget ol li {
   display: block;
   padding: 10px 0;
-  border-bottom: 1px solid #dfe2e9;
+  border-bottom: 1px solid #ced9da;
   /* Recent Comment Widget */
 }
 .widget ul li:first-child,
@@ -9995,7 +9997,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           align-items: center;
   gap: 10px;
   padding-top: 30px;
-  border-top: 1px solid #dfe2e9;
+  border-top: 1px solid #ced9da;
   width: 100%;
   margin-top: 10px;
 }
@@ -10478,7 +10480,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 38px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #dfe2e9;
+  border: 1px solid #ced9da;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10647,7 +10649,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .latest-comments li .comments-box {
   padding: 50px;
-  border: 1px solid #dfe2e9;
+  border: 1px solid #ced9da;
   border-radius: 8px;
   margin-bottom: 24px;
 }
@@ -10795,7 +10797,7 @@ ul.children {
 }
 
 .comment-respond {
-  background-color: #eef5f8;
+  background-color: #e9f5f6;
   padding: 50px;
   border-radius: 18px;
   position: relative;
@@ -11973,7 +11975,7 @@ ul.children {
 }
 
 .pricing-page-price-card-wrapper {
-  background-color: #eef5f8;
+  background-color: #e9f5f6;
   padding-top: 140px;
   padding-bottom: 140px;
 }
@@ -12062,7 +12064,7 @@ ul.children {
   color: #1c2325;
   border-radius: 6px;
   padding: 26px 35px;
-  background: #eef5f8;
+  background: #e9f5f6;
   display: inline-block;
   width: 100%;
   -webkit-transition: all 0.5s ease-out;
