@@ -9,9 +9,24 @@
 .wp-block-comments {
   h2,
   .wp-block-comments-title {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-top: -10px;
+
+    @include sm {
+      font-size: 32px;
+      line-height: 34px;
+    }
+    @include md {
+      font-size: 38px;
+      line-height: 42px;
+    }
+    @include lg {
+      font-size: 42px;
+      line-height: 56px;
+    }
   }
 }
 /* Block Comment Start */
@@ -44,13 +59,13 @@
           }
         }
         .wp-block-comment-author-name {
-            a {
-              font-size: 21px;
-              margin-bottom: 5px;
-              font-weight: 700;
-              font-family: $heading-font;
-              color: $secondary-color;
-            }
+          a {
+            font-size: 21px;
+            margin-bottom: 5px;
+            font-weight: 500;
+            font-family: $heading-font;
+            color: $secondary-color;
+          }
         }
         .wp-block-comment-edit-link {
           a {
@@ -67,21 +82,21 @@
           }
         }
         .wp-block-comment-reply-link {
-           a {
-             border-radius: 6px;
-             font-size: 14px;
-             font-weight: 700;
-             color: $secondary-color;
-             border: 1px solid $orange-color;
-             padding: 4px 26px;
-             display: inline-block;
+          a {
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            color: $secondary-color;
+            border: 1px solid $primary-color;
+            padding: 4px 26px;
+            display: inline-block;
 
-             &:hover {
-               background-color: $orange-color;
-               color: $white;
-               @include transition;
-             }
-           }
+            &:hover {
+              background-color: $primary-color;
+              color: $white;
+              @include transition;
+            }
+          }
         }
       }
     }
@@ -91,35 +106,63 @@
 /* Block Comment End */
 .latest-comments {
   .comment-respond {
-    margin-top: 80px;
+    margin-top: 30px;
   }
   li {
+    &.comment {
+      padding: 0;
+
+      .comments-box {
+        padding-top: 48px;
+        padding-bottom: 13px;
+        border-top: 1px solid $gray-300;
+      }
+
+
+      .children {
+        li {
+          &.comment {
+            .comments-box {
+              border-top: 1px solid $gray-300;
+            }
+          }
+        }
+      }
+
+      &:first-child {
+        .comments-box {
+          border-top: 0;
+        }
+      }
+    }
 
     .children {
+      padding-left: 0;
+
       .comments-box {
-        margin-left: 50px;
+        margin-left: 106px;
 
         @include sm {
           margin-left: 0;
         }
       }
-      .children {
-        .comments-box {
-          margin-left: 100px;
-          border-top: 1px solid #D2D2D2;
-        }
-      }
+      //.children {
+      //  .comments-box {
+      //    margin-left: 100px;
+      //    border-top: 1px solid #D2D2D2;
+      //  }
+      //}
     }
 
     .comments-box {
-      padding: 50px;
-      border: 1px solid $gray-300;
-      border-radius: 8px;
-      margin-bottom: 24px;
-
-      @include rmaxwd(767) {
-        padding: 30px;
-      }
+      //padding: 50px;
+      //border-bottom: 1px solid $gray-300;
+      ////border-radius: 8px;
+      //margin-bottom: 24px;
+      //
+      //@include rmaxwd(767) {
+      //  padding: 30px;
+      //}
       .comments-avatar {
         float: left;
 
@@ -128,13 +171,13 @@
           margin-bottom: 20px;
         }
         img {
-          margin-right: 30px;
-          width: 100px;
-          border-radius: 50px;
+          margin-right: 23px;
+          width: 84px;
+          border-radius: 8px;
         }
       }
       .comments-text {
-          overflow: hidden;
+        overflow: hidden;
 
 
         p {
@@ -142,25 +185,28 @@
           line-height: 30px;
           margin-bottom: 20px;
           color: $text-color;
+          font-family: $body-font;
         }
         .avatar-name {
           margin-bottom: 10px;
           position: relative;
 
           h5 {
-            font-size: 21px;
+            font-size: 24px;
             margin-bottom: 5px;
-            font-weight: 700;
+            font-weight: 500;
             font-family: $heading-font;
             display: flex;
             align-items: center;
             justify-content: space-between;
           }
+
           span {
-            color: #9ba8c3;
+            color: #abb0ba;
             font-size: 16px;
             font-weight: 400;
             font-family: $body-font;
+            font-style: italic;
 
             @include sm {
               display: inline-block;
@@ -171,16 +217,50 @@
         .comment-reply-link {
           display: inline-flex;
           align-items: center;
-          border-radius: 6px;
-          font-size: 14px;
-          font-weight: 700;
+          border-radius: 50px;
+          font-size: 16px;
+          font-weight: 500;
           color: $secondary-color;
-          border: 1px solid $orange-color;
-          padding: 4px 26px;
+          border: 1px solid $primary-color;
+          padding: 5px 30px;
           gap: 8px;
           position: absolute;
           top: 0;
           right: 0;
+
+          //
+          //.btn_outline {
+          //  position: absolute;
+          //  left: 0px;
+          //  top: 0px;
+          //  width: 1920px;
+          //  height: 5555px;
+          //  z-index: 155;
+          //}
+          //.Reply {
+          //  font-size: 16px;
+          //  font-family: "Myriad Pro";
+          //  color: rgb(38, 38, 44);
+          //  line-height: 2.25;
+          //  text-align: left;
+          //  position: absolute;
+          //  left: 1054.937px;
+          //  top: 3573.546px;
+          //  z-index: 154;
+          //}
+          //.bg {
+          //  border-style: solid;
+          //  border-width: 1px;
+          //  border-color: rgb(33, 174, 224);
+          //  background-color: rgba(53, 62, 235, 0);
+          //  position: absolute;
+          //  left: 1023px;
+          //  top: 3533px;
+          //  width: 102px;
+          //  height: 46px;
+          //  z-index: 153;
+          //}
+
 
           @include sm {
             position: unset;
@@ -188,7 +268,7 @@
           }
 
           &:hover {
-            background-color: $orange-color;
+            background-color: $primary-color;
             color: $white;
             @include transition;
           }
@@ -209,6 +289,7 @@
 }
 ul.children {
   list-style: none;
+
 }
 
 

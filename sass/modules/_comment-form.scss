@@ -8,9 +8,9 @@
 .post-comments-title {
   .sub-title {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: $heading-font;
-    color: $sky-color;
+    color: $primary-color;
     display: inline-block;
     width: 100%;
     margin-bottom: 15px;
@@ -18,7 +18,7 @@
   h2 {
     font-size: 36px;
     line-height: 28px;
-    font-weight: 700;
+    font-weight: 500;
     color: $secondary-color;
     margin-bottom: 40px;
     display: flex;
@@ -36,9 +36,6 @@
   }
 }
 .comment-respond {
-  background-color: $gray-50;
-  padding: 50px;
-  border-radius: 18px;
   position: relative;
 
   @include sm {
@@ -56,7 +53,7 @@
   label {
     display: block;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: $black-300;
     margin-bottom: 12px;
   }
@@ -98,10 +95,10 @@
     width: 100%;
     color: $black-300;
     opacity: 1;
-    border: 1px solid transparent !important;
-    box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
-    border-radius: 5px;
-    font-size: 16px;
+    border: 1px solid $gray-300 !important;
+    //box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
+    border-radius: 6px;
+    font-size: 18px;
     font-weight: 400;
     background-color: $white;
     font-family: $body-font !important;
@@ -133,14 +130,14 @@
     padding: 20px;
     width: 100%;
     color: $black-300;
-    border: 1px solid transparent !important;
-    box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
-    border-radius: 5px;
-    font-size: 16px;
+    border: 1px solid $gray-300 !important;
+    //box-shadow: 0px 10px 30px 0px rgba(4, 43, 77, 0.04);
+    border-radius: 6px;
+    font-size: 18px;
     font-weight: 400;
     background-color: $white;
     font-family: $body-font !important;
-    height: 192px;
+    height: 190px;
     margin-bottom: 12px;
   }
   input:focus,

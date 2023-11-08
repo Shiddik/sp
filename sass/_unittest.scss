@@ -22,7 +22,7 @@ ul {
   label {
     width: 100%;
     display: block;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
   }
   input[type="password"] {
@@ -38,7 +38,7 @@ ul {
     padding: 10px 40px;
     color: $white;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 500;
     @include transition;
 
     &:hover {
@@ -46,7 +46,9 @@ ul {
     }
   }
 }
-
+.textwidget p >strong {
+  color: $black;
+}
 /* Table */
 table {
   margin-bottom: 20px;
@@ -56,6 +58,7 @@ table {
     border: 1px solid #dfe2e9;
     padding: 6px 10px;
     border-top: 0;
+    color: $text-color;
   }
   th,
   td,
@@ -65,6 +68,7 @@ table {
     text-align: center;
     padding: 8px;
     transition: .3s;
+    color: $text-color;
 
     &#today {
       background: $primary-color;
@@ -252,7 +256,7 @@ img {
  Block Unit Test Widget
 ============================*/
 .wp-block-search__input {
-  border: 1px solid #dfe2e9 !important;
+  border: 1px solid $gray-300 !important;
 }
 .wp-block-search__button {
   margin-left: 0 !important;
@@ -303,16 +307,17 @@ blockquote {
   //}
   p {
     font-family: $body-font;
-    font-size: 24px;
-    color: #5e6f92;
-    line-height: 32px;
+    font-size: 21px;
+    color: #8f939b;
+    line-height: initial;
     font-weight: 400;
+    margin: 0 !important;
     //margin-top: 10px;
     font-style: italic;
 
     @include sm {
       font-size: 18px;
-      line-height: 28px;
+      line-height: initial;
     }
     a {
       color: $primary-color;
@@ -322,12 +327,21 @@ blockquote {
   footer {
     font-family: $heading-font;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: capitalize;
     color: $secondary-color;
     margin-top: 20px;
   }
 }
+.wp-block-group.has-background,
+.wp-block-columns.has-background,
+.wp-block-columns .has-background
+{
+  p {
+    color: $secondary-color;
+  }
+}
+
 .wp-block-quote, blockquote {
   border-left: solid 5px $primary-color;
 }
@@ -356,6 +370,15 @@ blockquote {
   max-width: calc(100% + 20px);
 }
 .post-content {
+  h2.has-small-font-size {
+    line-height: 24px;
+  }
+  h2.has-medium-font-size {
+    line-height: 32px;
+  }
+  h2.has-large-font-size {
+    line-height: 48px;
+  }
   p.has-large-font-size {
     font-size: 36px;
     line-height: 1.2;
@@ -365,6 +388,7 @@ blockquote {
   }
   .wp-block-file {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .wp-block-group__inner-container {
     p {
@@ -383,9 +407,9 @@ blockquote {
 .wp-block-archives,
 .wp-block-categories {
   select {
-    height: 50px;
+    height: 66px;
     width: 200px;
-    border: 1px solid #ddd;
+    border: 1px solid $gray-300;
     padding: 0 10px;
     margin-bottom: 10px;
   }
@@ -438,11 +462,80 @@ nav.wp-calendar-nav {
   }
 }
 
+.blog-search-content .search-form input {
+  width: 50%;
 
+  @include rmaxwd(991) {
+    width: 100%;
+  }
+}
+/* Search Widget */
+.search-form {
+  display: flex !important;
 
-  /*
-   Media
-  ============================*/
+  button {
+    width: 62px;
+    flex-shrink: 0;
+  }
+}
+.wp-block-search__no-button {
+  &.wp-block-search {
+    input {
+      border-radius: 6px;
+    }
+  }
+}
+
+.wp-block-search {
+  margin-bottom: -2px;
+}
+.wp-block-search,
+.search-form {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+
+  .wp-block-search__inside-wrapper {
+    display: flex;
+    padding: 0 !important;
+  }
+  label {
+    font-size: 24px;
+    display: block;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: $secondary-color;
+    font-family: $heading-font;
+  }
+  input {
+    //background-color: $white;
+    border: 1px solid $gray-300;
+    padding: 0 25px;
+    height: 66px;
+    width: 100%;
+    color: #abb0ba;
+    font-size: 18px;
+    border-radius: 6px 0 0 6px;
+  }
+  button {
+    color: $white;
+    padding: 0 20px;
+    position: relative;
+    right: 0;
+    background-color: $primary-color;
+    top: 0;
+    height: auto;
+    border-radius: 0 6px 6px 0;
+    line-height: 0;
+    border: 0;
+    margin-left: 0 !important;
+  }
+}
+
+/*
+ Media
+============================*/
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -456,6 +549,9 @@ embed,
 iframe,
 object {
   max-width: 100%;
+}
+figure.wp-block-embed {
+  overflow: hidden;
 }
 // Form Validation
 .comment-respond {
@@ -520,9 +616,9 @@ input[type="radio"]
   margin: 0;
   width: 22px !important;
   height: 22px !important;
-  border-color: rgb(223, 226, 233);
-  border-radius: 3px !important;
-  background-color: transparent !important;
+  border-color: #e3e4e5;
+  border-radius: 6px !important;
+  background-color: #e3e4e5 !important;
   transform: scale(1);
   transition: 0.3s;
   position: relative !important;
@@ -533,7 +629,6 @@ input[type="radio"]
   align-self: center;
   flex-shrink: 0;
   box-shadow: none !important;
-
 }
 
 
@@ -612,13 +707,13 @@ input[type="radio"]:checked
 }
 // Zoom Instagram Widget
 .zoom-instagram-widget {
- p {
-   color: $white;
+  p {
+    color: $white;
 
-   a {
-     color: $orange-color;
-   }
- }
+    a {
+      color: $primary-color;
+    }
+  }
   ul {
     list-style: none;
     li {
@@ -626,7 +721,73 @@ input[type="radio"]:checked
     }
   }
 }
-  // When Admin Logged In
+
+
+/* Recent Comment List Block Widget & Latest Post Widget Block */
+.has-avatars.has-dates.has-excerpts.wp-block-latest-comments,
+.has-dates.has-excerpts.wp-block-latest-comments {
+  li {
+    &.wp-block-latest-comments__comment {
+      .wp-block-latest-comments__comment-meta {
+        font-weight: 500;
+        color: $black;
+
+        .wp-block-latest-comments__comment-author,
+        .wp-block-latest-comments__comment-link {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.wp-block-latest-comments,
+.wp-block-latest-posts {
+  li {
+    &.wp-block-latest-comments__comment {
+      margin-bottom: 0;
+    }
+    .wp-block-latest-comments__comment-meta,
+    .wp-block-latest-posts__post-title {
+      line-height: 28px;
+      font-weight: 400;
+
+      .wp-block-latest-comments__comment-date {
+        font-size: 14px !important;
+        margin-bottom: 10px;
+        position: relative;
+        color: $text-color;
+
+        &:before {
+          content: "\f274";
+          font-family: $font-awesome;
+          padding-right: 8px;
+        }
+      }
+    }
+    a {
+      color: $black;
+
+      &.wp-block-latest-comments__comment-author,
+      &.wp-block-latest-comments__comment-link {
+        display: inline !important;
+        text-transform: capitalize;
+        line-height: 28px;
+        font-weight: 400;
+      }
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    .wp-block-latest-comments__comment-excerpt {
+      p {
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+      }
+    }
+  }
+}
+// When Admin Logged In
 body {
   &.admin-bar {
     .header-menu-area.sticky_menu {
@@ -649,7 +810,11 @@ body {
       }
     }
   }
-
+  &.page-id-156 {
+    .page-content-wrapper .page-content > p {
+      margin-bottom: 10px;
+    }
+  }
   &.page-id-1133 {
     .page-content {
       .comment-respond {
@@ -661,7 +826,11 @@ body {
   }
   &.page-id-3 {
     .page-area {
-      padding-top: 128px;
+      padding-top: 120px;
+
+      .page-content {
+        margin-top: -9px;
+      }
     }
   }
 }
@@ -713,21 +882,28 @@ body {
       }
     }
   }
-  &.postid-1149 {
-    .blog-details-wrapper {
-      .latest-comments li .comments-box .comments-text {
-        p {
-          margin-bottom: 0;
-        }
-      }
-    }
-  }
   &.postid-555 {
     .blog-details-wrapper {
       .single-post-item .post-content {
         .gallery {
           margin-top: 20px;
         }
+      }
+    }
+  }
+  &.postid-1786 {
+    .blog-details-wrapper {
+      .single-post-item .post-title {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &.postid-1780 {
+    .blog-details-wrapper {
+      .single-post-item .wp-block-button {
+        margin-top: 20px;
+        margin-bottom: 40px;
       }
     }
   }
