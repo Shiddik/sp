@@ -12,7 +12,13 @@
       }
       .main-image {
         position: relative;
+        @include sm {
+          width: 300px;
+        }
 
+        @include xs {
+          width: 200px !important;
+        }
         .image-main {
           border-radius: 12px;
           overflow: hidden;
@@ -93,6 +99,12 @@
       z-index: 2;
       background-color: $primary-color;
       animation: MoveUpDown 2s linear infinite alternate;
+
+      @include sm {
+        left: -40px;
+        width: 150px;
+        height: 150px;
+      }
     }
     &.image-four {
       right: 0;
@@ -104,6 +116,15 @@
       margin-top: -310px;
       z-index: -1;
 
+      @include sm {
+        width: 250px !important;
+        height: 290px !important;
+        margin-top: -170px;
+        margin-right: 110px;
+      }
+      @include rmaxwd(450) {
+        margin-right: 0;
+      }
       @include rmaxwd(1199) {
         width: auto;
       }
@@ -148,6 +169,12 @@
         position: absolute;
         top: -100px;
         margin-left: 52px;
+
+        @include xs {
+          width: 40px;
+          height: 40px;
+          top: -60px;
+        }
       }
     }
   }
