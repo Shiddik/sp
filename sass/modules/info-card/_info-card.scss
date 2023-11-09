@@ -3,10 +3,10 @@
 }
 .info-card {
     background: $white;
-    padding: 36px 40px 36px 40px;
+    padding: 50px 46px 56px 46px;
     border-radius: 10px;
     position: relative;
-    box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.08);
+    box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.08);
 
     @media only screen and (min-width: 991px) and (max-width: 1399px) {
         padding: 30px 20px 30px 20px;
@@ -105,10 +105,9 @@
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            width: 52px;
-            height: 52px;
+            width: auto;
+            height: 78px;
             background: transparent;
-            border-radius: 10px;
         }
         .title {
             font-size: 24px;
