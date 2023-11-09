@@ -118,7 +118,7 @@
         $(".slider-wrapper").slick({
             slidesToShow: 1,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
@@ -130,9 +130,6 @@
             responsive: [
                 {
                     breakpoint: 767,
-                    settings: {
-                        autoplay: true,
-                    },
                 },
             ],
         });
@@ -215,32 +212,32 @@
         /*
        Team Slider
        ============================*/
-        $("#team_slider_wrapper").slick({
-            slidesToShow: 3,
-            infinite: true,
-            autoplay: true,
-            draggable: true,
-            arrows: false,
-            slidesToScroll: 1,
-            loop: true,
-            dots: true,
-            speed: 1500,
-            rtl: false,
-            responsive: [
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2,
-                    },
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                    },
-                },
-            ],
-        });
+        // $("#team_slider_wrapper").slick({
+        //     slidesToShow: 3,
+        //     infinite: true,
+        //     autoplay: true,
+        //     draggable: true,
+        //     arrows: false,
+        //     slidesToScroll: 1,
+        //     loop: true,
+        //     dots: true,
+        //     speed: 1500,
+        //     rtl: false,
+        //     responsive: [
+        //         {
+        //             breakpoint: 992,
+        //             settings: {
+        //                 slidesToShow: 2,
+        //             },
+        //         },
+        //         {
+        //             breakpoint: 768,
+        //             settings: {
+        //                 slidesToShow: 1,
+        //             },
+        //         },
+        //     ],
+        // });
 
 
         /*

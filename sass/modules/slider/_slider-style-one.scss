@@ -19,9 +19,11 @@
       position: absolute;
       height: 100%;
       top: 0;
-      width: 100%;
-      left: 0;
+      right: 36px;
 
+      @include rmaxwd(1199) {
+        display: none;
+      }
       .slider-arrow-btn-wrapper {
         flex-direction: column;
         align-items: flex-end;
@@ -34,6 +36,10 @@
       mask-position: center center;
       mask-size: auto;
       mask-repeat: no-repeat;
+
+      @include rmaxwd(1199) {
+        mask-image: none;
+      }
     }
   }
   .slick-arrow {
@@ -93,18 +99,17 @@
       flex-direction: column;
       margin-bottom: 0;
 
-      @include sm {
-        display: none !important;
+      @include rmaxwd(1199) {
         position: relative;
         flex-direction: row;
         align-items: center;
-        justify-content: flex-end;
-        margin-right: 30px;
-        bottom: 70px;
+        justify-content: center;
+        bottom: 100px;
         top: unset;
         left: unset;
         right: unset;
         transform: none;
+        padding: 0;
       }
 
       li {
@@ -152,10 +157,10 @@
 
     @media only screen and (min-width: 768px) and (max-width: 1199px) {
       height: 620px;
-      padding-bottom: 80px;
     }
     @include sm {
-      height: 800px;
+      padding: 80px 0;
+      height: unset;
     }
 
       .slider-overlay {
@@ -175,7 +180,8 @@
         z-index: 99;
 
         @include sm {
-          padding-bottom: 30px;
+          padding-top: 50px;
+          padding-bottom: 50px;
         }
         .slider-content {
           @include sm {
@@ -254,13 +260,16 @@
 
       }
     .slider-image {
-      position: relative;
-      z-index: 2;
-      width: 860px;
+      //position: relative;
+      //z-index: 2;
+      //width: 860px;
       animation: MoveUpDown 2s linear infinite alternate;
-      right: 47px;
-      top: 24px;
-
+      text-align: right;
+      //right: -110px;
+      //top: 20px;
+      .slider-image-inner {
+        display: inline-block;
+      }
       img {
         border-radius: 12px;
       }
