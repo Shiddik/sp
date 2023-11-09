@@ -5753,6 +5753,8 @@ body.admin-bar .header-menu-area.sticky_menu {
           align-items: center;
   gap: 30px;
   margin-top: 10px;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
 }
 .about-info-card .about-info-content .btn-wrapper .phone-number {
   display: -webkit-box;
@@ -6191,6 +6193,25 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 80px;
     height: 80px;
   }
+}
+
+@media (max-width: 991px) {
+  .counter-card-wrapper .counter-card {
+    margin-bottom: 50px;
+  }
+}
+.counter-card-wrapper:last-child .counter-card {
+  margin-bottom: 0;
+}
+.counter-card-wrapper:nth-child(2n+2) .counter-card .counter-item .counter-title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.counter-card-wrapper:nth-child(3n+3) .counter-card .counter-item .counter-title {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .counter-card {

@@ -1,19 +1,30 @@
 .counter-card-wrapper {
-  &:last-child {
-    .counter-card {
-      .counter-item {
-        .counter-title {
-          justify-content: flex-end;
-        }
-      }
+
+  .counter-card {
+    @include rmaxwd(991) {
+      margin-bottom: 50px;
     }
   }
-
-  &:nth-child(2n + 1) {
+  &:last-child {
+    .counter-card {
+      margin-bottom: 0;
+    }
+  }
+  &:nth-child(2n + 2) {
     .counter-card {
       .counter-item {
         .counter-title {
           justify-content: center;
+
+        }
+      }
+    }
+  }
+  &:nth-child(3n + 3) {
+    .counter-card {
+      .counter-item {
+        .counter-title {
+          justify-content: flex-end;
         }
       }
     }
