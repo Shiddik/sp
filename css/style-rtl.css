@@ -5608,6 +5608,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 30px;
   margin-top: 12px;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .about-info-card .about-info-content .video-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .about-info-card .about-info-content .sub-title p,
 .about-info-card .about-info-content .text p,
 .about-info-card .about-info-content .quote-text p {
@@ -5661,6 +5669,8 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-pack: center;
           justify-content: center;
   color: #ffffff;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .about-info-card .about-info-content .quote-text {
   padding-right: 40px;
@@ -6049,6 +6059,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 150px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .video-popup-card {
+    width: 100%;
+    height: 250px;
+  }
 }
 .video-popup-card .video-popup-image img {
   width: 100%;

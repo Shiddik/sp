@@ -17,6 +17,10 @@
       display: flex;
       gap: 30px;
       margin-top: 12px;
+
+      @include xs {
+        flex-direction: column;
+      }
     }
     .sub-title,
     .text,
@@ -59,6 +63,7 @@
             align-items: center;
             justify-content: center;
             color: $white;
+            flex-shrink: 0;
           }
         }
       }
