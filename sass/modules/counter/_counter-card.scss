@@ -1,13 +1,28 @@
+.counter-card-wrapper {
+  &:last-child {
+    .counter-card {
+      .counter-item {
+        .counter-title {
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+
+  &:nth-child(2n + 1) {
+    .counter-card {
+      .counter-item {
+        .counter-title {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
 .counter-card {
   z-index: 1;
   position: relative;
-  display: flex;
-  justify-content: space-between;
-
-  @include xs {
-    flex-direction: column;
-    gap: 50px;
-  }
 
   .counter-item {
     display: flex;
@@ -25,7 +40,7 @@
       gap: 30px;
       text-align: left;
 
-      @include sm {
+      @include rmaxwd(991) {
         flex-direction: column;
         gap: 15px;
       }
