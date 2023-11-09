@@ -9,21 +9,16 @@
 // About Us Area
 .about-us-area {
     &.style-1 {
-      padding-top: 140px;
-      padding-bottom: 165px;
+      padding-top: 120px;
+      padding-bottom: 120px;
 
-      @include nesthubmax() {
-        padding-bottom: 144px !important;
-      }
-      @include nesthub() {
-        padding-bottom: 144px !important;
-      }
       @include md() {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
       }
       @include sm() {
-        padding-top: 42px;
-        padding-bottom: 70px;
+        padding-top: 80px;
+        padding-bottom: 80px;
       }
       .about-info-card {
         .about-info-content {
@@ -35,13 +30,7 @@
 
           @include rmaxwd(1199) {
             padding-left: 0;
-            padding-top: 160px;
-          }
-          @include rmaxwd(767) {
-            padding-top: 150px;
-          }
-          @include rmaxwd(650) {
-            padding-top: 100px;
+            padding-top: 60px;
           }
         }
       }
@@ -73,7 +62,7 @@
 // Why Choose Us Area
 .feature-area {
   &.style-1 {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 120px;
     position: relative;
 
