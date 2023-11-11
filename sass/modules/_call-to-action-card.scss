@@ -11,10 +11,20 @@
   align-items: center;
   position: relative;
 
+  @include rmaxwd(991) {
+    padding: 50px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
   .image {
     position: absolute;
     right: -75px;
     bottom: 0;
+
+    @include rmaxwd(991) {
+      position: unset;
+    }
   }
   .cta-content-wrapper {
     display: flex;
@@ -22,6 +32,15 @@
     justify-content: space-between;
     gap: 30px;
     flex-grow: 1;
+
+    @include rmaxwd(991) {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    @include lg {
+      align-items: flex-start;
+      flex-direction: column;
+    }
   }
   .cta-content {
     display: flex;
@@ -31,6 +50,10 @@
       font-size: 48px;
       color: $white;
       line-height: initial;
+
+      @include rmaxwd(1399) {
+        font-size: 36px;
+      }
     }
     .sub-title {
       font-family: $body-font;
@@ -42,8 +65,8 @@
   .cta-phone-number {
     display: flex;
     align-items: center;
-    gap: 25px;
-    justify-content: center;
+    gap: 20px 25px;
+    flex-wrap: wrap;
     flex-shrink: 0;
 
     .icon {
@@ -73,6 +96,10 @@
       }
       .text {
         font-size: 36px;
+
+        @include sm {
+          font-size: 24px;
+        }
         a {
           color: $white;
         }
