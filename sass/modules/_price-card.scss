@@ -27,10 +27,18 @@
     }
     .price-header {
         background-color: rgb(225, 237, 238);
-        padding: 40px 48px;
+        padding: 50px 48px;
+
+        @include rmaxwd(1399) {
+            padding: 40px 30px;
+        }
     }
     .price-body {
-        padding: 60px 48px;
+        padding: 60px 60px;
+
+        @include rmaxwd(1399) {
+            padding: 50px 30px;
+        }
     }
     .card-title {
         display: flex;
@@ -77,7 +85,6 @@
                 font-weight: 600;
                 font-size: 24px;
                 line-height: 28px;
-                color: $sky-color;
                 text-align: start;
                 align-self: flex-start;
             }
@@ -107,12 +114,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 6px;
+        gap: 10px;
+
         .price-list-item {
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 12px;
+            gap: 20px;
             .fa-check {
                 color: $sky-color;
             }
@@ -129,8 +137,6 @@
         }
     }
     .theme-btn {
-        margin-top: 50px;
-        gap: 30px;
-        font-size: 16px;
+        margin-top: 43px;
     }
 }

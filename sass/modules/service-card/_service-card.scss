@@ -51,6 +51,9 @@
     position: relative;
     padding: 40px 50px;
 
+    @include rmaxwd(1199) {
+      padding: 50px 35px;
+    }
     .icon {
       width: 72px;
       height: 72px;

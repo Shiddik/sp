@@ -4,16 +4,18 @@
 }
 .process-step {
     position: relative;
-    padding: 41px 30px;
+    padding: 60px 30px 34px 30px;
     border-radius: 10px;
     background: $white;
-    margin-bottom: 79px;
+    margin-bottom: 24px;
     text-align: center;
-    @media only screen and (min-width: 1199px) and (max-width: 1399px){
-        padding: 30px;
-    }
+
     @include rmaxwd(991) {
-        margin-bottom: 28px;
+        margin-bottom: 60px;
+    }
+
+    @include lg {
+        padding: 60px 15px 34px 15px;
     }
     &:hover {
         .count {
@@ -46,7 +48,8 @@
     .content {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 20px;
+
         .title {
             margin: 0;
             font-size: 24px;
@@ -60,42 +63,6 @@
             line-height: 30px;
             font-weight: 400;
             color: $text-color;
-        }
-    }
-    @include sm {
-        padding: 25px 30px;
-        .icon {
-            margin-bottom: 20px;
-        }
-        .count {
-            left: 0;
-            top: 6px;
-            position: relative;
-            transform: inherit;
-        }
-    }
-    @include md {
-        padding: 25px 30px;
-        .icon {
-            margin-bottom: 20px;
-        }
-        .count {
-            left: 0;
-            top: 6px;
-            position: relative;
-            transform: inherit;
-        }
-    }
-    @include lg {
-        padding: 25px 30px;
-        .icon {
-            margin-bottom: 20px;
-        }
-        .count {
-            left: 0;
-            top: 6px;
-            position: relative;
-            transform: inherit;
         }
     }
 }

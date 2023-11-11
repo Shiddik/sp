@@ -5198,6 +5198,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   padding: 40px 50px;
 }
+@media (max-width: 1199px) {
+  .service-card .content-wrapper {
+    padding: 50px 35px;
+  }
+}
 .service-card .content-wrapper .icon {
   width: 72px;
   height: 72px;
@@ -6356,20 +6361,20 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .process-step {
   position: relative;
-  padding: 41px 30px;
+  padding: 60px 30px 34px 30px;
   border-radius: 10px;
   background: #ffffff;
-  margin-bottom: 79px;
+  margin-bottom: 24px;
   text-align: center;
-}
-@media only screen and (min-width: 1199px) and (max-width: 1399px) {
-  .process-step {
-    padding: 30px;
-  }
 }
 @media (max-width: 991px) {
   .process-step {
-    margin-bottom: 28px;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .process-step {
+    padding: 60px 15px 34px 15px;
   }
 }
 .process-step:hover .count:before {
@@ -6412,7 +6417,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 16px;
+  gap: 20px;
 }
 .process-step .content .title {
   margin: 0;
@@ -6427,51 +6432,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   line-height: 30px;
   font-weight: 400;
   color: #6d768a;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .process-step {
-    padding: 25px 30px;
-  }
-  .process-step .icon {
-    margin-bottom: 20px;
-  }
-  .process-step .count {
-    right: 0;
-    top: 6px;
-    position: relative;
-    -webkit-transform: inherit;
-            transform: inherit;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .process-step {
-    padding: 25px 30px;
-  }
-  .process-step .icon {
-    margin-bottom: 20px;
-  }
-  .process-step .count {
-    right: 0;
-    top: 6px;
-    position: relative;
-    -webkit-transform: inherit;
-            transform: inherit;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .process-step {
-    padding: 25px 30px;
-  }
-  .process-step .icon {
-    margin-bottom: 20px;
-  }
-  .process-step .count {
-    right: 0;
-    top: 6px;
-    position: relative;
-    -webkit-transform: inherit;
-            transform: inherit;
-  }
 }
 
 .process-step.style-two {
@@ -8279,10 +8239,20 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .price-card .price-header {
   background-color: rgb(225, 237, 238);
-  padding: 40px 48px;
+  padding: 50px 48px;
+}
+@media (max-width: 1399px) {
+  .price-card .price-header {
+    padding: 40px 30px;
+  }
 }
 .price-card .price-body {
-  padding: 60px 48px;
+  padding: 60px 60px;
+}
+@media (max-width: 1399px) {
+  .price-card .price-body {
+    padding: 50px 30px;
+  }
 }
 .price-card .card-title {
   display: -webkit-box;
@@ -8343,7 +8313,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
-  color: #00c6ff;
   text-align: start;
   -ms-flex-item-align: start;
       align-self: flex-start;
@@ -8380,7 +8349,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 6px;
+  gap: 10px;
 }
 .price-card .list .price-list-item {
   display: -webkit-box;
@@ -8393,7 +8362,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 .price-card .list .price-list-item .fa-check {
   color: #00c6ff;
@@ -8409,9 +8378,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
 }
 .price-card .theme-btn {
-  margin-top: 50px;
-  gap: 30px;
-  font-size: 16px;
+  margin-top: 43px;
 }
 
 .cta-area {
@@ -11966,25 +11933,21 @@ ul.children {
 .process-step-area {
   background-color: rgb(233, 245, 246);
   padding-top: 240px;
+  padding-bottom: 96px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
 @media (max-width: 991px) {
   .process-step-area {
-    padding-top: 100px;
-    padding-bottom: 76px;
+    padding-top: 220px;
+    padding-bottom: 40px;
   }
 }
 @media (max-width: 767px) {
   .process-step-area {
-    padding-top: 70px;
-    padding-bottom: 42px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .process-step-area {
-    padding-bottom: 67px;
+    padding-top: 200px;
+    padding-bottom: 20px;
   }
 }
 
@@ -12037,6 +12000,23 @@ ul.children {
 .testimonial-slider-area.style-1 .testimonial-slider-wrapper {
   margin-top: 0;
   margin-bottom: -100px;
+}
+
+.pricing-area.style-1 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .pricing-area.style-1 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .pricing-area.style-1 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
 }
 
 .about-us-area.style-2 {

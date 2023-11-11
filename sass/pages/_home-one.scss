@@ -181,20 +181,19 @@
 .process-step-area {
   background-color: rgb(233, 245, 246);
   padding-top: 240px;
+  padding-bottom: 96px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 
+
   @include rmaxwd(991) {
-    padding-top: 100px;
-    padding-bottom: 76px;
+    padding-top: 220px;
+    padding-bottom: 40px;
   }
   @include rmaxwd(767) {
-    padding-top: 70px;
-    padding-bottom: 42px;
-  }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    padding-bottom: 67px;
+    padding-top: 200px;
+    padding-bottom: 20px;
   }
 }
 
@@ -251,3 +250,19 @@
   }
 }
 
+// Price Area
+.pricing-area {
+  &.style-1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @include md {
+      padding-top: 100px;
+      padding-bottom: 70px;
+    }
+    @include sm {
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+  }
+}
