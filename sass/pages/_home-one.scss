@@ -207,16 +207,10 @@
 // News Area
 .latest-posts-area {
   &.style-1 {
-    padding-top: 138px;
-    padding-bottom: 110px;
+    padding-top: 243px;
+    padding-bottom: 0;
 
-    @include rmaxwd(991) {
-      padding: 100px 0;
-    }
-    @include rmaxwd(767) {
-      padding-top: 70px;
-      padding-bottom: 36px;
-    }
+
 
     .section-title {
       margin-bottom: 70px;
@@ -230,22 +224,16 @@
 // Testimonial Area
 .testimonial-slider-area {
   &.style-1 {
-    padding-top: 240px;
+    padding-top: 243px;
     background-color: $primary-color;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    @include rmaxwd(991) {
-      padding: 100px 0;
-    }
-    @include rmaxwd(767) {
-      padding: 70px 0;
-    }
 
     .testimonial-slider-wrapper {
       margin-top: 0;
-      margin-bottom: -100px;
+      margin-bottom: -150px;
     }
   }
 }

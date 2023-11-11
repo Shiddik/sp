@@ -276,12 +276,12 @@
         $("#testimonial_two").slick({
             slidesToShow: 3,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             draggable: true,
             arrows: true,
             slidesToScroll: 1,
             loop: true,
-            dots: true,
+            dots: false,
             speed: 1500,
             rtl: false,
             prevArrow:
@@ -299,10 +299,10 @@
             ],
         });
 
-        $('#trigger_testimonial_prev').on('click', function() {
+        $('#testimonail_prev_btn').on('click', function() {
             $('.testimonial-slider-wrapper .prev-btn').trigger('click');
         });
-        $('#trigger_testimonial_next').on('click', function() {
+        $('#testimonial_next_btn').on('click', function() {
             $('.testimonial-slider-wrapper .next-btn').trigger('click');
         });
 

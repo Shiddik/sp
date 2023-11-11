@@ -7,10 +7,8 @@
     gap: 30px;
     border-radius: 12px;
     position: relative;
-
-    @include sm {
-        padding: 35px;
-    }
+    background-color: $white;
+    box-shadow: 0 2px 20px 0 rgba(2, 24, 93, 0.12);
 
     &:before {
         position: absolute;
@@ -21,7 +19,7 @@
         z-index: -1;
         border-radius: 12px;
         bottom: -24px;
-        box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
+        box-shadow: 0 2px 24px 0 rgba(2, 24, 93, 0.12);
     }
     .content-wrapper {
         display: flex;

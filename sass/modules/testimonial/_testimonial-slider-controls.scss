@@ -4,28 +4,28 @@
   .slick-list {
     padding-bottom: 60px;
     margin: 0 -12px;
-    overflow: visible;
+    //overflow: visible;
 
-    @include md {
-      padding: 40px 10px;
-    }
-    @include sm {
-      padding: 30px 10px;
-    }
+    //@include md {
+    //  padding: 40px 10px;
+    //}
+    //@include sm {
+    //  padding: 30px 10px;
+    //}
     .slick-slide {
       margin: 0 12px;
-      border-radius: 20px;
+      //border-radius: 20px;
       @include transition;
 
-      &.slick-active {
-        @include transition;
-        box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
-        background-color: $white;
-
-        @include rmaxwd(991) {
-          box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
-        }
-      }
+      //&.slick-active {
+      //  @include transition;
+      //  box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
+      //  background-color: $white;
+      //
+      //  @include rmaxwd(991) {
+      //    box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
+      //  }
+      //}
     }
   }
 
