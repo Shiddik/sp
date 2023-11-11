@@ -1,8 +1,23 @@
 // Portfolio Area
 .portfolio-area {
   &.style-1 {
+    padding-top: 120px;
+    padding-bottom: 96px;
+
+    @include md {
+      padding-top: 100px;
+      padding-bottom: 76px;
+    }
+    @include sm {
+      padding-top: 80px;
+      padding-bottom: 56px;
+    }
     .portfolio-wrapper {
       padding-left: 100px;
+
+      @include rmaxwd(1399) {
+        padding-left: 0;
+      }
     }
   }
 }

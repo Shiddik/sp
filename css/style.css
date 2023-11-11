@@ -11627,6 +11627,11 @@ ul.children {
   font-family: "Roboto", sans-serif;
   display: inline-block;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-style-two .content-wrapper .content .sub-title {
+    padding: 8px 18px 8px 18px;
+  }
+}
 .portfolio-style-two .content-wrapper .content .title {
   font-size: 24px;
   font-weight: 700;
@@ -11636,6 +11641,12 @@ ul.children {
   background-color: #ffffff;
   padding: 18px;
   border-radius: 0 8px 8px 8px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-style-two .content-wrapper .content .title {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 .portfolio-style-two .content-wrapper .content .btn-wrapper {
   position: absolute;
@@ -11664,6 +11675,12 @@ ul.children {
           justify-content: center;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-style-two .content-wrapper .content .btn-wrapper a {
+    width: 50px;
+    height: 50px;
+  }
 }
 .portfolio-style-two .content-wrapper .content .btn-wrapper a:hover {
   -webkit-transition: all 0.5s ease-out;
@@ -11760,8 +11777,29 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 
+.portfolio-area.style-1 {
+  padding-top: 120px;
+  padding-bottom: 96px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-area.style-1 {
+    padding-top: 100px;
+    padding-bottom: 76px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .portfolio-area.style-1 {
+    padding-top: 80px;
+    padding-bottom: 56px;
+  }
+}
 .portfolio-area.style-1 .portfolio-wrapper {
   padding-left: 100px;
+}
+@media (max-width: 1399px) {
+  .portfolio-area.style-1 .portfolio-wrapper {
+    padding-left: 0;
+  }
 }
 
 .about-us-area.style-1 {
