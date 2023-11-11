@@ -87,12 +87,25 @@
 .service-area {
   &.style-1 {
     padding-top: 230px;
-    padding-bottom: 120px;
+    padding-bottom: 96px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-color: $primary-color;
 
+
+    @include md {
+      padding-top: 220px;
+      padding-bottom: 76px;
+    }
+    @include sm {
+      padding-top: 200px;
+      padding-bottom: 56px;
+    }
+    .section-title .sec-desc {
+      color: #abb2c1;
+
+    }
 
   }
 }

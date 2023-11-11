@@ -121,11 +121,13 @@
 
     @include sm {
       flex-direction: column;
-      gap: 50px;
+      gap: 30px;
       margin-bottom: 50px;
       align-items: flex-start;
     }
     @include md {
+      flex-direction: column;
+      gap: 30px;
       margin-bottom: 50px;
       align-items: flex-start;
     }
@@ -142,6 +144,12 @@
       font-size: 21px;
       font-family: $body-font;
 
+      @include lg {
+        width: 440px;
+      }
+      @include md {
+        width: 100%;
+      }
       @include rmaxwd(767) {
         width: 100%;
       }

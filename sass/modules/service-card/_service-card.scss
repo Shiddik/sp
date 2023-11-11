@@ -19,6 +19,9 @@
       .title {
         color: $black;
       }
+      .short-desc {
+        color: $text-color;
+      }
       .read-more {
         background-color: $orange-color;
         color: $white !important;
@@ -41,6 +44,7 @@
     img {
       @include transition;
       transform: scale(1);
+      width: 100%;
     }
   }
   .content-wrapper {
@@ -69,7 +73,7 @@
       line-height: 38px;
     }
     .short-desc {
-      color: $text-color;
+      color: #abb2c1;
       font-size: 18px;
       font-weight: 400;
       font-family: $body-font;
