@@ -1,5 +1,5 @@
 .testimonial-card {
-    padding: 60px;
+    padding: 60px 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@
         .text {
             margin: 0;
             font-size: 21px;
-            line-height: 32px;
+            line-height: 36px;
             font-weight: 400;
             font-style: italic;
             @media only screen and (min-width: 1200px) and (max-width: 1399px) {

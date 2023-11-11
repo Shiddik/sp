@@ -10,17 +10,22 @@
   }
 
   .widget-menu-wrapper {
-    padding: 0 100px;
+    padding-left: 100px;
+    padding-right: 60px;
 
-
-    @include rmaxwd(991) {
+    @include sm {
       padding: 0;
     }
+    @include md {
+      padding-left: 0;
+    }
     @include lg {
-      padding: 0 50px;
+      padding-left: 20px;
+      padding-right: 20px
     }
     @include xl {
-      padding: 0 60px;
+      padding-left: 50px;
+      padding-right: 50px;
     }
   }
 
@@ -67,6 +72,18 @@
       width: 170px;
     }
   }
+  .footer-logo {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  p {
+    color: $black-400;
+  }
+  .subscribe-form-wrapper {
+    p {
+      margin-bottom: 35px;
+    }
+  }
   // Footer Info Widget
   .footer-widget-info {
     padding-right: 30px;
@@ -75,12 +92,8 @@
       padding-right: 0;
     }
     p {
-      color: $white-100;
+      color: $black-400;
       margin-bottom: 30px;
-    }
-    .footer-logo {
-      margin-bottom: 30px;
-      display: inline-block;
     }
     .info-form-and-social-icon {
       display: flex;
@@ -132,7 +145,7 @@
       }
 
       a {
-        color: $white-100;
+        color: $black-400;
         text-transform: capitalize;
         font-size: 18px;
         @include transition;
@@ -149,7 +162,7 @@
   // Footer Contact Widget
   .footer-widget-contact {
     p {
-      color: $white-100;
+      color: $black-400;
     }
     .footer-contact ul {
       list-style: none;
@@ -179,7 +192,7 @@
           flex-shrink: 0;
         }
         .contact-text {
-          color: $white-100;
+          color: $black-400;
           font-size: 18px;
           line-height: 24px;
           overflow: hidden;
@@ -195,7 +208,7 @@
           span,
           p,
           a {
-            color: $white-100;
+            color: $black-400;
             font-size: 18px;
             line-height: 24px;
             display: inline-block;
@@ -245,7 +258,7 @@
             align-items: center;
             font-weight: 400;
             gap: 8px;
-            color: $white-100;
+            color: $black-400;
           }
         }
       }
@@ -272,7 +285,7 @@
       a {
         font-size: 18px;
         text-transform: capitalize;
-        color: $white-100;
+        color: $black-400;
         font-family: $body-font;
         @include transition;
 
@@ -311,12 +324,12 @@
   }
   .copyright-text {
     p {
-      color: $white-100;
+      color: $black-400;
       margin-bottom: 0;
       font-family: $body-font;
       font-size: 18px;
       a {
-        color: $white-100;
+        color: $black-400;
         font-weight: 400;
         font-family: $body-font;
         font-size: 18px;
@@ -329,7 +342,7 @@
   }
   .credit-text {
     p {
-      color: $white-100;
+      color: $black-400;
       margin-bottom: 0;
       display: flex;
       align-items: center;
@@ -469,7 +482,7 @@
 
     input {
       color: $black-300;
-      height: 72px;
+      height: 60px;
       padding: 0 30px;
       font-size: 18px;
       border-radius: 6px;
