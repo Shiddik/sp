@@ -5196,7 +5196,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .service-card .content-wrapper {
   position: relative;
-  padding: 50px;
+  padding: 40px 50px;
 }
 .service-card .content-wrapper .icon {
   width: 72px;
@@ -6991,7 +6991,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   content: "\f068";
   font-family: "Font Awesome 6 Pro";
   background-color: #00c6ff;
-  color: #ffffff;
+  color: #1c2325;
   font-size: 12px;
   border-radius: 50px;
   display: -webkit-box;
@@ -7003,8 +7003,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
@@ -7024,17 +7024,29 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
 .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
-  font-size: 21px;
+  font-size: 24px;
   line-height: 32px;
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 .accordion-wrapper .accordion-list-item .accordion-item-body {
   color: #c7cdda;
@@ -8741,6 +8753,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+  margin-top: 45px;
 }
 .section-title .sec-desc .simple-btn i {
   color: rgb(46, 201, 97);
@@ -11838,7 +11851,7 @@ ul.children {
 }
 .counter-up-area.style-1 .counter-card-area {
   background-color: rgb(0, 78, 236);
-  padding: 80px;
+  padding: 68px 80px;
   border-radius: 12px;
 }
 
@@ -11898,6 +11911,19 @@ ul.children {
 .faq-area.style-1 {
   margin-bottom: -120px;
 }
+.faq-area.style-1 .section-title {
+  margin-bottom: 50px;
+}
+.faq-area.style-1 .section-title .title {
+  font-size: 48px;
+  line-height: 60px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area.style-1 .section-title .title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
 .faq-area.style-1 .faq-wrapper {
   background-color: rgb(13, 28, 57);
   display: -webkit-box;
@@ -11906,8 +11932,21 @@ ul.children {
   border-radius: 12px;
   overflow: hidden;
 }
+@media (max-width: 1199px) {
+  .faq-area.style-1 .faq-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .faq-area.style-1 .faq-wrapper .accordion-wrapper {
-  padding: 70px 50px;
+  padding: 66px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area.style-1 .faq-wrapper .accordion-wrapper {
+    padding: 40px 30px;
+  }
 }
 .faq-area.style-1 .faq-wrapper .image {
   width: 50%;
@@ -11915,7 +11954,13 @@ ul.children {
       flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
+}
+@media (max-width: 1199px) {
+  .faq-area.style-1 .faq-wrapper .image {
+    width: 100%;
+    height: 450px;
+  }
 }
 
 .process-step-area {
