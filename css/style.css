@@ -304,7 +304,7 @@ input.theme-btn {
   padding: 11px 10px 11px 36px;
   text-align: center;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Barlow", sans-serif;
   text-transform: capitalize;
   position: relative;
   z-index: 1;
@@ -7971,6 +7971,16 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 50px 50px 50px 0;
+}
+.post-card .content .btn-wrapper {
+  margin-top: 15px;
+}
+.post-card .content .btn-wrapper .theme-btn {
+  padding: 9px 10px 9px 23px;
+}
+.post-card .content .btn-wrapper .theme-btn i {
+  width: 30px;
+  height: 30px;
 }
 .post-card .content .title {
   height: 86px;
