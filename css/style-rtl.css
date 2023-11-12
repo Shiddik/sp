@@ -5408,6 +5408,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .service-card.style-2 {
   border: 1px solid #c9cfdc;
   background-color: #ffffff;
+  margin-bottom: 2px;
 }
 .service-card.style-2 .content-wrapper {
   display: -webkit-box;
@@ -8814,6 +8815,11 @@ body.admin-bar .header-menu-area.sticky_menu {
           align-items: flex-end;
   margin-bottom: 74px;
   gap: 5px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .section-title {
+    gap: 40px 5px;
+  }
 }
 @media (max-width: 550px) {
   .section-title {
@@ -12337,11 +12343,13 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-up-area.style-2 {
     padding-top: 80px;
+    padding-bottom: 517px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-up-area.style-2 {
     padding-top: 100px;
+    padding-bottom: 590px;
   }
 }
 .counter-up-area.style-2 .overlay {

@@ -113,9 +113,11 @@
 
     @include sm {
       padding-top: 80px;
+      padding-bottom: 517px;
     }
     @include md {
       padding-top: 100px;
+      padding-bottom: 590px;
     }
     .overlay {
       position: absolute;

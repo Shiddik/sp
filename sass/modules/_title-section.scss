@@ -5,6 +5,9 @@
   margin-bottom: 74px;
   gap: 5px;
 
+  @include sm {
+    gap: 40px 5px;
+  }
   @include rmaxwd(550) {
     flex-direction: column;
     margin-bottom: 60px;
