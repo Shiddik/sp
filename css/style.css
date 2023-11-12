@@ -3942,6 +3942,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   left: 0;
   top: 24px;
 }
+@media (max-width: 991px) {
+  .header-area.style-2 {
+    position: unset;
+  }
+}
 .header-area.style-2 .header-menu-area {
   background-color: transparent;
 }
@@ -3954,6 +3959,22 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header-area.style-2 .logo {
+    height: 100px;
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .header-area.style-2 .logo {
+    height: 80px;
+    width: 200px;
+  }
 }
 .header-area.style-2 .header-area-wrapper {
   display: -webkit-box;
@@ -3966,13 +3987,27 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 0 0 12px 12px;
   border-top: 5px solid rgb(0, 78, 236);
 }
+@media (max-width: 991px) {
+  .header-area.style-2 .header-area-wrapper {
+    border: 0;
+    border-radius: 0;
+  }
+}
 .header-area.style-2 .header-wrapper {
   width: 100%;
   border-left: 1px solid #c9cfdc;
 }
+@media (max-width: 991px) {
+  .header-area.style-2 .header-wrapper {
+    border: 0;
+  }
+}
 .header-area.style-2 .header-wrapper .header-top {
   background-color: transparent;
   border-bottom: 1px solid #c9cfdc;
+}
+.header-area.style-2 .header-wrapper .header-top .header-contact-info {
+  padding: 8px 0;
 }
 .header-area.style-2 .header-wrapper .header-top .header-contact-info i {
   color: #00c6ff;
@@ -4006,9 +4041,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-2 .header-wrapper .main-menu-wrapper .header-btn .search-btn {
   color: #000000;
 }
+.header-area.style-2 .header-wrapper .main-menu-wrapper .header-btn .theme-btn {
+  padding: 9px 37px;
+  font-size: 16px;
+}
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li a {
   color: #393d48;
-  padding: 22px 24px;
+  padding: 25px 24px;
 }
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li.active {
   position: relative;
@@ -4017,6 +4056,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: unset;
   bottom: 0;
   background-color: #00c6ff;
+}
+.header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul ul li a {
+  padding: 10px 20px;
 }
 
 .header-area.style-three .header-top .header-top-btn a {

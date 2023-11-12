@@ -6,6 +6,9 @@
     left: 0;
     top: 24px;
 
+    @include rmaxwd(991) {
+      position: unset;
+    }
     .header-menu-area {
       background-color: transparent;
     }
@@ -14,6 +17,17 @@
       display: flex;
       text-align: center;
       justify-content: center;
+      align-items: center;
+      height: 120px;
+
+      @include md {
+        height: 100px;
+        width: 200px;
+      }
+      @include sm {
+        height: 80px;
+        width: 200px;
+      }
     }
 
     .header-area-wrapper {
@@ -22,17 +36,27 @@
       background-color: $white;
       border-radius:0 0 12px 12px;
       border-top: 5px solid $blue-color;
+
+      @include rmaxwd(991) {
+        border: 0;
+        border-radius: 0;
+      }
     }
     .header-wrapper {
       width: 100%;
       border-left: 1px solid #C9CFDCFF;
 
+      @include rmaxwd(991) {
+        border: 0;
+      }
       // Header Top
       .header-top {
         background-color: transparent;
         border-bottom: 1px solid #C9CFDCFF;
 
        .header-contact-info {
+         padding: 8px 0;
+
          i {
            color: $sky-color;
          }
@@ -65,6 +89,10 @@
           .search-btn {
             color: #000000;
           }
+          .theme-btn {
+            padding: 9px 37px;
+            font-size: 16px;
+          }
         }
         .menu {
           //margin-left: auto;
@@ -74,7 +102,7 @@
             li {
               a {
                 color: #393d48;
-                padding: 22px 24px;
+                padding: 25px 24px;
               }
               &.active {
                 position: relative;
@@ -84,6 +112,13 @@
                     bottom: 0;
                     background-color: $sky-color;
                   }
+                }
+              }
+            }
+            ul {
+              li {
+                a {
+                  padding: 10px 20px;
                 }
               }
             }
