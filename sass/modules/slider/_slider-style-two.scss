@@ -19,9 +19,22 @@
       overflow: hidden;
       height: 1080px;
 
+      @include xs {
+        height: 500px !important;
+      }
+      @include sm {
+        height: 810px;
+      }
+      @include md {
+        height: 810px;
+      }
       .slider-overlay {
         background-color: #071126;
         opacity: 0.25;
+
+        @include xs {
+          opacity: 0.61;
+        }
       }
 
       .slider-content-wrapper {
@@ -32,6 +45,26 @@
         align-items: center;
         margin-top: 70px;
 
+        @include xs {
+          width: auto !important;
+          height: auto !important;
+          margin-top: 0 !important;
+          padding-top: 0 !important;
+        }
+        @include sm {
+          width: 500px;
+          height: 500px;
+          margin-top: 0;
+        }
+        @include md {
+          width: 600px;
+          height: 600px;
+          margin-top: 0;
+        }
+        @include lg {
+          width: 600px;
+          height: 600px;
+        }
         &:before {
           position: absolute;
           top: 0;
@@ -42,9 +75,46 @@
           background-color: rgb(0, 78, 236);
           opacity: 0.722;
           border-radius: 50%;
+          @include xs {
+            display: none;
+          }
+          @include sm {
+            left: 0;
+          }
+          @include md {
+            left: 0;
+          }
+          @include lg {
+            left: 0;
+          }
+          @include xl {
+            left: 0;
+          }
         }
         .slider-content {
           padding-right: 230px;
+
+          @include xs {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+          }
+          @include sm {
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: left !important;
+          }
+          @include md {
+            padding-left: 100px;
+            padding-right: 100px;
+          }
+          @include lg {
+            padding-left: 130px;
+            padding-right: 130px;
+          }
+          @include xl {
+            padding-left: 130px;
+            padding-right: 130px;
+          }
         }
       }
     }
