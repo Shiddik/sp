@@ -6,7 +6,17 @@
       .content-wrapper {
         display: flex;
         gap: 30px;
+        padding: 30px 45px;
 
+        @include sm {
+          padding: 30px;
+        }
+        @include md {
+          padding: 30px 20px;
+        }
+        @include xl {
+          padding: 30px;
+        }
         .icon-wrapper {
           display: flex;
           flex-shrink: 0;
@@ -40,6 +50,7 @@
         }
         .title {
           color: $black;
+          margin-bottom: 20px;
         }
       }
   }

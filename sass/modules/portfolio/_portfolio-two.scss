@@ -2,7 +2,7 @@
   padding-left: 0;
   display: flex;
   align-items: center;
-  gap: 20px 37px;
+  gap: 10px 37px;
   justify-content: center;
   margin-bottom: 63px;
   flex-wrap: wrap;
@@ -25,6 +25,7 @@
       @include transition;
     }
   }
+
 }
 .portfolio-style-two {
   background-color: $white;

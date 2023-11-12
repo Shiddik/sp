@@ -160,18 +160,25 @@
             rtl: false,
             responsive: [
                 {
-                    breakpoint: 767,
+                    breakpoint: 1199,
                     settings: {
-                        autoplay: true,
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
                     },
                 },
             ],
         });
-        $('.slider-nav-prev-btn').on('click', function (e) {
+
+        $('#service_prev_btn').on('click', function (e) {
             e.preventDefault();
             $('.slick-prev').trigger('click');
         });
-        $('.slider-nav-next-btn').on('click', function (e) {
+        $('#service_next_btn').on('click', function (e) {
             e.preventDefault();
             $('.slick-next').trigger('click');
         });
