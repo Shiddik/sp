@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 74px;
-  gap: 20px;
+  gap: 5px;
 
   @include rmaxwd(550) {
     flex-direction: column;

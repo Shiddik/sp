@@ -3,12 +3,12 @@
     .main-img-wrapper {
       text-align: right;
 
-      //@include lg {
-      //  text-align: center;
-      //}
-      //@include md {
-      //  text-align: center;
-      //}
+      @include lg {
+        text-align: center;
+      }
+      @include md {
+        text-align: center;
+      }
       .video-popup-card {
         width: 336px;
         height: 442px;

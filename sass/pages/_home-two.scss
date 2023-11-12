@@ -1,16 +1,16 @@
 // About Us Area
 .about-us-area {
   &.style-2 {
-    padding-top: 120px !important;
-    padding-bottom: 240px !important;
+    padding-top: 120px;
+    padding-bottom: 130px ;
 
     @include md() {
       padding-top: 100px;
       padding-bottom: 100px;
     }
     @include sm() {
-      padding-top: 70px;
-      padding-bottom: 70px;
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
     .about-info-card {
       .about-info-content {
@@ -27,13 +27,13 @@
 
         @include rmaxwd(1199) {
           padding-left: 0;
-          padding-top: 300px;
+          padding-top: 60px;
         }
         @media only screen and (min-width: 651px) and (max-width: 767px){
-          padding-top: 150px;
+          padding-top: 40px;
         }
         @include rmaxwd(651) {
-          padding-top: 100px;
+          padding-top: 40px;
         }
 
       }
@@ -45,8 +45,18 @@
 .feature-area {
   &.style-2 {
     .feature-area-wrapper  {
-      padding: 50px;
+      padding: 80px 93px;
       border-radius: 12px;
+
+      @include lg {
+        padding: 70px 50px;
+      }
+      @include xl {
+        padding: 70px 50px;
+      }
+      @include rmaxwd(991) {
+        padding: 80px 40px 20px 40px;
+      }
     }
   }
 }
@@ -60,6 +70,15 @@
   background-position: center center;
   background-size: cover;
   margin-top: -314px;
+
+  @include sm {
+    padding-top: 394px;
+    padding-bottom: 80px;
+  }
+   @include md {
+     padding-top: 414px;
+     padding-bottom: 100px;
+   }
 }
 
 // Portfolio Area

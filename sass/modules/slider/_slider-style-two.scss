@@ -9,6 +9,7 @@
       transform: translateX(-50%);
       flex-direction: row;
       padding-left: 0;
+      position: absolute;
     }
     .single-slider {
       background-size: cover;
@@ -43,7 +44,7 @@
         position: relative;
         display: flex;
         align-items: center;
-        margin-top: 70px;
+        margin-top: 150px;
 
         @include xs {
           width: auto !important;

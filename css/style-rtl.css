@@ -4648,6 +4648,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: row;
           flex-direction: row;
   padding-right: 0;
+  position: absolute;
 }
 .slider-area.style-2 .single-slider {
   background-size: cover;
@@ -4692,7 +4693,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 70px;
+  margin-top: 150px;
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .slider-area.style-2 .single-slider .slider-content-wrapper {
@@ -5103,10 +5104,15 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .info-card.style-2 {
-  padding: 30px;
+  padding: 0;
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+@media (max-width: 991px) {
+  .info-card.style-2 {
+    margin-bottom: 60px;
+  }
 }
 .info-card.style-2 .title-wrapper .icon {
   width: unset;
@@ -5656,6 +5662,16 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-image-card.style-two .main-img-wrapper {
   text-align: left;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-image-card.style-two .main-img-wrapper {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-image-card.style-two .main-img-wrapper {
+    text-align: center;
+  }
+}
 .about-image-card.style-two .main-img-wrapper .video-popup-card {
   width: 336px;
   height: 442px;
@@ -5871,6 +5887,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 21px;
   color: #6d768a;
   font-family: "Roboto", sans-serif;
+  line-height: 36px;
 }
 .about-info-card .about-info-content .quote-text .quote-text-meta {
   display: -webkit-box;
@@ -5965,7 +5982,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .about-info-card.style-two .about-info-content {
-  gap: 16px;
+  gap: 40px;
 }
 .about-info-card.style-two .about-info-content .icon-card-wrapper {
   display: -webkit-box;
@@ -5997,11 +6014,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
+  gap: 20px 58px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
+  margin-top: 4px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .about-info-card.style-two .about-info-content .about-meta .about-founder {
   display: -webkit-box;
@@ -8777,7 +8796,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-bottom: 74px;
-  gap: 20px;
+  gap: 5px;
 }
 @media (max-width: 550px) {
   .section-title {
@@ -12182,8 +12201,8 @@ ul.children {
 }
 
 .about-us-area.style-2 {
-  padding-top: 120px !important;
-  padding-bottom: 240px !important;
+  padding-top: 120px;
+  padding-bottom: 130px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-us-area.style-2 {
@@ -12193,8 +12212,8 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-area.style-2 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 .about-us-area.style-2 .about-info-card .about-info-content {
@@ -12213,23 +12232,38 @@ ul.children {
 @media (max-width: 1199px) {
   .about-us-area.style-2 .about-info-card .about-info-content {
     padding-right: 0;
-    padding-top: 300px;
+    padding-top: 60px;
   }
 }
 @media only screen and (min-width: 651px) and (max-width: 767px) {
   .about-us-area.style-2 .about-info-card .about-info-content {
-    padding-top: 150px;
+    padding-top: 40px;
   }
 }
 @media (max-width: 651px) {
   .about-us-area.style-2 .about-info-card .about-info-content {
-    padding-top: 100px;
+    padding-top: 40px;
   }
 }
 
 .feature-area.style-2 .feature-area-wrapper {
-  padding: 50px;
+  padding: 80px 93px;
   border-radius: 12px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area.style-2 .feature-area-wrapper {
+    padding: 70px 50px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .feature-area.style-2 .feature-area-wrapper {
+    padding: 70px 50px;
+  }
+}
+@media (max-width: 991px) {
+  .feature-area.style-2 .feature-area-wrapper {
+    padding: 80px 40px 20px 40px;
+  }
 }
 
 .skill-progressbar-area {
@@ -12240,6 +12274,18 @@ ul.children {
   background-position: center center;
   background-size: cover;
   margin-top: -314px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .skill-progressbar-area {
+    padding-top: 394px;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .skill-progressbar-area {
+    padding-top: 414px;
+    padding-bottom: 100px;
+  }
 }
 
 .portfolio-filter-area {

@@ -1,7 +1,7 @@
 .about-info-card {
     &.style-two {
       .about-info-content {
-        gap: 16px;
+        gap: 40px;
 
         .icon-card-wrapper {
           display: flex;
@@ -31,9 +31,10 @@
 
         .about-meta {
           display: flex;
-          gap: 30px;
+          gap: 20px 58px;
           align-items: center;
-          margin-top: 30px;
+          margin-top: 4px;
+          flex-wrap: wrap;
 
           .about-founder {
             display: flex;
