@@ -222,6 +222,15 @@
 .team-area {
   padding-top: 120px;
   padding-bottom: 96px;
+
+  @include sm {
+    padding-top: 80px;
+    padding-bottom: 6px;
+  }
+  @include md {
+    padding-top: 100px;
+    padding-bottom: 26px;
+  }
 }
 
 // Latest Post

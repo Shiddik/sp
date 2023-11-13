@@ -8960,6 +8960,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 10px;
   margin-top: 45px;
 }
+@media (max-width: 991px) {
+  .section-title .sec-desc .simple-btn {
+    margin-top: 20px;
+  }
+}
 .section-title .sec-desc .simple-btn i {
   color: rgb(46, 201, 97);
 }
@@ -11566,14 +11571,14 @@ ul.children {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0 36px;
+  padding: 0 22px;
   width: 100%;
   z-index: 2;
   margin-top: -36px;
 }
 .team-member-card .content-wrapper .content {
   width: 100%;
-  padding: 30px 20px;
+  padding: 22px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11595,6 +11600,11 @@ ul.children {
   z-index: 1;
   gap: 5px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-member-card .content-wrapper .content {
+    padding: 20px 16px;
+  }
+}
 .team-member-card .content-wrapper .content .title {
   font-size: 24px;
   line-height: 32px;
@@ -11602,6 +11612,11 @@ ul.children {
   color: #1c2325;
   font-family: "Barlow", sans-serif;
   margin: 0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-member-card .content-wrapper .content .title {
+    font-size: 18px;
+  }
 }
 .team-member-card .content-wrapper .content .desc {
   font-size: 16px;
@@ -12465,6 +12480,18 @@ ul.children {
 .team-area {
   padding-top: 120px;
   padding-bottom: 96px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area {
+    padding-top: 80px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-area {
+    padding-top: 100px;
+    padding-bottom: 26px;
+  }
 }
 
 .latest-posts-area.style-2 {
