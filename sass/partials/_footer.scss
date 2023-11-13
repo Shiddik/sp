@@ -7,6 +7,10 @@
 
   .footer-sec {
     padding-top: 90px;
+
+    @include sm {
+      padding-top: 80px;
+    }
   }
 
   .widget-menu-wrapper {
