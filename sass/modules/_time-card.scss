@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f3f7fc;
 
     .time-card-item {
         width: 100%;
@@ -119,13 +118,14 @@
         .time-card-time {
             margin-top: 10px;
             .time-card-date {
-                color: #f3f8fc;
+                color: #6d768a;
                 font-size: 18px;
                 line-height: 30px;
-                font-weight: 700;
-                background-color: #1eae98;
+                font-weight: 400;
+                font-family: $body-font;
+                //background-color: #1eae98;
                 display: inline-block;
-                border-radius: 50px;
+                //border-radius: 50px;
                 padding: 9px 35px;
                 margin-bottom: 0;
             }
