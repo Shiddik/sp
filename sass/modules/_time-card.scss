@@ -10,20 +10,31 @@
         display: flex;
         flex-direction: row;
         position: relative;
+        align-items: center;
 
         &:nth-of-type(even) {
             flex-direction: row-reverse;
+
+            .time-card-time {
+                .time-card-date {
+                    &:before {
+                        left: unset;
+                        right: 0;
+                    }
+                }
+            }
         }
         &::after {
             content: "";
-            width: 3px;
+            width: 6px;
             height: 100%;
             right: 0;
             left: 50%;
             top: 0;
             transform: translateX(-50%);
             position: absolute;
-            background: #dde4f6;
+            background-color: #cddfe0;
+            border-radius: 50px 50px 0 0;
 
             @media only screen and (min-width: 992px) and (max-width: 1399px) {
                 display: none;
@@ -31,30 +42,30 @@
         }
         .time-card-desc {
             width: 424px;
-            background: $white;
-            border-radius: 8px;
+            background-color: $white;
             position: relative;
             overflow: hidden;
+            box-shadow: 0 4px 32px 0 rgba(2, 24, 93, 0.08);
+            padding: 46px;
+            border-radius: 12px;
 
             @include rmaxwd(450) {
                 width: 100%;
             }
             .title {
-                padding: 6px 0;
-                background: $orange-color;
-                display: flex;
-                justify-content: center;
+                display: block;
+                margin-bottom: 20px;
+
                 h2 {
                     margin: 0;
                     font-family: $heading-font;
-                    font-size: 21px;
-                    line-height: 60px;
+                    font-size: 24px;
+                    line-height: initial;
                     font-weight: 700;
-                    color: $white;
+                    color: #1c2325;
                 }
             }
             .desc {
-                padding: 40px;
                 p {
                     margin: 0;
                     font-family: $body-font;
@@ -63,19 +74,12 @@
                     font-weight: 400;
                     color: $text-color;
                 }
-                @include sm {
-                    padding: 20px;
-                }
             }
         }
         .circle-wrapper {
             position: relative;
             width: 248px;
-            padding-top: 35px;
 
-            @include rmaxwd(991) {
-                padding: 0;
-            }
             .time-card-circle {
                 position: relative;
                 @include rmaxwd(991) {
@@ -83,10 +87,10 @@
                 }
                 &:before {
                     content: "";
-                    min-width: 18px;
-                    min-height: 18px;
+                    min-width: 30px;
+                    min-height: 30px;
                     border-radius: 50px;
-                    background: $orange-color;
+                    background: $sky-color;
                     flex-shrink: 0;
                     position: absolute;
                     z-index: 3;
@@ -97,12 +101,12 @@
                 &:after {
                     content: "";
                     width: 100%;
-                    height: 3px;
+                    height: 6px;
                     right: 0;
                     left: 0;
                     top: 50%;
                     position: absolute;
-                    background: #dde4f6;
+                    background-color: #cddfe0;
                     transform: translateY(-50%);
                     @include rmaxwd(991) {
                         left: 50%;
@@ -116,18 +120,29 @@
 
         }
         .time-card-time {
-            margin-top: 10px;
+
             .time-card-date {
                 color: #6d768a;
                 font-size: 18px;
                 line-height: 30px;
                 font-weight: 400;
                 font-family: $body-font;
-                //background-color: #1eae98;
                 display: inline-block;
-                //border-radius: 50px;
                 padding: 9px 35px;
                 margin-bottom: 0;
+                position: relative;
+
+                &:before {
+                    position: absolute;
+                    content: "";
+                    width: 18px;
+                    height: 18px;
+                    background-color: $blue-color;
+                    border-radius: 50%;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                }
             }
         }
 
