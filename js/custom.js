@@ -321,7 +321,7 @@
             arrows: false,
             slidesToScroll: 1,
             loop: true,
-            dots: false,
+            dots: true,
             speed: 1500,
             rtl: false,
             responsive: [

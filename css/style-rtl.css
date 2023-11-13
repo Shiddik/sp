@@ -290,7 +290,7 @@ input:focus {
 }
 
 code {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 
 .theme-btn,
@@ -299,7 +299,7 @@ input.theme-btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #fff;
   padding: 11px 36px 11px 10px;
   text-align: center;
@@ -3314,7 +3314,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #ffffff;
   font-size: 18px;
   width: 60px;
@@ -3429,7 +3429,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: absolute;
   content: "";
   border-radius: 0 0 10px 10px;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   top: 0;
   right: 0;
   width: 100%;
@@ -3524,7 +3524,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: center;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #ffffff;
   font-size: 20px;
   border-radius: 50%;
@@ -3663,7 +3663,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   content: "";
   height: 3px;
   width: 100%;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   top: -3px;
   right: 0;
 }
@@ -3758,7 +3758,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
 }
 .main-menu ul ul li a:hover {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #ffffff;
 }
 .main-menu ul ul li:last-child a {
@@ -4470,14 +4470,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
 }
 .slider-area .slider-wrapper .slick-dots li button:hover {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .slider-area .slider-wrapper .slick-dots li.slick-active {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  outline: 1px solid rgb(46, 201, 97);
+  outline: 1px solid #2ec961;
 }
 .slider-area .slider-wrapper .slick-dots li.slick-active button {
   -webkit-transition: all 0.5s ease-out;
@@ -5001,7 +5001,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 32px;
@@ -5336,13 +5336,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #6d768a;
 }
 .service-card:hover .content-wrapper .read-more {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #ffffff !important;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .service-card:hover .content-wrapper .btn-wrapper a {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 .service-card:hover .content-wrapper .btn-wrapper a i {
   color: #1c2325;
@@ -5413,7 +5413,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 700;
 }
 .service-card .content-wrapper .btn-wrapper a i {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 
 .service-card.style-2 {
@@ -5486,7 +5486,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid rgb(46, 201, 97);
+  border: 1px solid #2ec961;
   color: #1c2325;
   font-size: 16px;
   -webkit-transform: rotate(45deg);
@@ -5605,7 +5605,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 6px;
   width: 120px;
   height: 120px;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   -webkit-animation: MoveLeftRight 2s linear infinite alternate;
           animation: MoveLeftRight 2s linear infinite alternate;
 }
@@ -5984,7 +5984,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: center;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  color: rgb(46, 201, 97);
+  color: #2ec961;
   border: 2px solid #00c6ff;
 }
 .about-info-card .about-info-content .btn-wrapper .phone-number .content {
@@ -6326,7 +6326,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 60px;
   -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
           box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   border-radius: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6667,7 +6667,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
 }
 .process-step.style-two:hover .icon .count {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -6696,7 +6696,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .process-step.style-two .icon:before {
   width: 100%;
   height: 100%;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   content: "";
   position: absolute;
   right: 0;
@@ -6925,9 +6925,27 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: center;
           align-items: center;
   gap: 70px;
-  border: 1px solid rgba(255, 255, 255, 0.302);
-  border-radius: 12px;
-  padding: 90px;
+  padding: 90px 85px 88px 80px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-two {
+    padding: 40px 20px !important;
+  }
+}
+@media (max-width: 1199px) {
+  .testimonial-two {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 50px;
+    padding: 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-two {
+    padding: 80px 50px 80px 60px;
+  }
 }
 .testimonial-two .image-wrapper {
   position: relative;
@@ -6950,6 +6968,13 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .testimonial-two .image-wrapper .quote-icon {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+  }
+}
 .testimonial-two .image {
   width: 360px;
   height: 360px;
@@ -6957,6 +6982,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   overflow: hidden;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .testimonial-two .image {
+    width: 300px;
+    height: 300px;
+  }
 }
 .testimonial-two .content-wrapper {
   display: -webkit-box;
@@ -6967,6 +6998,15 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 40px;
+}
+@media (max-width: 1199px) {
+  .testimonial-two .content-wrapper {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
 }
 .testimonial-two .content-wrapper .rating {
   display: -webkit-box;
@@ -6984,6 +7024,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 30px;
   font-style: italic;
   line-height: 48px;
+}
+@media (max-width: 1199px) {
+  .testimonial-two .content-wrapper .content {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-two .content-wrapper .content {
+    font-size: 22px;
+    line-height: 42px;
+  }
 }
 .testimonial-two .content-wrapper .content p {
   margin: 0;
@@ -7005,6 +7057,62 @@ body.admin-bar .header-menu-area.sticky_menu {
 .testimonial-two .content-wrapper .user-meta .designation {
   font-size: 16px;
   color: #6d768a;
+}
+
+.testimonial-slider-two-wrapper .slick-list {
+  border: 1px solid rgba(255, 255, 255, 0.302);
+  border-radius: 12px;
+}
+.testimonial-slider-two-wrapper .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 72px;
+  padding-right: 0;
+  z-index: 2;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 0;
+}
+.testimonial-slider-two-wrapper .slick-dots li {
+  display: inline-block;
+  line-height: 0;
+  outline: 1px solid transparent;
+  border: 4px solid transparent;
+  border-radius: 50px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.testimonial-slider-two-wrapper .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+  width: 11px;
+  height: 11px;
+  background-color: #bcc0c8;
+  border-radius: 50px;
+  position: relative;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.testimonial-slider-two-wrapper .slick-dots li button:hover {
+  background-color: #00c6ff;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.testimonial-slider-two-wrapper .slick-dots li.slick-active {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  outline: 1px solid #00c6ff;
+}
+.testimonial-slider-two-wrapper .slick-dots li.slick-active button {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .testimonial-slider-wrapper {
@@ -7863,7 +7971,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 10px;
 }
 .author-info .author-post .simple-btn i {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 
 .blog-post-nav {
@@ -7992,7 +8100,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  border: 1px solid rgb(46, 201, 97);
+  border: 1px solid #2ec961;
   padding: 4px 16px;
   border-radius: 6px;
   -webkit-box-align: center;
@@ -8002,7 +8110,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 10px;
 }
 .blog-post-nav .post-navigation .text .prev-next-btn:hover {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #ffffff;
 }
 .blog-post-nav .post-navigation .text h4 {
@@ -8734,7 +8842,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .triangle-shape-card-one {
   width: 200px;
   height: 375px;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   -webkit-clip-path: polygon(68% 0, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
   position: absolute;
@@ -8806,7 +8914,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   left: 0;
   bottom: 0;
   z-index: -1;
-  border-bottom: 330px solid rgb(46, 201, 97);
+  border-bottom: 330px solid #2ec961;
   border-right: 130px solid transparent;
 }
 @media (max-width: 650px) {
@@ -8965,8 +9073,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     margin-top: 20px;
   }
 }
+.section-title .sec-desc .simple-btn:hover {
+  color: #2ec961 !important;
+}
 .section-title .sec-desc .simple-btn i {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 .section-title.two-column {
   -webkit-box-align: center;
@@ -9047,7 +9158,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 20px;
 }
 .section-title.two-column .sec-desc .simple-btn i {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 
 .page-breadcrumb-area {
@@ -9154,10 +9265,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
 }
 .breadcrumb-list ul li.active {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 .breadcrumb-list ul li.active a {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 .breadcrumb-list ul li a {
   font-family: "Roboto", sans-serif;
@@ -9174,7 +9285,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .breadcrumb-list ul li a:hover {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 .breadcrumb-list ul li:before {
   content: "\f054";
@@ -9431,7 +9542,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .nav-tab li:hover {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -9442,7 +9553,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: absolute;
   bottom: -1px;
   right: 0;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease-out;
@@ -9458,7 +9569,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-left: 0;
 }
 .nav-tab li.active {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
 }
 .nav-tab li.active:before {
   width: 100%;
@@ -9543,7 +9654,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .time-card-wrapper .time-card-item .time-card-desc .title {
   padding: 6px 0;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9598,7 +9709,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   min-width: 18px;
   min-height: 18px;
   border-radius: 50px;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   position: absolute;
@@ -9704,7 +9815,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 42px;
   height: 42px;
   border-radius: 50px;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9903,7 +10014,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 54px;
   height: 54px;
   border-radius: 50px;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9961,7 +10072,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: auto;
 }
 .list-item.style-two .icon i {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
   line-height: 30px;
 }
 .list-item.style-two .text {
@@ -10202,7 +10313,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
 }
 .widget select {
   max-width: 100%;
@@ -10745,7 +10856,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .widget_promotion .secondary-btn {
   display: inline-block;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   color: #1c2325;
   padding: 12px 104px;
   font-weight: 600;
@@ -10833,14 +10944,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .widget_service_categories ul li a:hover {
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   color: #ffffff;
 }
 .widget_service_categories ul li a:hover i {
   color: #ffffff;
 }
 .widget_service_categories ul li.active a {
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   color: #ffffff;
 }
 .widget_service_categories ul li.active a i {
@@ -10868,7 +10979,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 0;
 }
 .widget_service_promotion .widget-subtitle p {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 60px;
@@ -10989,7 +11100,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 8px;
 }
 .widget_service_brochura .widget-title-wrapper .widget-subtitle {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -11243,7 +11354,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   font-weight: 700;
   color: #1c2325;
-  border: 1px solid rgb(46, 201, 97);
+  border: 1px solid #2ec961;
   padding: 8px 22px;
   gap: 8px;
   position: absolute;
@@ -11257,7 +11368,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .latest-comments li .comments-box .comments-text .comment-reply-link:hover {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -11627,7 +11738,7 @@ ul.children {
   margin: 0;
 }
 .team-member-card .content-wrapper .social {
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   padding: 18px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11769,7 +11880,7 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 .portfolio-filter li.active {
-  color: rgb(46, 201, 97);
+  color: #2ec961;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -11897,7 +12008,7 @@ ul.children {
   display: inline-flex;
   width: 60px;
   height: 60px;
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   border-radius: 50px;
   color: #ffffff;
   -webkit-box-align: center;
@@ -11944,7 +12055,7 @@ ul.children {
   border-radius: 50%;
   z-index: 99;
   background-color: #ffffff;
-  border: 1px solid rgb(46, 201, 97);
+  border: 1px solid #2ec961;
   cursor: pointer;
   top: -90px;
   overflow: hidden;
@@ -12002,7 +12113,7 @@ ul.children {
   transition: all 0.5s ease-out;
   background: rgb(227, 0, 8);
   background: linear-gradient(-45deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
-  border-color: rgb(46, 201, 97);
+  border-color: #2ec961;
 }
 .portfolio-slider-wrapper button.portfolio-arrow-btn:hover i {
   color: #ffffff;
@@ -12428,6 +12539,18 @@ ul.children {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-slider-area.style-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
 
 .faq-area.style-2 {
   padding-top: 120px;
@@ -12761,7 +12884,7 @@ ul.children {
 }
 .faq-tab li.active a {
   color: #ffffff;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
 }
 .faq-tab li a {
   font-size: 18px;
@@ -12778,7 +12901,7 @@ ul.children {
 }
 .faq-tab li a:hover {
   color: #ffffff;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
 }
 
 .service-page-service-area {
@@ -12994,7 +13117,7 @@ ul.children {
 
 .blog-load-btn {
   padding: 20px 35px;
-  background: rgb(46, 201, 97);
+  background: #2ec961;
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
@@ -13400,7 +13523,7 @@ ul.children {
 }
 
 .subscribe-area {
-  background-color: rgb(46, 201, 97);
+  background-color: #2ec961;
   border-radius: 18px;
   padding: 64px 70px 64px 90px;
   z-index: 2;

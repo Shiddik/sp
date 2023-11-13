@@ -114,6 +114,9 @@
       @include rmaxwd(991) {
         margin-top: 20px;
       }
+      &:hover {
+        color: $orange-color !important;
+      }
       i {
         color: $orange-color;
       }
