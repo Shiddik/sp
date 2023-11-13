@@ -8344,6 +8344,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .post-card .post-meta {
+    gap: 5px 15px;
+  }
+}
 .post-card .post-meta .single-post-meta {
   color: #8f939b;
   font-size: 16px;
@@ -8443,6 +8448,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .post-card.style-2 .content .title {
   height: 64px;
+  overflow: hidden;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-2 .content .title {
+    height: auto;
+  }
 }
 
 .skill-progressbar-wrapper {
@@ -12319,6 +12330,18 @@ ul.children {
   padding-top: 110px;
   padding-bottom: 110px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .brand-slider-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .brand-slider-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
 
 .latest-posts-area.style-1 {
   padding-top: 243px;
@@ -12619,6 +12642,16 @@ ul.children {
 
 .latest-posts-area.style-2 {
   padding-bottom: 96px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .latest-posts-area.style-2 {
+    padding-bottom: 56px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .latest-posts-area.style-2 {
+    padding-bottom: 76px;
+  }
 }
 
 .map-area {

@@ -202,6 +202,15 @@
 .brand-slider-area {
   padding-top: 110px;
   padding-bottom: 110px;
+
+  @include sm {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @include md {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 
 // News Area

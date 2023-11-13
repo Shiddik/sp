@@ -246,6 +246,13 @@
 .latest-posts-area {
   &.style-2 {
     padding-bottom: 96px;
+
+    @include sm {
+      padding-bottom: 56px;
+    }
+    @include md {
+      padding-bottom: 76px;
+    }
   }
 }
 
