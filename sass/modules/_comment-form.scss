@@ -10,7 +10,7 @@
     font-size: 18px;
     font-weight: 700;
     font-family: $heading-font;
-    color: $primary-color;
+    color: $sky-color;
     display: inline-block;
     width: 100%;
     margin-bottom: 15px;
@@ -48,7 +48,7 @@
   .contacts-email,
   .contacts-name,
   .single-input-field {
-    margin-bottom: 12px;
+    margin-bottom: 18px;
   }
   label {
     display: block;
@@ -157,16 +157,14 @@
     background-color: transparent;
     padding: 0;
 
-    @include md {
-      padding: 50px;
-    }
-    @include sm {
-      padding: 30px;
+    @include rmaxwd(991) {
+      padding-top: 40px;
     }
     .post-comments-title {
       h2 {
         color: $white;
         font-size: 48px;
+        margin-bottom: 60px;
       }
     }
     label {
@@ -198,6 +196,12 @@
         color: #abb2c1;
         border-color: #FFFFFF4D !important;
         font-family: $body-font;
+      }
+      .contacts-message {
+        textarea {
+          height: 135px;
+          margin-bottom: 0;
+        }
       }
       input:focus,
       textarea:focus,

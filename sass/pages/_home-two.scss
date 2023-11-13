@@ -108,7 +108,7 @@
     background-position: center center;
     position: relative;
     padding-top: 120px;
-    padding-bottom: 620px;
+    padding-bottom: 608px;
     margin-bottom: -493px;
 
     @include sm {
@@ -117,7 +117,8 @@
     }
     @include md {
       padding-top: 100px;
-      padding-bottom: 590px;
+      padding-bottom: 435px;
+      margin-bottom: -390px;
     }
     .overlay {
       position: absolute;
@@ -182,6 +183,15 @@
     padding-bottom: 120px;
     background: linear-gradient(to left, #0c2e71 50%, #e9f5f6 50%);
 
+    @include md {
+      background: linear-gradient(to top, #0c2e71 53%, #e9f5f6 50%);
+    }
+    @include sm {
+      background: linear-gradient(to top, #0c2e71 56%, #e9f5f6 50%);
+    }
+    @include rmaxwd(420) {
+      background: linear-gradient(to top, #0c2e71 53%, #e9f5f6 50%) !important;
+    }
     @include sm {
       padding-top: 80px;
       padding-bottom: 80px;
@@ -189,6 +199,21 @@
     @include md {
       padding-top: 100px;
       padding-bottom: 100px;
+    }
+
+    .accordion-wrapper {
+      .section-title {
+        margin-bottom: 60px;
+
+        .short-title {
+          font-size: 18px;
+          margin-bottom: -7px;
+        }
+        .title {
+          font-size: 48px;
+          line-height: 60px;
+        }
+      }
     }
   }
 }

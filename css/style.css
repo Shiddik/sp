@@ -6447,7 +6447,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  gap: 30px;
+  gap: 20px;
   text-align: left;
 }
 @media (max-width: 991px) {
@@ -7186,6 +7186,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .accordion-wrapper.style-2 .accordion-list-item .accordion-item-body {
   color: #5e6f92;
+  margin-top: 14px;
+  padding-left: 7px;
 }
 
 .client-logo-wrapper {
@@ -11279,7 +11281,7 @@ ul.children {
   font-size: 18px;
   font-weight: 700;
   font-family: "Barlow", sans-serif;
-  color: rgb(0, 78, 236);
+  color: #00c6ff;
   display: inline-block;
   width: 100%;
   margin-bottom: 15px;
@@ -11323,7 +11325,7 @@ ul.children {
 .comment-respond .contacts-email,
 .comment-respond .contacts-name,
 .comment-respond .single-input-field {
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 .comment-respond label {
   display: block;
@@ -11429,19 +11431,15 @@ ul.children {
   background-color: transparent;
   padding: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .comment-respond.style-2 {
-    padding: 50px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .comment-respond.style-2 {
-    padding: 30px;
+    padding-top: 40px;
   }
 }
 .comment-respond.style-2 .post-comments-title h2 {
   color: #ffffff;
   font-size: 48px;
+  margin-bottom: 60px;
 }
 .comment-respond.style-2 label {
   color: #abb2c1;
@@ -11469,6 +11467,10 @@ ul.children {
   color: #abb2c1;
   border-color: rgba(255, 255, 255, 0.3019607843) !important;
   font-family: "Roboto", sans-serif;
+}
+.comment-respond.style-2 .single-input-field .contacts-message textarea {
+  height: 135px;
+  margin-bottom: 0;
 }
 .comment-respond.style-2 .single-input-field input:focus,
 .comment-respond.style-2 .single-input-field textarea:focus,
@@ -12348,7 +12350,7 @@ ul.children {
   background-position: center center;
   position: relative;
   padding-top: 120px;
-  padding-bottom: 620px;
+  padding-bottom: 608px;
   margin-bottom: -493px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -12360,7 +12362,8 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-up-area.style-2 {
     padding-top: 100px;
-    padding-bottom: 590px;
+    padding-bottom: 435px;
+    margin-bottom: -390px;
   }
 }
 .counter-up-area.style-2 .overlay {
@@ -12417,6 +12420,24 @@ ul.children {
   background: -webkit-gradient(linear, right top, left top, color-stop(50%, #0c2e71), color-stop(50%, #e9f5f6));
   background: linear-gradient(to left, #0c2e71 50%, #e9f5f6 50%);
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-area.style-2 {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(53%, #0c2e71), color-stop(50%, #e9f5f6));
+    background: linear-gradient(to top, #0c2e71 53%, #e9f5f6 50%);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .faq-area.style-2 {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(56%, #0c2e71), color-stop(50%, #e9f5f6));
+    background: linear-gradient(to top, #0c2e71 56%, #e9f5f6 50%);
+  }
+}
+@media (max-width: 420px) {
+  .faq-area.style-2 {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(53%, #0c2e71), color-stop(50%, #e9f5f6)) !important;
+    background: linear-gradient(to top, #0c2e71 53%, #e9f5f6 50%) !important;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-area.style-2 {
     padding-top: 80px;
@@ -12428,6 +12449,17 @@ ul.children {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+}
+.faq-area.style-2 .accordion-wrapper .section-title {
+  margin-bottom: 60px;
+}
+.faq-area.style-2 .accordion-wrapper .section-title .short-title {
+  font-size: 18px;
+  margin-bottom: -7px;
+}
+.faq-area.style-2 .accordion-wrapper .section-title .title {
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .team-area {
