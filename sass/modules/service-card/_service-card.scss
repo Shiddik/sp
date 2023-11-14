@@ -1,7 +1,7 @@
 .service-card {
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.239);
+  border: 1px solid #ced9da;
   margin-bottom: 24px;
   @include transition;
 
@@ -24,7 +24,7 @@
       }
       .read-more {
         background-color: $orange-color;
-        color: $white !important;
+        color: $black !important;
         @include transition;
       }
       .btn-wrapper {
@@ -72,11 +72,11 @@
       font-size: 24px;
       font-weight: 700;
       margin-bottom: 30px;
-      color: $white;
+      color: $black;
       line-height: 38px;
     }
     .short-desc {
-      color: #abb2c1;
+      color: $text-color;
       font-size: 18px;
       font-weight: 400;
       font-family: $body-font;
@@ -85,7 +85,7 @@
       a {
         display: flex;
         align-items: center;
-        color: $white;
+        color: $black;
         font-size: 18px;
         font-family: $heading-font;
         gap: 10px;
