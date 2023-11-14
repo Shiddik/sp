@@ -1,32 +1,25 @@
 .icon-card {
     &.style-four {
         padding: 0;
-        flex-direction: column;
-        gap: 0;
-        justify-content: center;
-        align-items: center;
+        gap: 25px;
         margin-bottom: 0;
+        align-items: center;
 
+        @include sm {
+            text-align: center;
+        }
         .icon {
-            width: 72px;
-            height: 72px;
-            background: $sky-color;
+            width: 90px;
+            height: 90px;
+            background: $orange-color;
             border-radius: 50px;
             justify-content: center;
             align-items: center;
-            transform: translate(0, 50%);
-            i {
-                color: $white;
-            }
+            color: $white;
+            font-size: 24px;
         }
         .content {
-            width: 100%;
-            padding: 55px 30px 30px 30px;
-            background: $gray-50;
-            justify-content: center;
-            align-items: center;
             gap: 10px;
-            border-radius: 8px;
         }
     }
 }
