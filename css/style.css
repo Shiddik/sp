@@ -13013,6 +13013,74 @@ ul.children {
     padding-bottom: 76px;
   }
 }
+.service-page-process-step-area {
+  background-color: rgb(233, 245, 246);
+  padding-top: 120px;
+  padding-bottom: 96px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-page-process-step-area {
+    padding-top: 80px;
+    padding-bottom: 76px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-page-process-step-area {
+    padding-top: 100px;
+    padding-bottom: 96px;
+  }
+}
+
+.feature-area {
+  padding: 120px 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area {
+    padding: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .feature-area {
+    padding: 100px 0;
+  }
+}
+.feature-area .feature-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 12px 12px 0;
+  overflow: hidden;
+}
+.feature-area .feature-bg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.feature-area .feature-content-wrapper .section-title {
+  margin-bottom: 26px;
+}
+.feature-area .feature-content-wrapper .section-title .title {
+  margin-bottom: 17px;
+}
+.feature-area .feature-content-wrapper .section-title .sec-desc {
+  font-size: 18px;
+}
+.feature-area .feature-content-wrapper .list-item {
+  margin-bottom: 0;
+}
+.feature-area .feature-content-wrapper .list-item ul {
+  margin-bottom: 0;
+}
+
 .service-details-wrapper {
   padding-top: 144px;
   padding-bottom: 130px;
