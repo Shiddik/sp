@@ -21,6 +21,8 @@
         width: 24px;
         height: 24px;
         flex-shrink: 0;
+        box-shadow: 0 4px 10px 0 rgba(2, 24, 93, 0.08);
+
       }
       &.collapsed {
         &:before {

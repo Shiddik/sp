@@ -17,3 +17,59 @@
     }
 
 }
+
+
+// Service Details Page
+.service-details-wrapper {
+    padding-top: 144px;
+    padding-bottom: 130px;
+
+    @include rmaxwd(991) {
+        padding: 100px 0;
+    }
+    @include rmaxwd(767) {
+        padding: 70px 0;
+    }
+
+    .details-main {
+        padding-left: 25px;
+
+        @include rmaxwd(1199) {
+            padding-left: 0;
+        }
+        img {
+            border-radius: 12px;
+        }
+        .accordion-list-item {
+            margin-bottom: 0;
+        }
+        .list-item {
+            margin-bottom: 0;
+        }
+        .row.mt-55 {
+            @include rmaxwd(767) {
+                margin-top: 10px;
+            }
+        }
+        .service-feature-img {
+            margin-bottom: 44px;
+
+            @include rmaxwd(767) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .faq-title {
+        font-size: 30px;
+    }
+    .benefits-image {
+        margin-bottom: 30px;
+
+        img {
+            @include rmaxwd(991) {
+                width: 100%;
+            }
+        }
+
+    }
+}
