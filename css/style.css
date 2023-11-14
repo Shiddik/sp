@@ -9867,7 +9867,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .project-detail-area {
-  padding: 144px 0;
+  padding: 120px 0;
 }
 @media (max-width: 991px) {
   .project-detail-area {
@@ -12070,7 +12070,7 @@ ul.children {
   border-radius: 50%;
   z-index: 99;
   background-color: #ffffff;
-  border: 1px solid #2ec961;
+  border: 1px solid #00c6ff;
   cursor: pointer;
   top: -90px;
   overflow: hidden;
@@ -12126,9 +12126,8 @@ ul.children {
 .portfolio-slider-wrapper button.portfolio-arrow-btn:hover {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  background: rgb(227, 0, 8);
-  background: linear-gradient(45deg, rgb(227, 0, 8) 0%, rgb(250, 174, 0) 100%);
-  border-color: #2ec961;
+  border-color: #00c6ff;
+  background-color: #00c6ff;
 }
 .portfolio-slider-wrapper button.portfolio-arrow-btn:hover i {
   color: #ffffff;

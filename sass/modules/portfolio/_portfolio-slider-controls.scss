@@ -21,7 +21,7 @@
     border-radius: 50%;
     z-index: 99;
     background-color: #ffffff;
-    border: 1px solid $orange-color;
+    border: 1px solid $sky-color;
     cursor: pointer;
     top: -90px;
     overflow: hidden;
@@ -66,8 +66,8 @@
     }
     &:hover{
       @include transition;
-      @include gradient-color-red;
-      border-color: $orange-color;
+      border-color: $sky-color;
+      background-color: $sky-color;
 
       i{
         color: $white;
