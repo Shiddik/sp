@@ -51,7 +51,7 @@
   .title {
     font-size: 60px;
     line-height: 72px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: $heading-font;
     color: $black;
     margin-bottom: 0;
@@ -78,7 +78,7 @@
       }
     }
     span {
-      color: $primary-color;
+      font-weight: 600;
     }
   }
   .sec-desc {

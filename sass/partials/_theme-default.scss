@@ -166,7 +166,7 @@ input:focus {
 
 
 .background-gray {
-  background-color: rgb(233, 245, 246);
+  background-color: #f0f4fa;
 }
 .background-light-gray {
   background-color: #f3f7fc;
@@ -212,10 +212,10 @@ code {
 input.theme-btn {
   display: inline-flex;
   background-color: $orange-color;
-  color: #fff;
+  color: $black;
   padding: 11px 10px 11px 36px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   font-family: $heading-font;
   text-transform: capitalize;
   position: relative;
@@ -240,7 +240,7 @@ input.theme-btn {
     height: 0%;
     left: 50%;
     top: 50%;
-    background-color: $primary-color;
+    background-color: $blue-color;
     transform: translate(-50%, -50%) rotate(-45deg);
     content: "";
     z-index: -1;
@@ -254,7 +254,7 @@ input.theme-btn {
     width: 44px;
     height: 44px;
     border-radius: 6px;
-    background-color: $primary-color;
+    background-color: $blue-color;
     color: #fff;
     font-size: 16px;
   }

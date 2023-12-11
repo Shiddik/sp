@@ -13,7 +13,6 @@
         align-items: center;
         justify-content: space-between;
         background-color: $sky-color;
-        border-top: 3px solid $primary-color;
         border-radius: 0 0 6px 6px;
         width: 100%;
 
@@ -26,8 +25,9 @@
           align-self: stretch;
           align-items: center;
           background-color: $orange-color;
-          color: $white;
+          color: $black;
           font-size: 18px;
+          font-weight: 700;
           width: 60px;
           justify-content: center;
           border-radius: 0 0 6px 0;
@@ -64,7 +64,7 @@
       display: flex;
       align-items: center;
       gap: 24px;
-      color: $white;
+      color: #a9b6d2;
       font-size: 16px;
       font-weight: 400;
       font-family: $body-font;
@@ -75,8 +75,7 @@
         }
       }
       &:before {
-        background-color: rgb(255, 255, 255);
-        opacity: 0.361;
+        background-color: #667490;
         width: 1px;
         display: inline-flex;
         height: 12px;
@@ -190,8 +189,8 @@
           align-items: center;
           justify-content: center;
           flex-shrink: 0;
-          background-color: $orange-color;
-          color: $white;
+          background-color: #eaeff6;
+          color: $blue-color;
           font-size: 20px;
           border-radius: 50%;
         }
@@ -207,7 +206,7 @@
             font-size: 18px;
             color: $black;
             font-family: $heading-font;
-            font-weight: 700;
+            font-weight: 500;
 
             a {
               color: $black;
@@ -373,11 +372,12 @@
           &:after {
             position: absolute;
             content: "";
-            height: 3px;
+            height: 40%;
             width: 100%;
-            background-color: $orange-color;
-            top: -3px;
-            left: 0;
+            background-color: #fedb5c;
+            top: 0;
+            transform: rotate(-50deg);
+            left: -80px;
           }
         }
       }
@@ -437,8 +437,9 @@
         color: $white;
         font-family: $heading-font;
         font-size: 18px;
-        font-weight: 700;
+        font-weight: 500;
         border-right: 1px solid rgba(255, 255, 255, 0.361);
+        overflow: hidden;
 
         @include lg {
           padding: 18px 40px;
