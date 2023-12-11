@@ -158,7 +158,7 @@ input:focus {
   background-color: rgb(14, 49, 81);
 }
 .background-light-blue {
-  background-color: $primary-color;
+  background-color: $light-blue-color;
 }
 .background-skye {
   background-color: $sky-color;
@@ -238,10 +238,10 @@ input.theme-btn {
     position: absolute;
     width: 200%;
     height: 0%;
-    left: 50%;
-    top: 50%;
+    left: 0;
+    //top: 50%;
     background-color: $blue-color;
-    transform: translate(-50%, -50%) rotate(-45deg);
+    //transform: translate(-50%, -50%) rotate(-45deg);
     content: "";
     z-index: -1;
     @include transition;

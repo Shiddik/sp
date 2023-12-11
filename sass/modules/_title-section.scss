@@ -39,7 +39,7 @@
     }
   }
   .short-title {
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
     font-family: $heading-font;
     color: $sky-color;
@@ -117,9 +117,6 @@
       &:hover {
         color: $orange-color !important;
       }
-      i {
-        color: $orange-color;
-      }
     }
   }
 
@@ -173,10 +170,6 @@
         display: flex;
         align-items: center;
         gap: 20px;
-
-        i {
-          color: $orange-color;
-        }
       }
     }
   }

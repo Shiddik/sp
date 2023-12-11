@@ -3,6 +3,7 @@
   overflow: hidden;
   border: 1px solid #ced9da;
   margin-bottom: 24px;
+  background-color: $white;
   @include transition;
 
 
@@ -10,7 +11,6 @@
     background-color: $white;
     box-shadow: 0px 5px 60px 0px rgba(2, 24, 93, 0.12);
     border-color: transparent;
-
     @include transition;
 
     .image {
@@ -20,6 +20,11 @@
       }
     }
     .content-wrapper {
+      .icon {
+        background-color: $orange-color;
+        @include transition;
+      }
+
       .title {
         color: $black;
       }
@@ -33,11 +38,7 @@
       }
       .btn-wrapper {
         a {
-          color: $orange-color;
-
-          i {
-            color: $black;
-          }
+          color: $blue-color;
         }
       }
     }
@@ -70,6 +71,7 @@
       top: 0;
       right: 47px;
       transform: translateY(-50%);
+      @include transition;
     }
 
     .title {
@@ -89,15 +91,11 @@
       a {
         display: flex;
         align-items: center;
-        color: $black;
+        color: $blue-color;
         font-size: 18px;
-        font-family: $heading-font;
+        font-family: $body-font;
         gap: 10px;
         font-weight: 500;
-
-        i {
-          color: $orange-color;
-        }
       }
     }
   }

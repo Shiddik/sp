@@ -41,9 +41,9 @@
         gap: 5px;
 
         li {
-          font-family: $heading-font;
-          color: $black;
-          font-weight: 500;
+          font-family: $body-font;
+          color: $text-color;
+          font-weight: 400;
           font-size: 18px;
           list-style: none;
           position: relative;
@@ -123,8 +123,8 @@
           align-items: center;
           justify-content: center;
           flex-shrink: 0;
-          color: $orange-color;
-          border: 2px solid $sky-color;
+          color: $blue-color;
+          border: 2px solid $orange-color;
         }
         .content {
           display: inline-flex;

@@ -233,7 +233,7 @@ input:focus {
 }
 
 .background-light-blue {
-  background-color: #102652;
+  background-color: #0c2e71;
 }
 
 .background-skye {
@@ -335,11 +335,8 @@ input.theme-btn:before {
   position: absolute;
   width: 200%;
   height: 0%;
-  right: 50%;
-  top: 50%;
+  right: 0;
   background-color: #0c60ec;
-  -webkit-transform: translate(50%, -50%) rotate(45deg);
-          transform: translate(50%, -50%) rotate(45deg);
   content: "";
   z-index: -1;
   -webkit-transition: all 0.5s ease-out;
@@ -5322,6 +5319,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   overflow: hidden;
   border: 1px solid #ced9da;
   margin-bottom: 24px;
+  background-color: #ffffff;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -5339,6 +5337,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+.service-card:hover .content-wrapper .icon {
+  background-color: #fedb5c;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
 .service-card:hover .content-wrapper .title {
   color: #1c2325;
 }
@@ -5352,10 +5355,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
 }
 .service-card:hover .content-wrapper .btn-wrapper a {
-  color: #fedb5c;
-}
-.service-card:hover .content-wrapper .btn-wrapper a i {
-  color: #1c2325;
+  color: #0c60ec;
 }
 .service-card .image {
   overflow: hidden;
@@ -5395,6 +5395,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   left: 47px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .service-card .content-wrapper .title {
   font-size: 24px;
@@ -5416,14 +5418,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #1c2325;
+  color: #0c60ec;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   gap: 10px;
   font-weight: 500;
-}
-.service-card .content-wrapper .btn-wrapper a i {
-  color: #fedb5c;
 }
 
 .service-card.style-2 {
@@ -5633,7 +5632,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 184px;
   height: 184px;
   z-index: 2;
-  background-color: #102652;
+  background-color: #0c60ec;
   -webkit-animation: MoveUpDown 2s linear infinite alternate;
           animation: MoveUpDown 2s linear infinite alternate;
 }
@@ -5684,7 +5683,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-image-card .img-card-wrapper.image-four .circle-shape {
   width: 60px;
   height: 60px;
-  background-color: #0c60ec;
+  background-color: #fedb5c;
   border-radius: 12px;
   position: absolute;
   top: -100px;
@@ -5884,9 +5883,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 5px;
 }
 .about-info-card .about-info-content .list-item-wrapper ul li {
-  font-family: "Poppins", sans-serif;
-  color: #1c2325;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #5e6f92;
+  font-weight: 400;
   font-size: 18px;
   list-style: none;
   position: relative;
@@ -5994,8 +5993,8 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: center;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  color: #fedb5c;
-  border: 2px solid #0c60ec;
+  color: #0c60ec;
+  border: 2px solid #fedb5c;
 }
 .about-info-card .about-info-content .btn-wrapper .phone-number .content {
   display: -webkit-inline-box;
@@ -6336,7 +6335,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 60px;
   -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
           box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-  background-color: #fedb5c;
+  background-color: rgba(12, 96, 236, 0.839);
   border-radius: 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6354,7 +6353,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .video-popup-card .video-popup-btn a i {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 16px;
 }
 .video-popup-card .video-popup-btn a:hover {
   -webkit-animation: none;
@@ -9007,7 +9006,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .section-title .short-title {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #0c60ec;
@@ -9099,9 +9098,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .section-title .sec-desc .simple-btn:hover {
   color: #fedb5c !important;
 }
-.section-title .sec-desc .simple-btn i {
-  color: #fedb5c;
-}
 .section-title.two-column {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -9179,9 +9175,6 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
-}
-.section-title.two-column .sec-desc .simple-btn i {
-  color: #fedb5c;
 }
 
 .page-breadcrumb-area {
@@ -11957,7 +11950,7 @@ ul.children {
   opacity: 0;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  background-color: rgba(0, 78, 236, 0.722);
+  background-color: rgba(16, 38, 82, 0.361);
 }
 .portfolio-style-two .content-wrapper .content {
   display: -webkit-box;
@@ -12032,7 +12025,7 @@ ul.children {
   height: 60px;
   background-color: #fedb5c;
   border-radius: 50px;
-  color: #ffffff;
+  color: #1c2325;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -12202,7 +12195,7 @@ ul.children {
   margin-bottom: -120px;
 }
 .counter-up-area.style-1 .counter-card-area {
-  background-color: #102652;
+  background-color: #0c60ec;
   padding: 68px 80px;
   border-radius: 12px;
 }
@@ -12242,7 +12235,6 @@ ul.children {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #102652;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-area.style-1 {
@@ -12260,16 +12252,7 @@ ul.children {
   color: #abb2c1;
 }
 .service-area.style-1 .service-card {
-  border: 1px solid rgba(255, 255, 255, 0.239);
-}
-.service-area.style-1 .service-card .content-wrapper .title {
-  color: #ffffff;
-}
-.service-area.style-1 .service-card .content-wrapper .short-desc {
-  color: #abb2c1;
-}
-.service-area.style-1 .service-card .content-wrapper .btn-wrapper a {
-  color: #ffffff;
+  border: 0;
 }
 
 .faq-area.style-1 {

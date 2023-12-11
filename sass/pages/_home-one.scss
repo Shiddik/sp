@@ -58,7 +58,7 @@
     margin-bottom: -120px;
 
     .counter-card-area {
-      background-color: $primary-color;
+      background-color: $blue-color;
       padding: 68px 80px;
       border-radius: 12px;
     }
@@ -106,7 +106,6 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-color: $primary-color;
 
 
     @include md {
@@ -119,24 +118,23 @@
     }
     .section-title .sec-desc {
       color: #abb2c1;
-
     }
 
     .service-card {
-      border: 1px solid rgba(255, 255, 255, 0.239);
-      .content-wrapper {
-        .title {
-          color: $white;
-        }
-        .short-desc {
-          color: #abb2c1;
-        }
-        .btn-wrapper {
-          a {
-            color: $white;
-          }
-        }
-      }
+      border: 0;
+      //.content-wrapper {
+      //  .title {
+      //    color: $white;
+      //  }
+      //  .short-desc {
+      //    color: #abb2c1;
+      //  }
+      //  .btn-wrapper {
+      //    a {
+      //      color: $white;
+      //    }
+      //  }
+      //}
     }
 
   }
