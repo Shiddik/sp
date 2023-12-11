@@ -30,7 +30,7 @@
       }
     }
     .sub-title {
-      font-weight: 700;
+      font-weight: 500;
     }
     .list-item-wrapper {
       ul {
@@ -43,7 +43,7 @@
         li {
           font-family: $heading-font;
           color: $black;
-          font-weight: 700;
+          font-weight: 500;
           font-size: 18px;
           list-style: none;
           position: relative;
@@ -91,7 +91,7 @@
         .name {
           font-family: $heading-font;
           font-size: 16px;
-          font-weight: 700;
+          font-weight: 500;
           color: $secondary-color;
           font-style: normal;
         }
@@ -137,7 +137,7 @@
           .text {
             font-family: $heading-font;
             font-size: 21px;
-            font-weight: 700;
+            font-weight: 500;
             color: $secondary-color;
 
             a {

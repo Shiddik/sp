@@ -27,7 +27,7 @@
           background-color: $orange-color;
           color: $black;
           font-size: 18px;
-          font-weight: 700;
+          font-weight: 500;
           width: 60px;
           justify-content: center;
           border-radius: 0 0 6px 0;
@@ -111,7 +111,7 @@
       color: $white;
       margin-bottom: -100px;
       display: inline-block;
-      font-weight: 700;
+      font-weight: 500;
       z-index: 2;
 
       &:hover {
@@ -595,7 +595,7 @@
     .text {
       font-family: $heading-font;
       font-size: 18px;
-      font-weight: 700;
+      font-weight: 500;
       color: $secondary-color;
       line-height: 22px;
 

@@ -12,7 +12,7 @@
     font-size: 48px;
     line-height: 56px;
     margin-bottom: 0;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: -10px;
 
     @include sm {
@@ -62,7 +62,7 @@
           a {
             font-size: 21px;
             margin-bottom: 5px;
-            font-weight: 700;
+            font-weight: 500;
             font-family: $heading-font;
             color: $secondary-color;
           }
@@ -85,7 +85,7 @@
           a {
             border-radius: 6px;
             font-size: 14px;
-            font-weight: 700;
+            font-weight: 500;
             color: $secondary-color;
             border: 1px solid $primary-color;
             padding: 4px 26px;
@@ -194,7 +194,7 @@
           h5 {
             font-size: 24px;
             margin-bottom: 5px;
-            font-weight: 700;
+            font-weight: 500;
             font-family: $heading-font;
             display: flex;
             align-items: center;
@@ -219,7 +219,7 @@
           align-items: center;
           border-radius: 6px;
           font-size: 16px;
-          font-weight: 700;
+          font-weight: 500;
           color: $secondary-color;
           border: 1px solid $orange-color;
           padding: 8px 22px;

@@ -42,7 +42,7 @@
   color: $white;
   position: relative;
   margin-bottom: 26px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .footer-widget {
   margin-bottom: 30px;
@@ -239,7 +239,7 @@
             font-size: 16px;
             line-height: 22px;
             color: $white;
-            font-weight: 700;
+            font-weight: 500;
 
             a {
               font-size: 16px;
@@ -247,7 +247,7 @@
               color: $white;
               position: relative;
               text-transform: capitalize;
-              font-weight: 700;
+              font-weight: 500;
               @include transition;
 
               &:hover {
@@ -420,7 +420,7 @@
 
     .short-title {
       font-size: 21px;
-      font-weight: 700;
+      font-weight: 500;
       color: $white;
       margin-bottom: 0;
     }

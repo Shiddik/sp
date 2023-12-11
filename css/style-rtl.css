@@ -100,37 +100,37 @@ h6 {
 h1 {
   font-size: 120px;
   line-height: 132px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 48px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 36px;
   line-height: 43px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h4 {
   font-size: 30px;
   line-height: 42px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h5 {
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h6 {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 label {
@@ -3316,7 +3316,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: #fedb5c;
   color: #1c2325;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   width: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -3416,7 +3416,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   margin-bottom: -100px;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 500;
   z-index: 2;
 }
 .header-top .header-top-btn a:hover:before {
@@ -3847,7 +3847,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-btn .content-wrapper .text {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   line-height: 22px;
 }
@@ -4113,7 +4113,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 14px;
   text-transform: capitalize;
   line-height: 1.5;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -4776,7 +4776,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .info-card {
   background: #ffffff;
-  padding: 50px 46px 56px 46px;
+  padding: 50px 40px 56px 40px;
   border-radius: 10px;
   position: relative;
   -webkit-box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.08);
@@ -4918,7 +4918,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .info-card .title-wrapper .title {
   font-size: 24px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   color: #1c2325;
   -webkit-transition: all 0.6s ease;
@@ -4961,7 +4961,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 18px;
   font-size: 16px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: capitalize;
   margin-bottom: 0;
   color: #1c2325;
@@ -5156,7 +5156,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .icon-card .content .title {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   color: #1c2325;
@@ -5398,7 +5398,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .service-card .content-wrapper .title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 30px;
   color: #1c2325;
   line-height: 38px;
@@ -5420,7 +5420,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   gap: 10px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .service-card .content-wrapper .btn-wrapper a i {
   color: #fedb5c;
@@ -5572,7 +5572,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-image-card .img-card-wrapper .title {
   font-size: 18px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0;
 }
 .about-image-card .img-card-wrapper .year {
@@ -5869,7 +5869,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 0;
 }
 .about-info-card .about-info-content .sub-title {
-  font-weight: 700;
+  font-weight: 500;
 }
 .about-info-card .about-info-content .list-item-wrapper ul {
   padding: 0;
@@ -5886,7 +5886,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card .about-info-content .list-item-wrapper ul li {
   font-family: "Poppins", sans-serif;
   color: #1c2325;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   list-style: none;
   position: relative;
@@ -5946,7 +5946,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card .about-info-content .quote-text .quote-text-meta .name {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   font-style: normal;
 }
@@ -6013,7 +6013,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card .about-info-content .btn-wrapper .phone-number .content .text {
   font-family: "Poppins", sans-serif;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
 }
 .about-info-card .about-info-content .btn-wrapper .phone-number .content .text a {
@@ -6201,7 +6201,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .promotional-banner-widget .title-wrapper .title {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   line-height: 48px;
   font-family: "Poppins", sans-serif;
@@ -6271,7 +6271,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .promotional-banner-widget .promotional-bananer-content .content .text {
   font-family: "Poppins", sans-serif;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
 }
 .promotional-banner-widget .promotional-bananer-content .content .text a {
@@ -6292,7 +6292,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-block;
   width: 100%;
   color: #0c60ec;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
 .promotional-banner-widget.style-two .promotional-bananer-content .content .text {
@@ -6471,7 +6471,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .counter-card .counter-item .number {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 72px;
   line-height: initial;
   text-align: center;
@@ -6511,7 +6511,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .counter-card .counter-item .title {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 21px;
   line-height: 34px;
   color: #ffffff;
@@ -6611,7 +6611,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .process-step .count span {
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .process-step .content {
   display: -webkit-box;
@@ -6627,7 +6627,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
 }
 .process-step .content .desc {
@@ -6759,7 +6759,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .process-step.style-two .icon .count span {
   font-size: 16px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .process-step.style-two .content {
   display: -webkit-box;
@@ -6775,7 +6775,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
 }
 .process-step.style-two .content .desc {
@@ -6916,7 +6916,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
   font-size: 21px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
 }
 .testimonial-card .meta-user .user-info .info p {
@@ -7061,7 +7061,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .testimonial-two .content-wrapper .user-meta .user-name {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
 }
 .testimonial-two .content-wrapper .user-meta .designation {
@@ -7280,7 +7280,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 24px;
   line-height: 32px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -7607,7 +7607,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .single-post-item .post-title {
   font-size: 36px;
   line-height: 54px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -7674,7 +7674,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .single-post-item .social-share .social-share-title {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #1c2325;
   margin-left: 5px;
@@ -7686,7 +7686,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .single-post-item .blog-post-tag span {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   color: #1c2325;
@@ -7923,7 +7923,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .author-info .author-text h3 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 10px;
   line-height: 28px;
 }
@@ -7972,7 +7972,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .author-info .author-post .simple-btn {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -8107,7 +8107,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -8312,7 +8312,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 86px;
   overflow: hidden;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 33px;
   margin-bottom: 0;
 }
@@ -8497,7 +8497,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   z-index: 100;
   color: #ffffff;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
 .skill-progressbar .progress-number-count {
@@ -8589,7 +8589,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
 }
 .price-card .card-title .title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: initial;
   color: #1c2325;
@@ -8845,7 +8845,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
 }
 .cta-card .cta-phone-number .content .title {
   font-size: 18px;
@@ -9008,7 +9008,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title .short-title {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #0c60ec;
 }
@@ -9079,7 +9079,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title .sec-desc .simple-btn {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #1c2325;
   display: -webkit-box;
@@ -9169,7 +9169,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-title.two-column .sec-desc .simple-btn {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #1c2325;
   display: -webkit-box;
@@ -9224,7 +9224,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 20px;
   text-transform: capitalize;
   line-height: 84px;
-  font-weight: 700;
+  font-weight: 500;
 }
 @media (max-width: 375px) {
   .page-heading h3,
@@ -9550,7 +9550,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 21px;
   line-height: 20px;
   padding: 18px 0;
-  font-weight: 700;
+  font-weight: 500;
   position: relative;
   cursor: pointer;
 }
@@ -9694,7 +9694,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   line-height: initial;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
 }
 .time-card-wrapper .time-card-item .time-card-desc .desc p {
@@ -9951,7 +9951,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .project-details-title {
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   margin: 0;
 }
@@ -9959,7 +9959,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .simillar-project-title h2 {
   font-size: 36px;
   line-height: 50px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   margin: 0;
 }
@@ -10002,7 +10002,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
   font-size: 18px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
 }
 .project-info-widget .info-item p {
@@ -10069,7 +10069,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .list-item .text {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #5e6f92;
   margin: 0;
 }
@@ -10194,7 +10194,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: center;
           align-items: center;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 30px;
   color: #1c2325;
   position: relative;
@@ -10429,7 +10429,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 24px;
   display: block;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 30px;
   color: #1c2325;
   font-family: "Poppins", sans-serif;
@@ -10952,13 +10952,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #1c2325;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   width: 100%;
 }
 .widget_service_categories ul li a i {
   color: #0c60ec;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget_service_categories ul li a {
@@ -11005,7 +11005,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
 }
 .widget_service_promotion .promotion-card {
@@ -11025,7 +11025,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
 }
 .widget_service_promotion .promotion-card .secondary-btn {
@@ -11088,7 +11088,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Poppins", sans-serif;
   font-size: 21px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 500;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget_service_promotion {
@@ -11126,7 +11126,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
 }
 .widget_service_brochura .widget-title-wrapper .widget-title {
@@ -11134,7 +11134,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .widget_service_brochura .widget-title-wrapper .widget-title:before {
   display: none;
@@ -11154,7 +11154,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11189,7 +11189,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 48px;
   line-height: 56px;
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: -10px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11250,7 +11250,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-author-name a {
   font-size: 21px;
   margin-bottom: 5px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #1c2325;
 }
@@ -11267,7 +11267,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-comment-reply-link a {
   border-radius: 6px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   border: 1px solid #102652;
   padding: 4px 26px;
@@ -11340,7 +11340,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .latest-comments li .comments-box .comments-text .avatar-name h5 {
   font-size: 24px;
   margin-bottom: 5px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11374,7 +11374,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           align-items: center;
   border-radius: 6px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   border: 1px solid #fedb5c;
   padding: 8px 22px;
@@ -11417,7 +11417,7 @@ ul.children {
 /*Comment Input Filed*/
 .post-comments-title .sub-title {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #0c60ec;
   display: inline-block;
@@ -11427,7 +11427,7 @@ ul.children {
 .post-comments-title h2 {
   font-size: 48px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   margin-bottom: 40px;
   display: -webkit-box;
@@ -11468,7 +11468,7 @@ ul.children {
 .comment-respond label {
   display: block;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #778196;
   margin-bottom: 12px;
 }
@@ -11741,7 +11741,7 @@ ul.children {
 .team-member-card .content-wrapper .content .title {
   font-size: 24px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -11894,7 +11894,7 @@ ul.children {
 .portfolio-filter li {
   list-style: none;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   text-transform: capitalize;
   cursor: pointer;
@@ -11989,7 +11989,7 @@ ul.children {
   padding: 13px 18px 16px 18px;
   font-size: 18px;
   line-height: initial;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
   display: inline-block;
 }
@@ -12000,7 +12000,7 @@ ul.children {
 }
 .portfolio-style-two .content-wrapper .content .title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 36px;
   margin-bottom: 0;
   color: #1c2325;
@@ -12958,7 +12958,7 @@ ul.children {
 .faq-tab li a {
   font-size: 18px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 500;
   color: #1c2325;
   border-radius: 6px;
   padding: 26px 35px;
@@ -13154,7 +13154,7 @@ ul.children {
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 700;
+  font-weight: 500;
   border-radius: 6px;
 }
 @media (max-width: 767px) {
@@ -13214,7 +13214,7 @@ ul.children {
   color: #ffffff;
   position: relative;
   margin-bottom: 26px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .footer-widget {
@@ -13404,7 +13404,7 @@ ul.children {
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
 }
 .footer-widget .widget_latest_post ul li .latest-post-desc .latest-post-title a {
   font-size: 16px;
@@ -13412,7 +13412,7 @@ ul.children {
   color: #ffffff;
   position: relative;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 500;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -13620,7 +13620,7 @@ ul.children {
 }
 .subscribe-area .content-wrapper .short-title {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   margin-bottom: 0;
 }
@@ -13866,14 +13866,14 @@ ul.children {
   display: inline-block;
   width: 100%;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #0c60ec;
 }
 .footer-cta-area .footer-cta-wrapper .phone-number .content .text {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
 }
 @media (max-width: 1199px) {
