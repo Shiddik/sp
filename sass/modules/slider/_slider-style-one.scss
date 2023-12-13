@@ -206,12 +206,15 @@
           }
           .slider-title {
             font-family: $heading-font;
-            font-weight: 600;
+            font-weight: 500;
             font-size: 90px;
             color: $white;
             line-height: 100px;
             margin-bottom: 30px;
 
+            span {
+              font-weight: 600;
+            }
             @media only screen and (min-width: 992px) and (max-width: 1400px){
               font-size: 60px;
               line-height: 64px;

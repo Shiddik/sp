@@ -1,0 +1,46 @@
+.slider-area {
+
+  &.style-3 {
+
+    .slick-dots {
+      top: unset;
+      bottom: 75px;
+      left: 50%;
+      transform: translateX(-50%);
+      flex-direction: row;
+      padding-left: 0;
+      position: absolute;
+    }
+    .single-slider {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+      height: 1080px;
+
+      @include xs {
+        height: 500px !important;
+      }
+      @include sm {
+        height: 810px;
+      }
+      @include md {
+        height: 810px;
+      }
+      .slider-overlay {
+        background-color: rgb(4, 43, 121);
+        opacity: 0.639;
+      }
+
+      .slider-content-wrapper {
+        text-align: center;
+
+        .slider-content {
+
+        }
+      }
+    }
+  }
+}
