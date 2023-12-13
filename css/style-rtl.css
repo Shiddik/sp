@@ -6532,7 +6532,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 72px;
-  line-height: initial;
+  line-height: 72px;
   text-align: center;
   color: #ffffff;
   display: -webkit-box;
@@ -6549,18 +6549,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .counter-item .number {
     font-size: 48px;
-    line-height: 56px;
+    line-height: 48px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-card .counter-item .number {
     font-size: 48px;
-    line-height: 56px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-card .counter-item .number {
-    font-size: 74px;
+    line-height: 48px;
   }
 }
 .counter-card .counter-item .number sup {
@@ -6572,26 +6567,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 21px;
-  line-height: 34px;
+  line-height: 21px;
   color: #ffffff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .counter-card .counter-item .title {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-card .counter-item .title {
     font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .counter-card .counter-item .title {
-    font-size: 24px;
-    line-height: 38px;
+    line-height: 20px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -6608,13 +6597,19 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.239);
+  border-radius: 12px;
+  padding: 60px 0;
 }
 .counter-card.style-2 .counter-item .counter-title {
-  text-align: right;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.counter-card.style-2 .counter-item .number {
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .process-steps-wrapper {

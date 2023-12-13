@@ -62,7 +62,7 @@
       font-family: $heading-font;
       font-weight: 500;
       font-size: 72px;
-      line-height: initial;
+      line-height: 72px;
       text-align: center;
       color: $white;
       display: flex;
@@ -72,14 +72,11 @@
 
       @include sm {
         font-size: 48px;
-        line-height: 56px;
+        line-height: 48px;
       }
       @include md {
         font-size: 48px;
-        line-height: 56px;
-      }
-      @include lg {
-        font-size: 74px;
+        line-height: 48px;
       }
       sup {
         font-size: 30px;
@@ -91,21 +88,17 @@
       font-family: $heading-font;
       font-weight: 500;
       font-size: 21px;
-      line-height: 34px;
+      line-height: 21px;
       color: $white;
 
       @include sm {
         font-size: 20px;
-        line-height: 30px;
+        line-height: 20px;
         text-align: center;
       }
       @include md {
         font-size: 20px;
-        line-height: 30px;
-      }
-      @include lg {
-        font-size: 24px;
-        line-height: 38px;
+        line-height: 20px;
       }
       br {
         @include sm {

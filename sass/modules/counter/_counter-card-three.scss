@@ -1,8 +1,9 @@
 .counter-card {
     &.style-three {
-        display: flex;
-        flex-direction: column;
-        gap: 18px;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.239);
+        border-radius: 12px;
+        padding: 60px 0;
 
         .counter-item {
             text-align: left;
