@@ -8501,16 +8501,18 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 24px;
+  -webkit-box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.1);
+          box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.1);
+  background-color: #ffffff;
+  overflow: hidden;
+  border-radius: 12px;
 }
 .post-card.style-2 .image {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0;
   height: 290px;
 }
 .post-card.style-2 .content {
   padding: 30px;
-  -webkit-box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.1);
-          box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.1);
-  background-color: #ffffff;
 }
 .post-card.style-2 .content .title {
   height: 64px;

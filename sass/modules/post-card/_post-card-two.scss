@@ -2,15 +2,19 @@
     &.style-2 {
         flex-direction: column;
         margin-bottom: 24px;
+        box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.1);
+        background-color: $white;
+        overflow: hidden;
+        border-radius: 12px;
 
         .image {
-            border-radius: 0 0 12px 12px;
+            border-radius: 0;
+            //border-radius: 0 0 12px 12px;
             height: 290px;
         }
         .content {
             padding: 30px;
-            box-shadow: 0 5px 60px 0 rgba(2, 24, 93, 0.1);
-            background-color: $white;
+
 
             .title {
                 height: 64px;
