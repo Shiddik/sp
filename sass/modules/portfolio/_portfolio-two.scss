@@ -21,7 +21,7 @@
     @include transition;
 
     &.active {
-      color: $orange-color;
+      color: $blue-color;
       @include transition;
     }
   }

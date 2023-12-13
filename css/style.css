@@ -5980,10 +5980,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-info-card .about-info-content .quote-text {
   padding-left: 40px;
-  border-left: 6px solid #0c60ec;
+  border-left: 6px solid #fedb5c;
   font-style: italic;
   font-size: 21px;
-  color: #6d768a;
+  color: #5e6f92;
   font-family: "Roboto", sans-serif;
   line-height: 36px;
 }
@@ -6106,7 +6106,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   gap: 4px;
 }
 .about-info-card.style-two .about-info-content .icon-card-wrapper .icon-card .content .title {
-  font-size: 24px;
+  font-size: 21px;
 }
 .about-info-card.style-two .about-info-content .about-meta {
   display: -webkit-box;
@@ -11956,7 +11956,7 @@ ul.children {
   transition: all 0.5s ease-out;
 }
 .portfolio-filter li.active {
-  color: #fedb5c;
+  color: #0c60ec;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
