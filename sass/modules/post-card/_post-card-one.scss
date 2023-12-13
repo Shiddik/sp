@@ -122,7 +122,7 @@
   .content {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 48px;
 
     @include sm {
       padding: 30px;
@@ -145,12 +145,12 @@
     }
 
     .title {
-      height: 86px;
+      height: 70px;
       overflow: hidden;
       font-size: 24px;
       font-weight: 500;
       line-height: 33px;
-      margin-bottom: 0;
+      margin-bottom: 15px;
 
       @include sm {
         font-size: 24px;

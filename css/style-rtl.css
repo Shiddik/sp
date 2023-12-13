@@ -6601,11 +6601,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   right: 50%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
-  background: #0c60ec;
+  background: #fedb5c;
   width: 67px;
   height: 67px;
   border-radius: 50px;
-  color: #ffffff;
+  color: #1c2325;
 }
 .process-step .count span {
   font-size: 24px;
@@ -7234,7 +7234,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .accordion-wrapper .accordion-list-item .accordion-head:before {
   content: "\f068";
   font-family: "Font Awesome 6 Pro";
-  background-color: #0c60ec;
+  background-color: #fedb5c;
   color: #1c2325;
   font-size: 12px;
   border-radius: 50px;
@@ -7276,7 +7276,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       flex-shrink: 0;
 }
 .accordion-wrapper .accordion-list-item .accordion-head .accordion-title {
-  font-size: 24px;
+  font-size: 21px;
   line-height: 32px;
   color: #ffffff;
   font-weight: 500;
@@ -8285,7 +8285,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 50px;
+  padding: 48px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .post-card .content {
@@ -8308,12 +8308,12 @@ body.admin-bar .header-menu-area.sticky_menu {
   height: 30px;
 }
 .post-card .content .title {
-  height: 86px;
+  height: 70px;
   overflow: hidden;
   font-size: 24px;
   font-weight: 500;
   line-height: 33px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .post-card .content .title {
@@ -8540,20 +8540,20 @@ body.admin-bar .header-menu-area.sticky_menu {
   overflow: hidden;
 }
 .price-card.active .price-header {
-  background-color: #102652;
+  background-color: #0c60ec;
 }
 .price-card.active .card-title .title {
   color: #ffffff;
 }
 .price-card.active .card-title .sub-title {
-  color: #abb2c1;
+  color: #ffffff;
 }
 .price-card.active .price .price-heading,
 .price-card.active .price .price-desc {
   color: #ffffff;
 }
 .price-card .price-header {
-  background-color: rgb(225, 237, 238);
+  background-color: #eaeff6;
   padding: 50px 48px;
 }
 @media (max-width: 1399px) {
@@ -8584,7 +8584,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 400;
   font-size: 18px;
   line-height: initial;
-  color: #6d768a;
+  color: #5e6f92;
   margin: 0;
 }
 .price-card .card-title .title {
@@ -8707,7 +8707,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: -ms-flexbox;
   display: flex;
   background-color: #0c60ec;
-  padding: 74px 74px 74px 320px;
+  padding: 74px;
   border-radius: 12px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -8815,7 +8815,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .cta-card .cta-phone-number .icon {
   width: 65px;
   height: 65px;
-  background-color: #102652;
+  background-color: #fedb5c;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8828,7 +8828,7 @@ body.admin-bar .header-menu-area.sticky_menu {
           justify-content: center;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  color: #ffffff;
+  color: #1c2325;
 }
 .cta-card .cta-phone-number .content {
   display: -webkit-inline-box;
@@ -8838,13 +8838,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 10px;
 }
 .cta-card .cta-phone-number .content span {
   display: inline-block;
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 400;
 }
 .cta-card .cta-phone-number .content .title {
   font-size: 18px;
@@ -12272,7 +12273,7 @@ ul.children {
   }
 }
 .faq-area.style-1 .faq-wrapper {
-  background-color: rgb(13, 28, 57);
+  background-color: #102652;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12363,7 +12364,6 @@ ul.children {
 
 .testimonial-slider-area.style-1 {
   padding-top: 243px;
-  background-color: #102652;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -6,7 +6,7 @@
 .cta-card {
   display: flex;
   background-color: $sky-color;
-  padding: 74px 320px 74px 74px;
+  padding: 74px;
   border-radius: 12px;
   align-items: center;
   position: relative;
@@ -72,24 +72,25 @@
     .icon {
       width: 65px;
       height: 65px;
-      background-color: $primary-color;
+      background-color: $orange-color;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      color: $white;
+      color: $black;
     }
     .content {
       display: inline-flex;
       flex-direction: column;
+      gap: 10px;
 
       span {
         display: inline-block;
         width: 100%;
         font-family: $heading-font;
         color: $white;
-        font-weight: 500;
+        font-weight: 400;
       }
       .title {
         font-size: 18px;

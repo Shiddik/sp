@@ -11,7 +11,7 @@
       &:before {
         content: "\f068";
         font-family: $font-awesome;
-        background-color: $sky-color;
+        background-color: $orange-color;
         color: $black;
         font-size: 12px;
         border-radius: 50px;
@@ -42,7 +42,7 @@
       }
 
       .accordion-title {
-        font-size: 24px;
+        font-size: 21px;
         line-height: 32px;
         color: $white;
         font-weight: 500;

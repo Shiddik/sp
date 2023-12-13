@@ -160,7 +160,7 @@
     }
 
     .faq-wrapper {
-      background-color: rgb(13, 28, 57);
+      background-color: $primary-color;
       display: flex;
       border-radius: 12px;
       overflow: hidden;
@@ -249,7 +249,6 @@
 .testimonial-slider-area {
   &.style-1 {
     padding-top: 243px;
-    background-color: $primary-color;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -8,14 +8,14 @@
 
     &.active {
         .price-header {
-            background-color: $primary-color;
+            background-color: $blue-color;
         }
         .card-title {
             .title {
                 color: $white;
             }
             .sub-title {
-                color: #abb2c1;
+                color: $white;
             }
         }
         .price {
@@ -26,7 +26,7 @@
         }
     }
     .price-header {
-        background-color: rgb(225, 237, 238);
+        background-color: #eaeff6;
         padding: 50px 48px;
 
         @include rmaxwd(1399) {
@@ -49,7 +49,7 @@
             font-weight: 400;
             font-size: 18px;
             line-height: initial;
-            color: #6d768a;
+            color: #5e6f92;
             margin: 0;
         }
         .title {
@@ -105,7 +105,7 @@
             font-size: 16px;
             line-height: initial;
             text-transform: capitalize;
-            color: #1c2325;
+            color: $black;
             margin-bottom: 0;
         }
     }
