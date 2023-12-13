@@ -34,8 +34,8 @@
       display: flex;
       align-items: center;
       background-color: $white;
-      border-radius:0 0 12px 12px;
-      border-top: 5px solid $blue-color;
+      border-radius: 12px;
+      //border-top: 5px solid $blue-color;
 
       @include rmaxwd(991) {
         border: 0;
@@ -44,7 +44,7 @@
     }
     .header-wrapper {
       width: 100%;
-      border-left: 1px solid #C9CFDCFF;
+      border-left: 1px solid #ced5e0;
 
       @include rmaxwd(991) {
         border: 0;
@@ -52,7 +52,7 @@
       // Header Top
       .header-top {
         background-color: transparent;
-        border-bottom: 1px solid #C9CFDCFF;
+        border-bottom: 1px solid #ced5e0;
 
        .header-contact-info {
          padding: 8px 0;
@@ -74,7 +74,19 @@
         gap: 28px;
 
         a {
-          color: $blue-color;
+
+          .fa-facebook {
+            color: #1877f2;
+          }
+          .fa-twitter {
+            color: #1da1f2;
+          }
+          .fa-linkedin-in {
+            color: #0a66c2;
+          }
+          .fa-youtube {
+            color: #ff0000;
+          }
         }
       }
       // Header Menu
@@ -110,7 +122,11 @@
                   &:after {
                     top: unset;
                     bottom: 0;
-                    background-color: $sky-color;
+                    height: 3px;
+                    transform: none;
+                    width: 100%;
+                    left: 1px;
+                    background-color: $blue-color;
                   }
                 }
               }

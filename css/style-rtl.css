@@ -3983,8 +3983,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  border-radius: 0 0 12px 12px;
-  border-top: 5px solid #0c60ec;
+  border-radius: 12px;
 }
 @media (max-width: 991px) {
   .header-area.style-2 .header-area-wrapper {
@@ -3994,7 +3993,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area.style-2 .header-wrapper {
   width: 100%;
-  border-right: 1px solid #c9cfdc;
+  border-right: 1px solid #ced5e0;
 }
 @media (max-width: 991px) {
   .header-area.style-2 .header-wrapper {
@@ -4003,7 +4002,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .header-area.style-2 .header-wrapper .header-top {
   background-color: transparent;
-  border-bottom: 1px solid #c9cfdc;
+  border-bottom: 1px solid #ced5e0;
 }
 .header-area.style-2 .header-wrapper .header-top .header-contact-info {
   padding: 8px 0;
@@ -4022,8 +4021,17 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-2 .header-wrapper .social-profile {
   gap: 28px;
 }
-.header-area.style-2 .header-wrapper .social-profile a {
-  color: #0c60ec;
+.header-area.style-2 .header-wrapper .social-profile a .fa-facebook {
+  color: #1877f2;
+}
+.header-area.style-2 .header-wrapper .social-profile a .fa-twitter {
+  color: #1da1f2;
+}
+.header-area.style-2 .header-wrapper .social-profile a .fa-linkedin-in {
+  color: #0a66c2;
+}
+.header-area.style-2 .header-wrapper .social-profile a .fa-youtube {
+  color: #ff0000;
 }
 .header-area.style-2 .header-wrapper .main-menu-wrapper {
   display: -webkit-box;
@@ -4054,6 +4062,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul li.active > a:after {
   top: unset;
   bottom: 0;
+  height: 3px;
+  -webkit-transform: none;
+          transform: none;
+  width: 100%;
+  right: 1px;
   background-color: #0c60ec;
 }
 .header-area.style-2 .header-wrapper .main-menu-wrapper .main-menu ul ul li a {
